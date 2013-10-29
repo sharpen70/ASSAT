@@ -34,7 +34,7 @@ int SATSolver::invokeSAT() {
     return i;
 }
 
-bool SATSolver::addNewClause(set<int> newClause) {
+bool SATSolver::addNewClause(set<int>& newClause) {
     int var;
     vec<Lit> lits;
 

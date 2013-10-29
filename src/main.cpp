@@ -99,11 +99,11 @@ int main(int argc, char** argv) {
 //            printf("%s ", Vocabulary::instance().getAtom(*it));
 //        }
         set<int> comp = glt.getComplementSet(model);
-        fprintf(fout, "comp:\n");
-        for(set<int>::iterator it = comp.begin(); it != comp.end(); it++) {
-            fprintf(fout, "%s ", Vocabulary::instance().getAtom(*it));
-        }
-        fprintf(fout, "\n");
+        fprintf(fout, "comp size: %d\n", comp.size());
+//        for(set<int>::iterator it = comp.begin(); it != comp.end(); it++) {
+//            fprintf(fout, "%s ", Vocabulary::instance().getAtom(*it));
+//        }
+//        fprintf(fout, "\n");
         if(comp.size() == 0) {
             AnswerSets.push_back(model);
             fprintf(fout, "is Answerset\n");
@@ -125,15 +125,13 @@ int main(int argc, char** argv) {
                 int newVarNum = dpg.computeLoopFormulas(*imls);
                 
                 sat.addNewVar(newVarNum);
-                for(vector<_formula*>::iterator ilfs = imls->loopFormulas.begin(); 
+                for(vector< set<int> >::iterator ilfs = imls->loopFormulas.begin(); 
                         ilfs != imls->loopFormulas.end(); ilfs++) {
-                    set<int>  lits;
-                    Utils::convertCNFformulaToLits(*ilfs, lits);
 //                    printf("\nlits\n");
 //                    for(set<int>::iterator dt = lits.begin(); dt != lits.end(); dt++) {
 //                        printf("%d ", *dt);
 //                    }
-                    sat.addNewClause(lits);
+                    sat.addNewClause(*ilfs);
                 }
             }
         }

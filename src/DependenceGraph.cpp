@@ -131,22 +131,14 @@ void DependenceGraph::printfLoop() {
 }
 
 int DependenceGraph::computeLoopFormulas(Loop& loop) {
-    _formula* _head = NULL;
     int newVar = 0;
     set<int> lf;
         
     for(set<int>::iterator hit = loop.loopNodes.begin(); hit != loop.loopNodes.end();
             hit++) {
-//        if(_head == NULL) _head = Utils::compositeByConnective(NEGA,
-//                Utils::compositeToAtom(*hit));
-//        else {
-//            _formula* newhead = Utils::compositeByConnective(NEGA,
-//                Utils::compositeToAtom(*hit));
-//            _head = Utils::compositeByConnective(DISJ, _head, newhead);
-//        }
         lf.insert(-1 * (*hit));
     }
-    _formula* _body = NULL;
+    
     for(set<int>::iterator rit = loop.ESRules.begin(); rit != loop.ESRules.end();
             rit++) {
         Rule rule = nlp.at(*rit);
@@ -175,29 +167,23 @@ int DependenceGraph::computeLoopFormulas(Loop& loop) {
                     set<int> leftEqual;
                     leftEqual.insert(-1 * id);
                     leftEqual.insert(*eit);
-                    
+                    loop.loopFormulas.push_back(leftEqual);
+                    rightEqual.insert(-1 * (*eit));
                 }
-                _formula* rule = Utils::convertRuleBodyToFormula(nlp.at(*rit));
-                _formula* nega = Utils::compositeByConnective(NEGA, 
-                        Utils::copyFormula(rule));
-                _formula* l1 = Utils::compositeByConnective(DISJ, nega,
-                        Utils::compositeToAtom(id));
-                _formula* l2 = Utils::compositeByConnective(DISJ, rule,
-                        Utils::compositeByConnective(NEGA, Utils::compositeToAtom(id)));
-                Utils::joinFormulas(loop.loopFormulas, CNFUtils::convertCNF(l1));
-                Utils::joinFormulas(loop.loopFormulas, CNFUtils::convertCNF(l2));
+                for(set<int>::iterator eit = nlp.at(*rit).negative_literals.begin(); 
+                        eit != nlp.at(*rit).negative_literals.end(); eit++) {
+                    set<int> leftEqual;
+                    leftEqual.insert(id);
+                    leftEqual.insert(*eit);
+                    loop.loopFormulas.push_back(leftEqual);
+                    rightEqual.insert(*eit);
+                }
+                
+                loop.loopFormulas.push_back(rightEqual);
             }
-        }
-        if(_body == NULL) {
-            _body = Utils::compositeToAtom(id);
-        } 
-        else {
-            _body = Utils::compositeByConnective(DISJ, _body, Utils::compositeToAtom(id));
+            lf.insert(id);
         }
     }
-    _formula* lf;
-    if(_body == NULL) lf = _head;
-    else lf = Utils::compositeByConnective(DISJ, _head, _body);
 
     loop.loopFormulas.push_back(lf); 
     
