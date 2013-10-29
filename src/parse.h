@@ -38,24 +38,22 @@
       know about them.  */
    enum yytokentype {
      S_ATOM = 258,
-     S_VARI = 259,
-     S_NEGA = 260,
-     S_IMPL = 261,
-     LPAREN = 262,
-     RPAREN = 263,
-     COMMA = 264,
-     PERIOD = 265
+     S_NEGA = 259,
+     S_IMPL = 260,
+     LPAREN = 261,
+     RPAREN = 262,
+     COMMA = 263,
+     PERIOD = 264
    };
 #endif
 /* Tokens.  */
 #define S_ATOM 258
-#define S_VARI 259
-#define S_NEGA 260
-#define S_IMPL 261
-#define LPAREN 262
-#define RPAREN 263
-#define COMMA 264
-#define PERIOD 265
+#define S_NEGA 259
+#define S_IMPL 260
+#define LPAREN 261
+#define RPAREN 262
+#define COMMA 263
+#define PERIOD 264
 
 
 
@@ -75,7 +73,7 @@ typedef union YYSTYPE
 
 
 /* Line 2068 of yacc.c  */
-#line 79 "../src/parse.h"
+#line 77 "../src/parse.h"
 } YYSTYPE;
 # define YYSTYPE_IS_TRIVIAL 1
 # define yystype YYSTYPE /* obsolescent; will be withdrawn */

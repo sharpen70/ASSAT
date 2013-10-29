@@ -20,23 +20,6 @@ GLTranslator::GLTranslator(const GLTranslator& orig) {
 GLTranslator::~GLTranslator() {
 }
 
-//void GLTranslator::simplifyLP(vector<Rule>& GL_nlp, int fact) {
-//    
-//}
-// don't have tp examine constrant
-//bool GLTranslator::satisfyConstrant(Rule cons, set<int> ans) {
-//    for(set<int>::iterator pit = cons.positive_literals.begin(); pit != 
-//            cons.positive_literals.end(); pit++) {
-//        if(ans.find(*pit) == ans.end()) return true;
-//    }
-//    for(set<int>::iterator nit = cons.negative_literals.begin(); nit != 
-//            cons.negative_literals.end(); nit++) {
-//        if(ans.find(*nit) != ans.end()) return true;
-//    }
-//    
-//    return false;
-//}
-
 set<int> GLTranslator::getComplementSet(set<int> Mset) {
     vector<Rule> _nlp = nlp;
     vector<Rule> GL_nlp;
@@ -62,12 +45,7 @@ set<int> GLTranslator::getComplementSet(set<int> Mset) {
                GL_nlp.push_back(*it);
             }   
         }
-    }  
-    
-//    printf("GL:\n");
-//    for(vector<Rule>::iterator it = GL_nlp.begin(); it != GL_nlp.end(); it++) {
-//        it->output(stdout);
-//    }
+    }
     for(int i = 0; i < facts.size(); i++) {
         cons.insert(facts.at(i));
         for(vector<Rule>::iterator nit = GL_nlp.begin(); nit != GL_nlp.end();) {
@@ -92,10 +70,6 @@ set<int> GLTranslator::getComplementSet(set<int> Mset) {
             }
         }
     }
-//    for(set<int>::iterator it = cons.begin(); it != cons.end(); it++) {
-//        printf("%s ", Vocabulary::instance().getAtom(*it));
-//    }
-//    printf("\n");
     set<int> Cset;
     set<int>::iterator cit = cons.begin();
     set<int>::iterator mit = Mset.begin();
@@ -112,16 +86,4 @@ set<int> GLTranslator::getComplementSet(set<int> Mset) {
     }
     
     return Cset;
-//    for(set<int>::iterator it = Mset.begin(); it != Mset.end(); it++) {
-//        printf("%s ", Vocabulary::instance().getAtom(*it));
-//       // if(Mset.find(*it) == Mset.end()) return false;
-//    }
-//    printf("\n");
-    
-//  cons must be in Mset, don't need to judge
-//    for(set<int>::iterator it = cons.begin(); it != cons.end(); it++) {
-//        printf("%s ", Vocabulary::instance().getAtom(*it));
-//        if(Mset.find(*it) == Mset.end()) return false;
-//    }
-    
 }

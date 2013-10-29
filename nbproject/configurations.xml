@@ -46,9 +46,12 @@
         <itemPath>res/input/labyin.in</itemPath>
         <itemPath>res/input/sample.in</itemPath>
         <itemPath>res/input/sample2.in</itemPath>
+        <itemPath>res/input/sm.in</itemPath>
       </logicalFolder>
       <logicalFolder name="output" displayName="output" projectFiles="true">
         <itemPath>res/output/aspOutput.out</itemPath>
+        <itemPath>res/output/assat.out</itemPath>
+        <itemPath>res/output/assatgai.out</itemPath>
         <itemPath>res/output/benchmark1.out</itemPath>
         <itemPath>res/output/benchmark2.out</itemPath>
         <itemPath>res/output/sample.out</itemPath>
@@ -179,7 +182,13 @@
       </item>
       <item path="res/input/sample2.in" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="res/input/sm.in" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="res/output/aspOutput.out" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="res/output/assat.out" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="res/output/assatgai.out" ex="false" tool="3" flavor2="0">
       </item>
       <item path="res/output/benchmark1.out" ex="false" tool="3" flavor2="0">
       </item>
@@ -305,7 +314,13 @@
       </item>
       <item path="res/input/sample2.in" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="res/input/sm.in" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="res/output/aspOutput.out" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="res/output/assat.out" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="res/output/assatgai.out" ex="false" tool="3" flavor2="0">
       </item>
       <item path="res/output/benchmark1.out" ex="false" tool="3" flavor2="0">
       </item>

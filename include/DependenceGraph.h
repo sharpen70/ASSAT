@@ -18,7 +18,7 @@
 struct Loop {
     set<int> loopNodes;
     set<int> ESRules;
-    vector<_formula*> loopFormulas;
+    vector< set<int> > loopFormulas;
     
     Loop() {
         loopNodes.clear();
@@ -28,17 +28,10 @@ struct Loop {
     Loop(const Loop& l) {
         loopNodes = l.loopNodes;
         ESRules = l.ESRules;
-        for(vector<_formula*>::const_iterator it = l.loopFormulas.begin(); 
-                it != l.loopFormulas.end(); it++) {
-            loopFormulas.push_back(Utils::copyFormula(*it));
-        }
+        loopFormulas = l.loopFormulas;
     }
     
     ~Loop() {
-        for(vector<_formula*>::iterator it = loopFormulas.begin(); 
-                it != loopFormulas.end(); it++) {
-            Utils::deleteFormula(*it);
-        }
         loopNodes.clear();
         loopFormulas.clear();
         ESRules.clear();

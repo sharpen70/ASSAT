@@ -10,8 +10,7 @@ extern int context_flag;/* 0 - not in any atom, 1 - in an atom*/
 %}
 
 blank	  			[ \n\t\r]*
-atom                            [a-zA-Z_]+
-variable                        [0-9]+
+atom                            [a-zA-Z0-9_]+
 
 %%
 {atom}                                  {
@@ -20,9 +19,6 @@ variable                        [0-9]+
                                                 return S_NEGA;
 
                                             return S_ATOM;
-                                        }
-{variable}                              {
-                                            yylval.s=strdup(yytext); return S_VARI;
                                         }
 ":-"                                    {return S_IMPL;			}
 "("					{return LPAREN;			}

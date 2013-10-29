@@ -30,7 +30,6 @@ void yyerror(const char* s)
 }
 
 %token <s> S_ATOM
-%token <s> S_VARI
 %token <s> S_NEGA
 %token <s> S_IMPL
 %token <s> LPAREN
@@ -142,9 +141,6 @@ terms
 
 term
     : S_ATOM {
-        $$ = strdup($1);
-    }
-    | S_VARI {
         $$ = strdup($1);
     }
 ;

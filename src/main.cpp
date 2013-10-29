@@ -56,7 +56,10 @@ int main(int argc, char** argv) {
 //    yyparse();
 //    fclose(yyin);
     
-    yyin = fopen("res/input/labyin.in", "r");
+//    yyin = fopen("res/input/labyin.in", "r");
+    yyin = fopen("benchmark/hc/nv50a238.lp", "r");
+//    fout = fopen("res/output/assat.out", "w");
+    fout = stdout;
     yyparse();
     fclose(yyin);
 
@@ -91,33 +94,34 @@ int main(int argc, char** argv) {
     while(sat.isExistModel()) {
         set<int> model = sat.models.back();
        // printf("%d", sat.models.size());
-        printf("Completion model %d ", id++);
+        fprintf(fout, "Completion model %d ", id++);
 //        for(set<int>::iterator it = model.begin(); it != model.end(); it++) {
 //            printf("%s ", Vocabulary::instance().getAtom(*it));
 //        }
         set<int> comp = glt.getComplementSet(model);
-        printf("comp:\n");
+        fprintf(fout, "comp:\n");
         for(set<int>::iterator it = comp.begin(); it != comp.end(); it++) {
-            printf("%s ", Vocabulary::instance().getAtom(*it));
+            fprintf(fout, "%s ", Vocabulary::instance().getAtom(*it));
         }
-        printf("\n");
+        fprintf(fout, "\n");
         if(comp.size() == 0) {
             AnswerSets.push_back(model);
-            printf("is Answerset\n");
+            fprintf(fout, "is Answerset\n");
+            break;
         }
         else {
-            printf("is't Answerset\n");
+            fprintf(fout, "is't Answerset\n");
             vector<Loop> mls = dpg.findCompMaximal(comp);
             //dpg.findESRules(ml);
             
             for(vector<Loop>::iterator imls = mls.begin(); imls != mls.end();
                     imls++) {
-                printf("\nmaximal loop ");
+                fprintf(fout, "\nmaximal loop ");
                 for(set<int>::iterator ct = imls->loopNodes.begin(); ct != imls->loopNodes.end();
                         ct++) {
-                    printf("%s ", Vocabulary::instance().getAtom(*ct));
+                    fprintf(fout, "%s ", Vocabulary::instance().getAtom(*ct));
                 }
-                printf("\n");
+                fprintf(fout, "\n");
                 int newVarNum = dpg.computeLoopFormulas(*imls);
                 
                 sat.addNewVar(newVarNum);
@@ -138,11 +142,11 @@ int main(int argc, char** argv) {
     
     for(vector< set<int> >::iterator it = AnswerSets.begin(); it != AnswerSets.end();
             it++) {
-        printf("Answerset:");
+        fprintf(fout, "Answerset:");
         for(set<int>::iterator sit = it->begin(); sit != it->end(); sit++) {
-            printf("%d ", *sit);
+            fprintf(fout, "%d ", *sit);
         }
-        printf("\n");
+        fprintf(fout, "\n");
     }
 // use SCC to cancel model
 //    vector<int> k = dpg.getESRSizes();

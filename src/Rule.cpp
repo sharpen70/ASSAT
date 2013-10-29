@@ -5,7 +5,7 @@
 #include <cstdlib>
 
 Rule::Rule(_rule* r) : 
-        head(r->head), type(r->type) {
+        head(r->head), type(r->type), body_length(r->length) {
     for(int i = 0; i < (r->length); i++) {
         if(r->body[i] > 0) {
             this->positive_literals.insert(r->body[i]);
