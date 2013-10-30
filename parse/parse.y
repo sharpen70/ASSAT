@@ -106,11 +106,17 @@ literals
 
 literal
     : S_NEGA atom {
-        id = Vocabulary::instance().addAtom($2);
+        int id = Vocabulary::instance().queryAtom($2);
+        if(id < 0)
+            id = Vocabulary::instance().addAtom($2);
+
         $$ = -1 * id;
     }
     | atom {
-        id = Vocabulary::instance().addAtom($1);
+        int id = Vocabulary::instance().queryAtom($1);
+        if(id < 0)
+            id = Vocabulary::instance().addAtom($1);
+
         $$ = id;
     }
 ;

@@ -2,17 +2,41 @@
 #include "CNFUtils.h"
 #include "NNFUtils.h"
 #include "Utils.h"
+#include <string.h>
+
+extern vector<Rule> G_NLP;
+extern int *atomState;
+extern int *ruleState;
 
 ClakeCompletion::ClakeCompletion() {
-    no_ipf_atoms.clear();
-    constrants.clear();
-    ipf_atoms_rules.clear();   
+    for(int i = 0; i < G_NLP.size(); i++) {
+        int h = G_NLP[i].head;
+        if(G_NLP[i].type == RULE && atomState[h] != -1) {
+            ipf_atoms_rules[h].push_back(i);
+            atomState[h] = 1;
+        }
+        else if(G_NLP[i].type == FACT) {
+            ipf_atoms_rules[h].clear();
+            ipf_atoms_rules[h].push_back(i);
+            atomState[h] = -1;
+        }
+        else {
+            constrants.push_back(i);
+        }
+    }
+    
+    for(int i = 1; i <= Vocabulary::instance().apSize(); i++) {
+        if(atomState[i] == 0) no_ipf_atoms.push_back(i);
+    }  
+    
+    convert();
 }
 
 ClakeCompletion::~ClakeCompletion() {
     no_ipf_atoms.clear();
     constrants.clear();
-    ipf_atoms_rules.clear();  
+    ipf_atoms_rules.clear(); 
+    delete[] atomState;
 }
 
 ClakeCompletion& ClakeCompletion::instance() {
@@ -20,124 +44,106 @@ ClakeCompletion& ClakeCompletion::instance() {
     return theInstance;
 }
 
-vector<_formula*> ClakeCompletion::convert() {
-    vector<_formula*> completion;
-    
-    for(map<int, vector<Rule> >::iterator it = ipf_atoms_rules.begin(); it != 
+void ClakeCompletion::convert() {
+    for(map<int, vector<int> >::iterator it = ipf_atoms_rules.begin(); it != 
             ipf_atoms_rules.end(); it++) {
-        vector<Rule> ipf_rules = it->second;
-        _formula* tl = Utils::compositeToAtom(it->first);
-        _formula* tr = NULL;
+        set<int> ltset;
         
-        for(vector<Rule>::iterator it = ipf_rules.begin(); it != ipf_rules.end();
-                it++) {
-            
-            if(it->type == FACT) {
-                tr = NULL;
-                break;
-            }
-            
-            _formula* fr = Utils::convertRuleBodyToFormula(*it);
-            
-            if(fr == NULL) break;
-            if(tr == NULL) {
-                tr = fr;
-            }
-            else {
-                tr = Utils::compositeByConnective(DISJ, tr, fr);
-            }
-        }
-        
-        if(tr != NULL) {
-            _formula* ntl = Utils::compositeByConnective(NEGA, Utils::copyFormula(tl));
-            _formula* ntr = Utils::compositeByConnective(NEGA, Utils::copyFormula(tr));
-            _formula* impl_l = Utils::compositeByConnective(DISJ, ntl, tr);
-            _formula* impl_r = Utils::compositeByConnective(DISJ, ntr, tl);       
-            
-            
-            Utils::joinFormulas(completion, CNFUtils::convertCNF(impl_l));
-            Utils::joinFormulas(completion, CNFUtils::convertCNF(impl_r));
+        if(atomState[it->first] == -1) {           
+            ltset.insert(it->first);
+            completion.push_back(ltset);
         }
         else {
-            completion.push_back(tl);
+            ltset.insert(-1 * (it->first));
+            
+            for(vector<int>::iterator ait = it->second.begin(); ait != it->second.end();
+                ait++) {
+                set<int> r_sub_set;
+                r_sub_set.insert(it->first);
+                
+                if(G_NLP[*ait].body_length == 1) {
+                    int singleAtom = *(G_NLP[*ait].body_lits.begin());
+                    ltset.insert(singleAtom);
+                    r_sub_set.insert(-1 * singleAtom);
+                    completion.push_back(r_sub_set);
+                }          
+                else {  
+                    int id = ruleState[*ait];
+                    if(id == 0) {
+                        char newAtom[MAX_ATOM_LENGTH];
+                        sprintf(newAtom, "Rule_%d", *ait);
+                        id = Vocabulary::instance().addAtom(strdup(newAtom));
+                        ruleState[*ait] = id;
+                        
+                        set<int> rightEqual;                                          
+                        rightEqual.insert(-1 * id);
+
+                        for(set<int>::iterator eit = G_NLP[*ait].body_lits.begin(); 
+                                eit != G_NLP[*ait].body_lits.end(); eit++) {
+                            set<int> leftEqual;
+                            leftEqual.insert(id);
+                            leftEqual.insert(-1 * (*eit));
+                            completion.push_back(leftEqual);
+                            rightEqual.insert(*eit);
+                        }
+
+                        completion.push_back(rightEqual);
+                    }
+                    ltset.insert(id);
+                    r_sub_set.insert(-1 * id);
+                    completion.push_back(r_sub_set);                   
+                }
+            }
+            completion.push_back(ltset);
         }
-    }
+    }      
     
     for(vector<int>::iterator it = no_ipf_atoms.begin(); it != no_ipf_atoms.end();
             it++) {
-        _formula* nega_atom = Utils::compositeByConnective(NEGA, Utils::compositeToAtom(
-                *it));
+        set<int> tset;
+        tset.insert(-1 * (*it));
         
-        completion.push_back(nega_atom);
+        completion.push_back(tset);
     }
-    for(vector<Rule>::iterator it = constrants.begin(); it != constrants.end(); 
+    
+    for(vector<int>::iterator it = constrants.begin(); it != constrants.end(); 
             it++) {
-        _formula* fc = Utils::convertRuleBodyToFormula(*it);     
+        set<int> cset;
         
-        fc = Utils::compositeByConnective(NEGA, fc);
-        fc = NNFUtils::convertToNegativeNormalForm(fc);
-        vector<_formula*> joinf;
-        joinf.push_back(fc);
-        Utils::joinFormulas(completion, joinf);
-    }
-    return completion;
-}
-
-void ClakeCompletion::setDlp(const vector<Rule> nlp) {
-    vector<Rule> _nlp = nlp;
-    for(vector<Rule>::iterator it = _nlp.begin(); it != _nlp.end(); it++) {
-        int a = it->head;
-        
-        if(a > 0) {
-            ipf_atoms_rules[a].push_back(*it);
+        for(set<int>::iterator cit = G_NLP[*it].body_lits.begin(); cit !=
+                G_NLP[*it].body_lits.end(); cit++) {
+            cset.insert(-1 * (*cit));
         }
-        else {
-            constrants.push_back(*it);
-        }
-    }
-    
-    for(int i = 1; i <= Vocabulary::instance().apSize(); i++) {
-        bool in = false;
-        
-        for(map<int, vector<Rule> >::iterator it = ipf_atoms_rules.begin(); it != ipf_atoms_rules.end(); it++) {
-            if(it->first == i) {
-                in = true;
-            }
-        }
-        
-        if(!in) {
-            no_ipf_atoms.push_back(i);
-        }
-    } 
-}
-
-void ClakeCompletion::testCompletion() {
-    vector<_formula*> completion = convert();
-    vector< set<int> > res = Utils::convertToSATInput(completion);
-    
-    for(vector<set <int> >::iterator it = res.begin(); it != res.end(); it++) {
-        for(set<int>::iterator s_it = it->begin(); s_it != it->end(); s_it++) {
-            printf("%d ", *s_it);
-        }
-        printf("\n");
+        completion.push_back(cset);
     }
 }
-void ClakeCompletion::test() {
-    printf("\nno_ipf_atoms:");
-    for(int i = 0; i < no_ipf_atoms.size(); i++) {
-        printf("%s ", Vocabulary::instance().getAtom(no_ipf_atoms.at(i)));
-    }
-    printf("\nipf_atoms_rules:\n");
-    for(map<int, vector<Rule> >::iterator it = ipf_atoms_rules.begin(); it != ipf_atoms_rules.end(); it++) {
-        vector<Rule> r = it->second;
-        for(int i = 0; i < r.size(); i++) {
-            r.at(i).output(stdout);
-        }
-    }
-    printf("\nconstrants\n");
-    for(int i = 0; i < constrants.size(); i++) {
-        constrants.at(i).output(stdout);
-    }
-    
-    testCompletion();
-}
+//
+//void ClakeCompletion::testCompletion() {
+//    vector< set<int> > res = Utils::convertToSATInput(completion);
+//    
+//    for(vector<set <int> >::iterator it = res.begin(); it != res.end(); it++) {
+//        for(set<int>::iterator s_it = it->begin(); s_it != it->end(); s_it++) {
+//            printf("%d ", *s_it);
+//        }
+//        printf("\n");
+//    }
+//}
+//void ClakeCompletion::test() {
+//    printf("\nno_ipf_atoms:");
+//    for(int i = 0; i < no_ipf_atoms.size(); i++) {
+//        printf("%s ", Vocabulary::instance().getAtom(no_ipf_atoms.at(i)));
+//    }
+//    printf("\nipf_atoms_rules:\n");
+//    for(map<int, vector<Rule> >::iterator it = ipf_atoms_rules.begin(); it != ipf_atoms_rules.end(); it++) {
+//        vector<Rule> r = it->second;
+//        for(int i = 0; i < r.size(); i++) {
+//            r.at(i).output(stdout);
+//        }
+//    }
+//    printf("\nconstrants\n");
+//    for(int i = 0; i < constrants.size(); i++) {
+//        constrants.at(i).output(stdout);
+//    }
+//    
+//    testCompletion();
+//}

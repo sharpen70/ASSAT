@@ -5,3 +5,5 @@
 using namespace std;
 
 vector<Rule> G_NLP;
+int *atomState;
+int *ruleState;

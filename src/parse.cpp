@@ -459,7 +459,7 @@ static const yytype_int8 yyrhs[] =
 static const yytype_uint8 yyrline[] =
 {
        0,    49,    49,    52,    56,    60,    67,    73,    82,    94,
-      98,   108,   112,   119,   125,   131,   137,   143
+      98,   108,   115,   125,   131,   137,   143,   149
 };
 #endif
 
@@ -1492,7 +1492,10 @@ yyreduce:
 /* Line 1806 of yacc.c  */
 #line 108 "parse.y"
     {
-        id = Vocabulary::instance().addAtom((yyvsp[(2) - (2)].s));
+        int id = Vocabulary::instance().queryAtom((yyvsp[(2) - (2)].s));
+        if(id < 0)
+            id = Vocabulary::instance().addAtom((yyvsp[(2) - (2)].s));
+
         (yyval.i) = -1 * id;
     }
     break;
@@ -1500,9 +1503,12 @@ yyreduce:
   case 12:
 
 /* Line 1806 of yacc.c  */
-#line 112 "parse.y"
+#line 115 "parse.y"
     {
-        id = Vocabulary::instance().addAtom((yyvsp[(1) - (1)].s));
+        int id = Vocabulary::instance().queryAtom((yyvsp[(1) - (1)].s));
+        if(id < 0)
+            id = Vocabulary::instance().addAtom((yyvsp[(1) - (1)].s));
+
         (yyval.i) = id;
     }
     break;
@@ -1510,7 +1516,7 @@ yyreduce:
   case 13:
 
 /* Line 1806 of yacc.c  */
-#line 119 "parse.y"
+#line 125 "parse.y"
     {
         char str_buff[512];
         
@@ -1522,7 +1528,7 @@ yyreduce:
   case 14:
 
 /* Line 1806 of yacc.c  */
-#line 125 "parse.y"
+#line 131 "parse.y"
     {
         (yyval.s) = strdup((yyvsp[(1) - (1)].s));
     }
@@ -1531,7 +1537,7 @@ yyreduce:
   case 15:
 
 /* Line 1806 of yacc.c  */
-#line 131 "parse.y"
+#line 137 "parse.y"
     {
         char str_buff[512];
         
@@ -1543,7 +1549,7 @@ yyreduce:
   case 16:
 
 /* Line 1806 of yacc.c  */
-#line 137 "parse.y"
+#line 143 "parse.y"
     {
         (yyval.s) = strdup((yyvsp[(1) - (1)].s));
     }
@@ -1552,7 +1558,7 @@ yyreduce:
   case 17:
 
 /* Line 1806 of yacc.c  */
-#line 143 "parse.y"
+#line 149 "parse.y"
     {
         (yyval.s) = strdup((yyvsp[(1) - (1)].s));
     }
@@ -1561,7 +1567,7 @@ yyreduce:
 
 
 /* Line 1806 of yacc.c  */
-#line 1565 "../src/parse.cpp"
+#line 1571 "../src/parse.cpp"
       default: break;
     }
   /* User semantic actions sometimes alter yychar, and that requires
@@ -1792,6 +1798,6 @@ yyreturn:
 
 
 /* Line 2067 of yacc.c  */
-#line 147 "parse.y"
+#line 153 "parse.y"
 
 

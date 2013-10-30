@@ -20,16 +20,21 @@
 #include <algorithm>
 #include <functional>
 
-DependenceGraph::DependenceGraph(vector<Rule> _nlp) :
-                nlp(_nlp) {
+extern vector<Rule> G_NLP;
+extern int *atomState;
+extern int *ruleState;
+
+DependenceGraph::DependenceGraph() {
     set<int> nodeSet;
      
-    for(vector<Rule>::iterator it = _nlp.begin(); it != _nlp.end(); it++) {        
+    for(vector<Rule>::iterator it = G_NLP.begin(); it != G_NLP.end(); it++) {        
         if(it->type == RULE) {
             nodeSet.insert(it->head);
-            for(set<int>::iterator p_it = it->positive_literals.begin(); p_it != it->positive_literals.end(); p_it++) {
-                dpdGraph[it->head].insert(*p_it);
-                nodeSet.insert(*p_it);
+            for(set<int>::iterator p_it = it->body_lits.begin(); p_it != it->body_lits.end(); p_it++) {
+                if(*p_it > 0) {
+                    dpdGraph[it->head].insert(*p_it);
+                    nodeSet.insert(*p_it);
+                }
             }
         }
     }
@@ -103,7 +108,7 @@ void DependenceGraph::tarjan(int u, vector<Loop>& loops) {
 void DependenceGraph::findESRules(Loop& loop) {
     int index = -1;
     
-    for(vector<Rule>::iterator r = nlp.begin(); r != nlp.end(); r++) {
+    for(vector<Rule>::iterator r = G_NLP.begin(); r != G_NLP.end(); r++) {
         index++;
 
         if(r->type == RULE) {
@@ -152,29 +157,22 @@ int DependenceGraph::computeLoopFormulas(Loop& loop) {
             }            
         }
         else {
-            char newAtom[MAX_ATOM_LENGTH];
-            sprintf(newAtom, "Rule_%d", *rit);
-            int id = Vocabulary::instance().queryAtom(newAtom);
-            if(id < 0) {
-                newVar++;
-                set<int> rightEqual;            
-
+            int id = ruleState[*rit];
+            if(id == 0) {
+                char newAtom[MAX_ATOM_LENGTH];
+                sprintf(newAtom, "Rule_%d", *rit);
                 id = Vocabulary::instance().addAtom(strdup(newAtom));
-                rightEqual.insert(id);
+                ruleState[*rit] = id;
+                
+                newVar++;
+                set<int> rightEqual;                                          
+                rightEqual.insert(-1 * id);
 
-                for(set<int>::iterator eit = nlp.at(*rit).positive_literals.begin(); 
-                        eit != nlp.at(*rit).positive_literals.end(); eit++) {
-                    set<int> leftEqual;
-                    leftEqual.insert(-1 * id);
-                    leftEqual.insert(*eit);
-                    loop.loopFormulas.push_back(leftEqual);
-                    rightEqual.insert(-1 * (*eit));
-                }
-                for(set<int>::iterator eit = nlp.at(*rit).negative_literals.begin(); 
-                        eit != nlp.at(*rit).negative_literals.end(); eit++) {
+                for(set<int>::iterator eit = G_NLP[*rit].body_lits.begin(); 
+                        eit != G_NLP[*rit].body_lits.end(); eit++) {
                     set<int> leftEqual;
                     leftEqual.insert(id);
-                    leftEqual.insert(*eit);
+                    leftEqual.insert(-1 * (*eit));
                     loop.loopFormulas.push_back(leftEqual);
                     rightEqual.insert(*eit);
                 }

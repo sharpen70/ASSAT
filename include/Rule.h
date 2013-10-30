@@ -23,6 +23,7 @@ public:
     set<int> positive_literals;
     int head;
     int body_length;
+    set<int> body_lits;
     RULE_TYPE type;
 public:
     Rule(_rule* rule);

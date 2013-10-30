@@ -28,6 +28,8 @@ using namespace std;
 FILE* fout;
 extern FILE* yyin;
 extern vector<Rule> G_NLP;
+extern int *atomState;
+extern int *ruleState;
 extern int yyparse();
 
 void io(const char* iPathName, const char* oPathName) {
@@ -67,17 +69,19 @@ int main(int argc, char** argv) {
 //        G_NLP.at(i).output(stdout);
 //    }
 //    printf("\n");
-
-    ClakeCompletion::instance().setDlp(G_NLP);
-    vector<_formula*> completion = ClakeCompletion::instance().convert();
-    vector< set<int> > input = Utils::convertToSATInput(completion);
+    atomState = new int[Vocabulary::instance().apSize() + 1];
+    memset(atomState, 0, sizeof(int) * (Vocabulary::instance().apSize() + 1));
+    ruleState = new int[G_NLP.size()];
+    memset(atomState, 0, sizeof(int) * G_NLP.size());
+    
+    ClakeCompletion cc;
     
 //    SATSolver sat(input, Vocabulary::instance().apSize());
 //    sat.invokeSAT();
 //    printf("Models: %d\n", sat.models.size());
  //   sat.outputResult();
    
-    DependenceGraph dpg(G_NLP);
+    DependenceGraph dpg;
  //   dpg.operateGraph();
     
  //   dpg.printfLoop();
@@ -87,7 +91,7 @@ int main(int argc, char** argv) {
     GLTranslator glt(G_NLP);
     
     SATSolver sat(Vocabulary::instance().apSize());
-    sat.addNewClauses(input);
+    sat.addNewClauses(cc.completion);
 //    sat.invokeSAT();
 //    sat.outputResult();
     int id = 0;

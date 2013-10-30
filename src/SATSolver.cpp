@@ -61,7 +61,7 @@ bool SATSolver::addNewClause(set<int>& newClause) {
     return true;
 }
 
-bool SATSolver::addNewClauses(vector< set<int> > newClauses) {
+bool SATSolver::addNewClauses(vector< set<int> >& newClauses) {
     for(vector< set<int> >::iterator it = newClauses.begin(); it != newClauses.end(); it++) {
         if(!addNewClause(*it)) return false;
     } 

@@ -40,7 +40,7 @@ struct Loop {
 
 class DependenceGraph {
 public:
-    DependenceGraph(vector<Rule> _dlp);
+    DependenceGraph();
     DependenceGraph(const DependenceGraph& orig);
     ~DependenceGraph();
 //    void test();                //nonsense, just for test

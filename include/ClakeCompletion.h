@@ -10,16 +10,17 @@
 using namespace std;
 class ClakeCompletion {
 private:
-    map< int, vector<Rule> > ipf_atoms_rules;
+    map< int, vector<int> > ipf_atoms_rules;
     vector<int> no_ipf_atoms;
-    vector<Rule> constrants;
+    vector<int> constrants;
 public:
     static ClakeCompletion& instance();
     ClakeCompletion();
     ~ClakeCompletion();
-    vector<_formula*> convert();
-    void setDlp(const vector<Rule> nlp);
+    void convert();
     void test();
     void testCompletion();
+    
+    vector< set<int> > completion;
 };
 #endif

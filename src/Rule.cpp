@@ -7,19 +7,13 @@
 Rule::Rule(_rule* r) : 
         head(r->head), type(r->type), body_length(r->length) {
     for(int i = 0; i < (r->length); i++) {
-        if(r->body[i] > 0) {
-            this->positive_literals.insert(r->body[i]);
-        }
-        else {
-            this->negative_literals.insert(-1 * r->body[i]);
-        }
+        body_lits.insert(r->body[i]);
     }
 }
 Rule::Rule(const Rule& _rhs) : 
         head(_rhs.head),
         type(_rhs.type),
-        positive_literals(_rhs.positive_literals),
-        negative_literals(_rhs.negative_literals) {
+        body_lits(_rhs.body_lits) {
 }
 Rule::~Rule() {
     positive_literals.clear();
@@ -27,8 +21,9 @@ Rule::~Rule() {
 }
 Rule& Rule::operator = (const Rule& _rhs) {
     head = _rhs.head;
-    positive_literals = _rhs.positive_literals;
-    negative_literals = _rhs.negative_literals;
+    type = _rhs.type;
+    body_length = _rhs.body_length;
+    body_lits = _rhs.body_lits;
     return *this;
 }
 
@@ -38,19 +33,12 @@ void Rule::output(FILE* _out) const {
     
     if(type != FACT) {
         fprintf(_out, " :- ");
-        for(set<int>::iterator pit = positive_literals.begin(); pit != 
-                positive_literals.end(); pit++) {
+        for(set<int>::iterator pit = body_lits.begin(); pit != 
+                body_lits.end(); pit++) {
             fprintf(_out, "%s", Vocabulary::instance().getAtom(*pit));
             if(pit != (--positive_literals.end())) {
                 fprintf(_out, ",");
             }
-        }
-        for(set<int>::iterator nit = negative_literals.begin(); nit !=
-                negative_literals.end(); nit++) {
-            if(positive_literals.size() != 0) {
-                fprintf(_out, ",");
-            }
-            fprintf(_out, "not %s", Vocabulary::instance().getAtom(*nit));            
         }
     }
     

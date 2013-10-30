@@ -23,7 +23,7 @@ public:
     int invokeSAT();
     void addNewVar(int num);
     bool isExistModel();
-    bool addNewClauses(vector< set<int> > newClauses);
+    bool addNewClauses(vector< set<int> >& newClauses);
     bool addNewClause(set<int>& newClause);
     void outputResult();
     vector< set<int> > models;

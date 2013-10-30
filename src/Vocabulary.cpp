@@ -18,15 +18,8 @@ Vocabulary::~Vocabulary() {
 }
 
 int Vocabulary::addAtom(char* atom) {
-    int id = queryAtom(atom);
-    
-    if(id > 0) {
-        return id;
-    }
-    else {
-        atom_list.push_back(atom);
-        return atom_id++;
-    }
+    atom_list.push_back(atom);
+    return atom_id++;
 }
 
 int Vocabulary::queryAtom(char* atom) {
