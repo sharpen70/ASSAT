@@ -19,8 +19,6 @@ using namespace std;
  */
 class Rule {
 public:
-    set<int> negative_literals;
-    set<int> positive_literals;
     int head;
     int body_length;
     set<int> body_lits;

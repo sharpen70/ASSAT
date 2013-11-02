@@ -13,11 +13,11 @@ Rule::Rule(_rule* r) :
 Rule::Rule(const Rule& _rhs) : 
         head(_rhs.head),
         type(_rhs.type),
-        body_lits(_rhs.body_lits) {
+        body_lits(_rhs.body_lits),
+        body_length(_rhs.body_length) {
 }
 Rule::~Rule() {
-    positive_literals.clear();
-    negative_literals.clear();
+    body_lits.clear();
 }
 Rule& Rule::operator = (const Rule& _rhs) {
     head = _rhs.head;
@@ -36,7 +36,7 @@ void Rule::output(FILE* _out) const {
         for(set<int>::iterator pit = body_lits.begin(); pit != 
                 body_lits.end(); pit++) {
             fprintf(_out, "%s", Vocabulary::instance().getAtom(*pit));
-            if(pit != (--positive_literals.end())) {
+            if(pit != (--body_lits.end())) {
                 fprintf(_out, ",");
             }
         }

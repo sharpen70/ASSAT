@@ -148,31 +148,31 @@ void Utils::convertCNFformulaToLits(_formula* rule, set<int>& lits) {
     }
 }
 
-_formula* Utils::convertRuleBodyToFormula(const Rule& rule) {
-    _formula* fml = NULL;
-    
-    Rule _rule(rule);
-    
-    if(rule.type == FACT) return NULL;
-    
-    for(set<int>::iterator it = _rule.positive_literals.begin(); it != 
-            _rule.positive_literals.end(); it++) {
-        if(fml == NULL) fml = Utils::compositeToAtom(*it);
-        else {
-            fml = Utils::compositeByConnective(CONJ, fml, Utils::compositeToAtom(*it));
-        }
-    }
-    for(set<int>::iterator it = _rule.negative_literals.begin(); it !=
-            _rule.negative_literals.end(); it++) {
-        _formula* nega = Utils::compositeByConnective(NEGA, Utils::compositeToAtom(*it));
-        if(fml == NULL) fml = nega;
-        else {
-            fml = Utils::compositeByConnective(CONJ, fml, nega);
-        }
-    }
-    
-    return fml;
-}
+//_formula* Utils::convertRuleBodyToFormula(const Rule& rule) {
+//    _formula* fml = NULL;
+//    
+//    Rule _rule(rule);
+//    
+//    if(rule.type == FACT) return NULL;
+//    
+//    for(set<int>::iterator it = _rule.positive_literals.begin(); it != 
+//            _rule.positive_literals.end(); it++) {
+//        if(fml == NULL) fml = Utils::compositeToAtom(*it);
+//        else {
+//            fml = Utils::compositeByConnective(CONJ, fml, Utils::compositeToAtom(*it));
+//        }
+//    }
+//    for(set<int>::iterator it = _rule.negative_literals.begin(); it !=
+//            _rule.negative_literals.end(); it++) {
+//        _formula* nega = Utils::compositeByConnective(NEGA, Utils::compositeToAtom(*it));
+//        if(fml == NULL) fml = nega;
+//        else {
+//            fml = Utils::compositeByConnective(CONJ, fml, nega);
+//        }
+//    }
+//    
+//    return fml;
+//}
 
 vector< vector< vector<char*> > > Utils::readClaspAnswers(const char* AnswerSet_list) {
     FILE* asl = fopen(AnswerSet_list, "r");

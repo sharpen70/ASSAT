@@ -9,6 +9,8 @@ extern int *atomState;
 extern int *ruleState;
 
 ClakeCompletion::ClakeCompletion() {
+    newVar = 0;
+    
     for(int i = 0; i < G_NLP.size(); i++) {
         int h = G_NLP[i].head;
         if(G_NLP[i].type == RULE && atomState[h] != -1) {
@@ -39,11 +41,6 @@ ClakeCompletion::~ClakeCompletion() {
     delete[] atomState;
 }
 
-ClakeCompletion& ClakeCompletion::instance() {
-    static ClakeCompletion theInstance;
-    return theInstance;
-}
-
 void ClakeCompletion::convert() {
     for(map<int, vector<int> >::iterator it = ipf_atoms_rules.begin(); it != 
             ipf_atoms_rules.end(); it++) {
@@ -70,21 +67,22 @@ void ClakeCompletion::convert() {
                 else {  
                     int id = ruleState[*ait];
                     if(id == 0) {
+                        newVar++;
                         char newAtom[MAX_ATOM_LENGTH];
                         sprintf(newAtom, "Rule_%d", *ait);
                         id = Vocabulary::instance().addAtom(strdup(newAtom));
                         ruleState[*ait] = id;
                         
                         set<int> rightEqual;                                          
-                        rightEqual.insert(-1 * id);
+                        rightEqual.insert(id);
 
                         for(set<int>::iterator eit = G_NLP[*ait].body_lits.begin(); 
                                 eit != G_NLP[*ait].body_lits.end(); eit++) {
                             set<int> leftEqual;
-                            leftEqual.insert(id);
-                            leftEqual.insert(-1 * (*eit));
+                            leftEqual.insert(-1 * id);
+                            leftEqual.insert(*eit);
                             completion.push_back(leftEqual);
-                            rightEqual.insert(*eit);
+                            rightEqual.insert(-1 * (*eit));
                         }
 
                         completion.push_back(rightEqual);
@@ -117,33 +115,31 @@ void ClakeCompletion::convert() {
         completion.push_back(cset);
     }
 }
-//
-//void ClakeCompletion::testCompletion() {
-//    vector< set<int> > res = Utils::convertToSATInput(completion);
-//    
-//    for(vector<set <int> >::iterator it = res.begin(); it != res.end(); it++) {
-//        for(set<int>::iterator s_it = it->begin(); s_it != it->end(); s_it++) {
-//            printf("%d ", *s_it);
-//        }
-//        printf("\n");
-//    }
-//}
-//void ClakeCompletion::test() {
-//    printf("\nno_ipf_atoms:");
-//    for(int i = 0; i < no_ipf_atoms.size(); i++) {
-//        printf("%s ", Vocabulary::instance().getAtom(no_ipf_atoms.at(i)));
-//    }
-//    printf("\nipf_atoms_rules:\n");
-//    for(map<int, vector<Rule> >::iterator it = ipf_atoms_rules.begin(); it != ipf_atoms_rules.end(); it++) {
-//        vector<Rule> r = it->second;
-//        for(int i = 0; i < r.size(); i++) {
-//            r.at(i).output(stdout);
-//        }
-//    }
-//    printf("\nconstrants\n");
-//    for(int i = 0; i < constrants.size(); i++) {
-//        constrants.at(i).output(stdout);
-//    }
-//    
-//    testCompletion();
-//}
+
+void ClakeCompletion::testCompletion() {    
+    for(vector< set<int> >::iterator it = completion.begin(); it != completion.end(); it++) {
+        for(set<int>::iterator s_it = it->begin(); s_it != it->end(); s_it++) {
+            printf("%d ", *s_it);
+        }
+        printf("\n");
+    }
+}
+void ClakeCompletion::test() {
+    printf("\nno_ipf_atoms:");
+    for(int i = 0; i < no_ipf_atoms.size(); i++) {
+        printf("%s ", Vocabulary::instance().getAtom(no_ipf_atoms[i]));
+    }
+    printf("\nipf_atoms_rules:\n");
+    for(map<int, vector<int> >::iterator it = ipf_atoms_rules.begin(); it != ipf_atoms_rules.end(); it++) {
+        printf("%s: ", Vocabulary::instance().getAtom(it->first));
+        for(int i = 0; i < (it->second).size(); i++) {
+            G_NLP[(it->second)[i]].output(stdout);
+        }
+    }
+    printf("\nconstrants\n");
+    for(int i = 0; i < constrants.size(); i++) {
+        G_NLP[constrants[i]].output(stdout);
+    }
+    
+    testCompletion();
+}

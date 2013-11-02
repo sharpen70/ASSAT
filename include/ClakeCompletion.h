@@ -14,7 +14,6 @@ private:
     vector<int> no_ipf_atoms;
     vector<int> constrants;
 public:
-    static ClakeCompletion& instance();
     ClakeCompletion();
     ~ClakeCompletion();
     void convert();
@@ -22,5 +21,6 @@ public:
     void testCompletion();
     
     vector< set<int> > completion;
+    int newVar;
 };
 #endif

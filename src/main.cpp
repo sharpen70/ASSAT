@@ -58,7 +58,7 @@ int main(int argc, char** argv) {
 //    yyparse();
 //    fclose(yyin);
     
-//    yyin = fopen("res/input/labyin.in", "r");
+//    yyin = fopen("res/input/sample.in", "r");
     yyin = fopen("benchmark/hc/nv50a238.lp", "r");
 //    fout = fopen("res/output/assat.out", "w");
     fout = stdout;
@@ -72,15 +72,16 @@ int main(int argc, char** argv) {
     atomState = new int[Vocabulary::instance().apSize() + 1];
     memset(atomState, 0, sizeof(int) * (Vocabulary::instance().apSize() + 1));
     ruleState = new int[G_NLP.size()];
-    memset(atomState, 0, sizeof(int) * G_NLP.size());
+    memset(ruleState, 0, sizeof(int) * G_NLP.size());
+    
+    SATSolver sat(Vocabulary::instance().apSize());
     
     ClakeCompletion cc;
+//    cc.test();
     
-//    SATSolver sat(input, Vocabulary::instance().apSize());
-//    sat.invokeSAT();
-//    printf("Models: %d\n", sat.models.size());
- //   sat.outputResult();
-   
+    sat.addNewVar(cc.newVar);
+    sat.addNewClauses(cc.completion);
+    
     DependenceGraph dpg;
  //   dpg.operateGraph();
     
@@ -88,15 +89,14 @@ int main(int argc, char** argv) {
 
 // ASSAT
     vector< set<int> > AnswerSets;
-    GLTranslator glt(G_NLP);
+    GLTranslator glt(G_NLP);    
     
-    SATSolver sat(Vocabulary::instance().apSize());
-    sat.addNewClauses(cc.completion);
 //    sat.invokeSAT();
 //    sat.outputResult();
     int id = 0;
     while(sat.isExistModel()) {
         set<int> model = sat.models.back();
+        
        // printf("%d", sat.models.size());
         fprintf(fout, "Completion model %d ", id++);
 //        for(set<int>::iterator it = model.begin(); it != model.end(); it++) {
@@ -129,12 +129,14 @@ int main(int argc, char** argv) {
                 int newVarNum = dpg.computeLoopFormulas(*imls);
                 
                 sat.addNewVar(newVarNum);
+                printf("loopFormula size %d", imls->loopFormulas.size());
                 for(vector< set<int> >::iterator ilfs = imls->loopFormulas.begin(); 
                         ilfs != imls->loopFormulas.end(); ilfs++) {
-//                    printf("\nlits\n");
-//                    for(set<int>::iterator dt = lits.begin(); dt != lits.end(); dt++) {
-//                        printf("%d ", *dt);
-//                    }
+                    printf("\nlits\n");
+                    for(set<int>::iterator dt = ilfs->begin(); dt != ilfs->end(); dt++) {
+                        printf("%d ", *dt);
+                    }
+                    printf("\n");
                     sat.addNewClause(*ilfs);
                 }
             }

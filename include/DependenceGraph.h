@@ -62,6 +62,7 @@ public:
 private:
     vector<Rule> nlp;
     map<int, set<int> > dpdGraph;
+    map<int, set<int> > dpdRules;
     
     map<int, vector<Loop> > loopWithESSize;
     

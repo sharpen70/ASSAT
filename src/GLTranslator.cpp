@@ -9,6 +9,7 @@
 #include "GLTranslator.h"
 #include "Rule.h"
 #include "Vocabulary.h"
+#include <queue>
 
 GLTranslator::GLTranslator(vector<Rule> _nlp) :
         nlp(_nlp) {
@@ -22,54 +23,61 @@ GLTranslator::~GLTranslator() {
 
 set<int> GLTranslator::getComplementSet(set<int> Mset) {
     vector<Rule> _nlp = nlp;
-    vector<Rule> GL_nlp;
-    vector<int> facts;
+    set<int> GL_nlp;
+    queue<int> facts;
     set<int> cons;
     
     //GL_transformation
     for(vector<Rule>::iterator it = _nlp.begin(); it != _nlp.end(); it++) {
-        for(set<int>::iterator nit = it->negative_literals.begin();
-                nit != it->negative_literals.end(); nit++) {
-            if(Mset.find(*nit) == Mset.end()) {
-                it->negative_literals.erase(nit);
+        if(it->type == RULE) {
+            for(set<int>::iterator nit = it->body_lits.begin();
+                    nit != it->body_lits.end(); nit++) {
+                if(*nit > 0) break;
+
+                if(Mset.find(-1 * (*nit)) == Mset.end()) {
+                    it->body_lits.erase(nit);
+                }            
             }
         }
     }
     
-    for(vector<Rule>::iterator it = _nlp.begin(); it != _nlp.end(); it++) {
-        if(it->type == FACT) {
-            facts.push_back(it->head);
+    for(int i = 0; i < _nlp.size(); i++) {
+        if(_nlp[i].type == FACT) {
+            facts.push(_nlp[i].head);
         }
         else {
-            if(it->type == RULE && it->negative_literals.size() == 0) {
-               GL_nlp.push_back(*it);
+            if(_nlp[i].type == RULE) {
+                if(*(_nlp[i].body_lits.begin()) > 0) {
+                    GL_nlp.insert(i);
+                }
             }   
         }
     }
-    for(int i = 0; i < facts.size(); i++) {
-        cons.insert(facts.at(i));
-        for(vector<Rule>::iterator nit = GL_nlp.begin(); nit != GL_nlp.end();) {
-            if(facts.at(i) == nit->head) {
-                nit = GL_nlp.erase(nit);
+    
+    while(!facts.empty()) {
+        int fact = facts.front();
+        facts.pop();
+        cons.insert(fact);
+        for(set<int>::iterator nit = GL_nlp.begin(); nit != GL_nlp.end(); nit++) {
+            if(fact == _nlp[*nit].head) {
+                GL_nlp.erase(nit);
                 continue;
             }
-            for(set<int>::iterator pit = nit->positive_literals.begin();
-                    pit != nit->positive_literals.end(); pit++) {
-                if(facts.at(i) == *pit) {
-                    nit->positive_literals.erase(pit);
+            for(set<int>::iterator pit = _nlp[*nit].body_lits.begin();
+                    pit != _nlp[*nit].body_lits.end(); pit++) {
+                if(fact == *pit) {
+                    _nlp[*nit].body_lits.erase(pit);
                     break;
                 }
             }
-            if(nit->positive_literals.size() == 0) {
-                facts.push_back(nit->head);
-                cons.insert(nit->head);
-                nit = GL_nlp.erase(nit);
-            }
-            else {
-                nit++;
+            if(_nlp[*nit].body_lits.size() == 0) {
+                facts.push(_nlp[*nit].head);
+                cons.insert(_nlp[*nit].head);
+                GL_nlp.erase(nit);
             }
         }
     }
+    
     set<int> Cset;
     set<int>::iterator cit = cons.begin();
     set<int>::iterator mit = Mset.begin();
