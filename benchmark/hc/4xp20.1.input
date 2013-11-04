@@ -1,0 +1,4728 @@
+initialnode(0).
+vertex(0).
+vertex(1).
+vertex(2).
+vertex(3).
+vertex(4).
+vertex(5).
+vertex(6).
+vertex(7).
+vertex(8).
+vertex(9).
+vertex(10).
+vertex(11).
+vertex(12).
+vertex(13).
+vertex(14).
+vertex(15).
+vertex(16).
+vertex(17).
+vertex(18).
+vertex(19).
+vertex(20).
+vertex(21).
+vertex(22).
+vertex(23).
+vertex(24).
+vertex(25).
+vertex(26).
+vertex(27).
+vertex(28).
+vertex(29).
+vertex(30).
+vertex(31).
+vertex(32).
+vertex(33).
+vertex(34).
+vertex(35).
+vertex(36).
+vertex(37).
+vertex(38).
+vertex(39).
+vertex(40).
+vertex(41).
+vertex(42).
+vertex(43).
+vertex(44).
+vertex(45).
+vertex(46).
+vertex(47).
+vertex(48).
+vertex(49).
+vertex(50).
+vertex(51).
+vertex(52).
+vertex(53).
+vertex(54).
+vertex(55).
+vertex(56).
+vertex(57).
+vertex(58).
+vertex(59).
+vertex(60).
+vertex(61).
+vertex(62).
+vertex(63).
+vertex(64).
+vertex(65).
+vertex(66).
+vertex(67).
+vertex(68).
+vertex(69).
+vertex(70).
+vertex(71).
+vertex(72).
+vertex(73).
+vertex(74).
+vertex(75).
+vertex(76).
+vertex(77).
+vertex(78).
+vertex(79).
+arc(0,16).
+arc(0,11).
+arc(0,10).
+arc(0,3).
+arc(0,4).
+arc(1,14).
+arc(1,6).
+arc(1,2).
+arc(1,12).
+arc(2,9).
+arc(2,7).
+arc(2,6).
+arc(2,5).
+arc(2,14).
+arc(2,1).
+arc(3,17).
+arc(3,16).
+arc(3,13).
+arc(3,12).
+arc(3,0).
+arc(3,4).
+arc(4,18).
+arc(4,17).
+arc(4,0).
+arc(4,3).
+arc(5,14).
+arc(5,8).
+arc(5,17).
+arc(5,2).
+arc(5,9).
+arc(6,12).
+arc(6,10).
+arc(6,7).
+arc(6,2).
+arc(6,1).
+arc(7,9).
+arc(7,2).
+arc(7,6).
+arc(7,10).
+arc(8,17).
+arc(8,15).
+arc(8,19).
+arc(8,9).
+arc(8,5).
+arc(9,19).
+arc(9,8).
+arc(9,7).
+arc(9,2).
+arc(9,5).
+arc(10,12).
+arc(10,11).
+arc(10,6).
+arc(10,0).
+arc(10,7).
+arc(11,16).
+arc(11,13).
+arc(11,0).
+arc(11,10).
+arc(11,12).
+arc(12,14).
+arc(12,10).
+arc(12,6).
+arc(12,3).
+arc(12,13).
+arc(12,11).
+arc(12,17).
+arc(12,1).
+arc(13,16).
+arc(13,11).
+arc(13,3).
+arc(13,12).
+arc(14,12).
+arc(14,1).
+arc(14,5).
+arc(14,17).
+arc(14,2).
+arc(15,19).
+arc(15,18).
+arc(15,8).
+arc(15,17).
+arc(16,11).
+arc(16,13).
+arc(16,0).
+arc(16,3).
+arc(17,8).
+arc(17,4).
+arc(17,3).
+arc(17,18).
+arc(17,5).
+arc(17,15).
+arc(17,14).
+arc(17,12).
+arc(18,4).
+arc(18,15).
+arc(18,17).
+arc(19,15).
+arc(19,9).
+arc(19,8).
+arc(20,36).
+arc(20,31).
+arc(20,30).
+arc(20,23).
+arc(20,24).
+arc(21,34).
+arc(21,26).
+arc(21,22).
+arc(21,32).
+arc(22,29).
+arc(22,27).
+arc(22,26).
+arc(22,25).
+arc(22,34).
+arc(22,21).
+arc(23,37).
+arc(23,36).
+arc(23,33).
+arc(23,32).
+arc(23,20).
+arc(23,24).
+arc(24,38).
+arc(24,37).
+arc(24,20).
+arc(24,23).
+arc(25,34).
+arc(25,28).
+arc(25,37).
+arc(25,22).
+arc(25,29).
+arc(26,32).
+arc(26,30).
+arc(26,27).
+arc(26,22).
+arc(26,21).
+arc(27,29).
+arc(27,22).
+arc(27,26).
+arc(27,30).
+arc(28,37).
+arc(28,35).
+arc(28,39).
+arc(28,29).
+arc(28,25).
+arc(29,39).
+arc(29,28).
+arc(29,27).
+arc(29,22).
+arc(29,25).
+arc(30,32).
+arc(30,31).
+arc(30,26).
+arc(30,20).
+arc(30,27).
+arc(31,36).
+arc(31,33).
+arc(31,20).
+arc(31,30).
+arc(31,32).
+arc(32,34).
+arc(32,30).
+arc(32,26).
+arc(32,23).
+arc(32,33).
+arc(32,31).
+arc(32,37).
+arc(32,21).
+arc(33,36).
+arc(33,31).
+arc(33,23).
+arc(33,32).
+arc(34,32).
+arc(34,21).
+arc(34,25).
+arc(34,37).
+arc(34,22).
+arc(35,39).
+arc(35,38).
+arc(35,28).
+arc(35,37).
+arc(36,31).
+arc(36,33).
+arc(36,20).
+arc(36,23).
+arc(37,28).
+arc(37,24).
+arc(37,23).
+arc(37,38).
+arc(37,25).
+arc(37,35).
+arc(37,34).
+arc(37,32).
+arc(38,24).
+arc(38,35).
+arc(38,37).
+arc(39,35).
+arc(39,29).
+arc(39,28).
+arc(40,56).
+arc(40,51).
+arc(40,50).
+arc(40,43).
+arc(40,44).
+arc(41,54).
+arc(41,46).
+arc(41,42).
+arc(41,52).
+arc(42,49).
+arc(42,47).
+arc(42,46).
+arc(42,45).
+arc(42,54).
+arc(42,41).
+arc(43,57).
+arc(43,56).
+arc(43,53).
+arc(43,52).
+arc(43,40).
+arc(43,44).
+arc(44,58).
+arc(44,57).
+arc(44,40).
+arc(44,43).
+arc(45,54).
+arc(45,48).
+arc(45,57).
+arc(45,42).
+arc(45,49).
+arc(46,52).
+arc(46,50).
+arc(46,47).
+arc(46,42).
+arc(46,41).
+arc(47,49).
+arc(47,42).
+arc(47,46).
+arc(47,50).
+arc(48,57).
+arc(48,55).
+arc(48,59).
+arc(48,49).
+arc(48,45).
+arc(49,59).
+arc(49,48).
+arc(49,47).
+arc(49,42).
+arc(49,45).
+arc(50,52).
+arc(50,51).
+arc(50,46).
+arc(50,40).
+arc(50,47).
+arc(51,56).
+arc(51,53).
+arc(51,40).
+arc(51,50).
+arc(51,52).
+arc(52,54).
+arc(52,50).
+arc(52,46).
+arc(52,43).
+arc(52,53).
+arc(52,51).
+arc(52,57).
+arc(52,41).
+arc(53,56).
+arc(53,51).
+arc(53,43).
+arc(53,52).
+arc(54,52).
+arc(54,41).
+arc(54,45).
+arc(54,57).
+arc(54,42).
+arc(55,59).
+arc(55,58).
+arc(55,48).
+arc(55,57).
+arc(56,51).
+arc(56,53).
+arc(56,40).
+arc(56,43).
+arc(57,48).
+arc(57,44).
+arc(57,43).
+arc(57,58).
+arc(57,45).
+arc(57,55).
+arc(57,54).
+arc(57,52).
+arc(58,44).
+arc(58,55).
+arc(58,57).
+arc(59,55).
+arc(59,49).
+arc(59,48).
+arc(60,76).
+arc(60,71).
+arc(60,70).
+arc(60,63).
+arc(60,64).
+arc(61,74).
+arc(61,66).
+arc(61,62).
+arc(61,72).
+arc(62,69).
+arc(62,67).
+arc(62,66).
+arc(62,65).
+arc(62,74).
+arc(62,61).
+arc(63,77).
+arc(63,76).
+arc(63,73).
+arc(63,72).
+arc(63,60).
+arc(63,64).
+arc(64,78).
+arc(64,77).
+arc(64,60).
+arc(64,63).
+arc(65,74).
+arc(65,68).
+arc(65,77).
+arc(65,62).
+arc(65,69).
+arc(66,72).
+arc(66,70).
+arc(66,67).
+arc(66,62).
+arc(66,61).
+arc(67,69).
+arc(67,62).
+arc(67,66).
+arc(67,70).
+arc(68,77).
+arc(68,75).
+arc(68,79).
+arc(68,69).
+arc(68,65).
+arc(69,79).
+arc(69,68).
+arc(69,67).
+arc(69,62).
+arc(69,65).
+arc(70,72).
+arc(70,71).
+arc(70,66).
+arc(70,60).
+arc(70,67).
+arc(71,76).
+arc(71,73).
+arc(71,60).
+arc(71,70).
+arc(71,72).
+arc(72,74).
+arc(72,70).
+arc(72,66).
+arc(72,63).
+arc(72,73).
+arc(72,71).
+arc(72,77).
+arc(72,61).
+arc(73,76).
+arc(73,71).
+arc(73,63).
+arc(73,72).
+arc(74,72).
+arc(74,61).
+arc(74,65).
+arc(74,77).
+arc(74,62).
+arc(75,79).
+arc(75,78).
+arc(75,68).
+arc(75,77).
+arc(76,71).
+arc(76,73).
+arc(76,60).
+arc(76,63).
+arc(77,68).
+arc(77,64).
+arc(77,63).
+arc(77,78).
+arc(77,65).
+arc(77,75).
+arc(77,74).
+arc(77,72).
+arc(78,64).
+arc(78,75).
+arc(78,77).
+arc(79,75).
+arc(79,69).
+arc(79,68).
+arc(15,25).
+arc(35,45).
+arc(55,65).
+hc(55,65):-not otherroute(55,65).
+hc(35,45):-not otherroute(35,45).
+hc(15,25):-not otherroute(15,25).
+hc(79,68):-not otherroute(79,68).
+hc(79,69):-not otherroute(79,69).
+hc(79,75):-not otherroute(79,75).
+hc(78,77):-not otherroute(78,77).
+hc(78,75):-not otherroute(78,75).
+hc(78,64):-not otherroute(78,64).
+hc(77,72):-not otherroute(77,72).
+hc(77,74):-not otherroute(77,74).
+hc(77,75):-not otherroute(77,75).
+hc(77,65):-not otherroute(77,65).
+hc(77,78):-not otherroute(77,78).
+hc(77,63):-not otherroute(77,63).
+hc(77,64):-not otherroute(77,64).
+hc(77,68):-not otherroute(77,68).
+hc(76,63):-not otherroute(76,63).
+hc(76,60):-not otherroute(76,60).
+hc(76,73):-not otherroute(76,73).
+hc(76,71):-not otherroute(76,71).
+hc(75,77):-not otherroute(75,77).
+hc(75,68):-not otherroute(75,68).
+hc(75,78):-not otherroute(75,78).
+hc(75,79):-not otherroute(75,79).
+hc(74,62):-not otherroute(74,62).
+hc(74,77):-not otherroute(74,77).
+hc(74,65):-not otherroute(74,65).
+hc(74,61):-not otherroute(74,61).
+hc(74,72):-not otherroute(74,72).
+hc(73,72):-not otherroute(73,72).
+hc(73,63):-not otherroute(73,63).
+hc(73,71):-not otherroute(73,71).
+hc(73,76):-not otherroute(73,76).
+hc(72,61):-not otherroute(72,61).
+hc(72,77):-not otherroute(72,77).
+hc(72,71):-not otherroute(72,71).
+hc(72,73):-not otherroute(72,73).
+hc(72,63):-not otherroute(72,63).
+hc(72,66):-not otherroute(72,66).
+hc(72,70):-not otherroute(72,70).
+hc(72,74):-not otherroute(72,74).
+hc(71,72):-not otherroute(71,72).
+hc(71,70):-not otherroute(71,70).
+hc(71,60):-not otherroute(71,60).
+hc(71,73):-not otherroute(71,73).
+hc(71,76):-not otherroute(71,76).
+hc(70,67):-not otherroute(70,67).
+hc(70,60):-not otherroute(70,60).
+hc(70,66):-not otherroute(70,66).
+hc(70,71):-not otherroute(70,71).
+hc(70,72):-not otherroute(70,72).
+hc(69,65):-not otherroute(69,65).
+hc(69,62):-not otherroute(69,62).
+hc(69,67):-not otherroute(69,67).
+hc(69,68):-not otherroute(69,68).
+hc(69,79):-not otherroute(69,79).
+hc(68,65):-not otherroute(68,65).
+hc(68,69):-not otherroute(68,69).
+hc(68,79):-not otherroute(68,79).
+hc(68,75):-not otherroute(68,75).
+hc(68,77):-not otherroute(68,77).
+hc(67,70):-not otherroute(67,70).
+hc(67,66):-not otherroute(67,66).
+hc(67,62):-not otherroute(67,62).
+hc(67,69):-not otherroute(67,69).
+hc(66,61):-not otherroute(66,61).
+hc(66,62):-not otherroute(66,62).
+hc(66,67):-not otherroute(66,67).
+hc(66,70):-not otherroute(66,70).
+hc(66,72):-not otherroute(66,72).
+hc(65,69):-not otherroute(65,69).
+hc(65,62):-not otherroute(65,62).
+hc(65,77):-not otherroute(65,77).
+hc(65,68):-not otherroute(65,68).
+hc(65,74):-not otherroute(65,74).
+hc(64,63):-not otherroute(64,63).
+hc(64,60):-not otherroute(64,60).
+hc(64,77):-not otherroute(64,77).
+hc(64,78):-not otherroute(64,78).
+hc(63,64):-not otherroute(63,64).
+hc(63,60):-not otherroute(63,60).
+hc(63,72):-not otherroute(63,72).
+hc(63,73):-not otherroute(63,73).
+hc(63,76):-not otherroute(63,76).
+hc(63,77):-not otherroute(63,77).
+hc(62,61):-not otherroute(62,61).
+hc(62,74):-not otherroute(62,74).
+hc(62,65):-not otherroute(62,65).
+hc(62,66):-not otherroute(62,66).
+hc(62,67):-not otherroute(62,67).
+hc(62,69):-not otherroute(62,69).
+hc(61,72):-not otherroute(61,72).
+hc(61,62):-not otherroute(61,62).
+hc(61,66):-not otherroute(61,66).
+hc(61,74):-not otherroute(61,74).
+hc(60,64):-not otherroute(60,64).
+hc(60,63):-not otherroute(60,63).
+hc(60,70):-not otherroute(60,70).
+hc(60,71):-not otherroute(60,71).
+hc(60,76):-not otherroute(60,76).
+hc(59,48):-not otherroute(59,48).
+hc(59,49):-not otherroute(59,49).
+hc(59,55):-not otherroute(59,55).
+hc(58,57):-not otherroute(58,57).
+hc(58,55):-not otherroute(58,55).
+hc(58,44):-not otherroute(58,44).
+hc(57,52):-not otherroute(57,52).
+hc(57,54):-not otherroute(57,54).
+hc(57,55):-not otherroute(57,55).
+hc(57,45):-not otherroute(57,45).
+hc(57,58):-not otherroute(57,58).
+hc(57,43):-not otherroute(57,43).
+hc(57,44):-not otherroute(57,44).
+hc(57,48):-not otherroute(57,48).
+hc(56,43):-not otherroute(56,43).
+hc(56,40):-not otherroute(56,40).
+hc(56,53):-not otherroute(56,53).
+hc(56,51):-not otherroute(56,51).
+hc(55,57):-not otherroute(55,57).
+hc(55,48):-not otherroute(55,48).
+hc(55,58):-not otherroute(55,58).
+hc(55,59):-not otherroute(55,59).
+hc(54,42):-not otherroute(54,42).
+hc(54,57):-not otherroute(54,57).
+hc(54,45):-not otherroute(54,45).
+hc(54,41):-not otherroute(54,41).
+hc(54,52):-not otherroute(54,52).
+hc(53,52):-not otherroute(53,52).
+hc(53,43):-not otherroute(53,43).
+hc(53,51):-not otherroute(53,51).
+hc(53,56):-not otherroute(53,56).
+hc(52,41):-not otherroute(52,41).
+hc(52,57):-not otherroute(52,57).
+hc(52,51):-not otherroute(52,51).
+hc(52,53):-not otherroute(52,53).
+hc(52,43):-not otherroute(52,43).
+hc(52,46):-not otherroute(52,46).
+hc(52,50):-not otherroute(52,50).
+hc(52,54):-not otherroute(52,54).
+hc(51,52):-not otherroute(51,52).
+hc(51,50):-not otherroute(51,50).
+hc(51,40):-not otherroute(51,40).
+hc(51,53):-not otherroute(51,53).
+hc(51,56):-not otherroute(51,56).
+hc(50,47):-not otherroute(50,47).
+hc(50,40):-not otherroute(50,40).
+hc(50,46):-not otherroute(50,46).
+hc(50,51):-not otherroute(50,51).
+hc(50,52):-not otherroute(50,52).
+hc(49,45):-not otherroute(49,45).
+hc(49,42):-not otherroute(49,42).
+hc(49,47):-not otherroute(49,47).
+hc(49,48):-not otherroute(49,48).
+hc(49,59):-not otherroute(49,59).
+hc(48,45):-not otherroute(48,45).
+hc(48,49):-not otherroute(48,49).
+hc(48,59):-not otherroute(48,59).
+hc(48,55):-not otherroute(48,55).
+hc(48,57):-not otherroute(48,57).
+hc(47,50):-not otherroute(47,50).
+hc(47,46):-not otherroute(47,46).
+hc(47,42):-not otherroute(47,42).
+hc(47,49):-not otherroute(47,49).
+hc(46,41):-not otherroute(46,41).
+hc(46,42):-not otherroute(46,42).
+hc(46,47):-not otherroute(46,47).
+hc(46,50):-not otherroute(46,50).
+hc(46,52):-not otherroute(46,52).
+hc(45,49):-not otherroute(45,49).
+hc(45,42):-not otherroute(45,42).
+hc(45,57):-not otherroute(45,57).
+hc(45,48):-not otherroute(45,48).
+hc(45,54):-not otherroute(45,54).
+hc(44,43):-not otherroute(44,43).
+hc(44,40):-not otherroute(44,40).
+hc(44,57):-not otherroute(44,57).
+hc(44,58):-not otherroute(44,58).
+hc(43,44):-not otherroute(43,44).
+hc(43,40):-not otherroute(43,40).
+hc(43,52):-not otherroute(43,52).
+hc(43,53):-not otherroute(43,53).
+hc(43,56):-not otherroute(43,56).
+hc(43,57):-not otherroute(43,57).
+hc(42,41):-not otherroute(42,41).
+hc(42,54):-not otherroute(42,54).
+hc(42,45):-not otherroute(42,45).
+hc(42,46):-not otherroute(42,46).
+hc(42,47):-not otherroute(42,47).
+hc(42,49):-not otherroute(42,49).
+hc(41,52):-not otherroute(41,52).
+hc(41,42):-not otherroute(41,42).
+hc(41,46):-not otherroute(41,46).
+hc(41,54):-not otherroute(41,54).
+hc(40,44):-not otherroute(40,44).
+hc(40,43):-not otherroute(40,43).
+hc(40,50):-not otherroute(40,50).
+hc(40,51):-not otherroute(40,51).
+hc(40,56):-not otherroute(40,56).
+hc(39,28):-not otherroute(39,28).
+hc(39,29):-not otherroute(39,29).
+hc(39,35):-not otherroute(39,35).
+hc(38,37):-not otherroute(38,37).
+hc(38,35):-not otherroute(38,35).
+hc(38,24):-not otherroute(38,24).
+hc(37,32):-not otherroute(37,32).
+hc(37,34):-not otherroute(37,34).
+hc(37,35):-not otherroute(37,35).
+hc(37,25):-not otherroute(37,25).
+hc(37,38):-not otherroute(37,38).
+hc(37,23):-not otherroute(37,23).
+hc(37,24):-not otherroute(37,24).
+hc(37,28):-not otherroute(37,28).
+hc(36,23):-not otherroute(36,23).
+hc(36,20):-not otherroute(36,20).
+hc(36,33):-not otherroute(36,33).
+hc(36,31):-not otherroute(36,31).
+hc(35,37):-not otherroute(35,37).
+hc(35,28):-not otherroute(35,28).
+hc(35,38):-not otherroute(35,38).
+hc(35,39):-not otherroute(35,39).
+hc(34,22):-not otherroute(34,22).
+hc(34,37):-not otherroute(34,37).
+hc(34,25):-not otherroute(34,25).
+hc(34,21):-not otherroute(34,21).
+hc(34,32):-not otherroute(34,32).
+hc(33,32):-not otherroute(33,32).
+hc(33,23):-not otherroute(33,23).
+hc(33,31):-not otherroute(33,31).
+hc(33,36):-not otherroute(33,36).
+hc(32,21):-not otherroute(32,21).
+hc(32,37):-not otherroute(32,37).
+hc(32,31):-not otherroute(32,31).
+hc(32,33):-not otherroute(32,33).
+hc(32,23):-not otherroute(32,23).
+hc(32,26):-not otherroute(32,26).
+hc(32,30):-not otherroute(32,30).
+hc(32,34):-not otherroute(32,34).
+hc(31,32):-not otherroute(31,32).
+hc(31,30):-not otherroute(31,30).
+hc(31,20):-not otherroute(31,20).
+hc(31,33):-not otherroute(31,33).
+hc(31,36):-not otherroute(31,36).
+hc(30,27):-not otherroute(30,27).
+hc(30,20):-not otherroute(30,20).
+hc(30,26):-not otherroute(30,26).
+hc(30,31):-not otherroute(30,31).
+hc(30,32):-not otherroute(30,32).
+hc(29,25):-not otherroute(29,25).
+hc(29,22):-not otherroute(29,22).
+hc(29,27):-not otherroute(29,27).
+hc(29,28):-not otherroute(29,28).
+hc(29,39):-not otherroute(29,39).
+hc(28,25):-not otherroute(28,25).
+hc(28,29):-not otherroute(28,29).
+hc(28,39):-not otherroute(28,39).
+hc(28,35):-not otherroute(28,35).
+hc(28,37):-not otherroute(28,37).
+hc(27,30):-not otherroute(27,30).
+hc(27,26):-not otherroute(27,26).
+hc(27,22):-not otherroute(27,22).
+hc(27,29):-not otherroute(27,29).
+hc(26,21):-not otherroute(26,21).
+hc(26,22):-not otherroute(26,22).
+hc(26,27):-not otherroute(26,27).
+hc(26,30):-not otherroute(26,30).
+hc(26,32):-not otherroute(26,32).
+hc(25,29):-not otherroute(25,29).
+hc(25,22):-not otherroute(25,22).
+hc(25,37):-not otherroute(25,37).
+hc(25,28):-not otherroute(25,28).
+hc(25,34):-not otherroute(25,34).
+hc(24,23):-not otherroute(24,23).
+hc(24,20):-not otherroute(24,20).
+hc(24,37):-not otherroute(24,37).
+hc(24,38):-not otherroute(24,38).
+hc(23,24):-not otherroute(23,24).
+hc(23,20):-not otherroute(23,20).
+hc(23,32):-not otherroute(23,32).
+hc(23,33):-not otherroute(23,33).
+hc(23,36):-not otherroute(23,36).
+hc(23,37):-not otherroute(23,37).
+hc(22,21):-not otherroute(22,21).
+hc(22,34):-not otherroute(22,34).
+hc(22,25):-not otherroute(22,25).
+hc(22,26):-not otherroute(22,26).
+hc(22,27):-not otherroute(22,27).
+hc(22,29):-not otherroute(22,29).
+hc(21,32):-not otherroute(21,32).
+hc(21,22):-not otherroute(21,22).
+hc(21,26):-not otherroute(21,26).
+hc(21,34):-not otherroute(21,34).
+hc(20,24):-not otherroute(20,24).
+hc(20,23):-not otherroute(20,23).
+hc(20,30):-not otherroute(20,30).
+hc(20,31):-not otherroute(20,31).
+hc(20,36):-not otherroute(20,36).
+hc(19,8):-not otherroute(19,8).
+hc(19,9):-not otherroute(19,9).
+hc(19,15):-not otherroute(19,15).
+hc(18,17):-not otherroute(18,17).
+hc(18,15):-not otherroute(18,15).
+hc(18,4):-not otherroute(18,4).
+hc(17,12):-not otherroute(17,12).
+hc(17,14):-not otherroute(17,14).
+hc(17,15):-not otherroute(17,15).
+hc(17,5):-not otherroute(17,5).
+hc(17,18):-not otherroute(17,18).
+hc(17,3):-not otherroute(17,3).
+hc(17,4):-not otherroute(17,4).
+hc(17,8):-not otherroute(17,8).
+hc(16,3):-not otherroute(16,3).
+hc(16,0):-not otherroute(16,0).
+hc(16,13):-not otherroute(16,13).
+hc(16,11):-not otherroute(16,11).
+hc(15,17):-not otherroute(15,17).
+hc(15,8):-not otherroute(15,8).
+hc(15,18):-not otherroute(15,18).
+hc(15,19):-not otherroute(15,19).
+hc(14,2):-not otherroute(14,2).
+hc(14,17):-not otherroute(14,17).
+hc(14,5):-not otherroute(14,5).
+hc(14,1):-not otherroute(14,1).
+hc(14,12):-not otherroute(14,12).
+hc(13,12):-not otherroute(13,12).
+hc(13,3):-not otherroute(13,3).
+hc(13,11):-not otherroute(13,11).
+hc(13,16):-not otherroute(13,16).
+hc(12,1):-not otherroute(12,1).
+hc(12,17):-not otherroute(12,17).
+hc(12,11):-not otherroute(12,11).
+hc(12,13):-not otherroute(12,13).
+hc(12,3):-not otherroute(12,3).
+hc(12,6):-not otherroute(12,6).
+hc(12,10):-not otherroute(12,10).
+hc(12,14):-not otherroute(12,14).
+hc(11,12):-not otherroute(11,12).
+hc(11,10):-not otherroute(11,10).
+hc(11,0):-not otherroute(11,0).
+hc(11,13):-not otherroute(11,13).
+hc(11,16):-not otherroute(11,16).
+hc(10,7):-not otherroute(10,7).
+hc(10,0):-not otherroute(10,0).
+hc(10,6):-not otherroute(10,6).
+hc(10,11):-not otherroute(10,11).
+hc(10,12):-not otherroute(10,12).
+hc(9,5):-not otherroute(9,5).
+hc(9,2):-not otherroute(9,2).
+hc(9,7):-not otherroute(9,7).
+hc(9,8):-not otherroute(9,8).
+hc(9,19):-not otherroute(9,19).
+hc(8,5):-not otherroute(8,5).
+hc(8,9):-not otherroute(8,9).
+hc(8,19):-not otherroute(8,19).
+hc(8,15):-not otherroute(8,15).
+hc(8,17):-not otherroute(8,17).
+hc(7,10):-not otherroute(7,10).
+hc(7,6):-not otherroute(7,6).
+hc(7,2):-not otherroute(7,2).
+hc(7,9):-not otherroute(7,9).
+hc(6,1):-not otherroute(6,1).
+hc(6,2):-not otherroute(6,2).
+hc(6,7):-not otherroute(6,7).
+hc(6,10):-not otherroute(6,10).
+hc(6,12):-not otherroute(6,12).
+hc(5,9):-not otherroute(5,9).
+hc(5,2):-not otherroute(5,2).
+hc(5,17):-not otherroute(5,17).
+hc(5,8):-not otherroute(5,8).
+hc(5,14):-not otherroute(5,14).
+hc(4,3):-not otherroute(4,3).
+hc(4,0):-not otherroute(4,0).
+hc(4,17):-not otherroute(4,17).
+hc(4,18):-not otherroute(4,18).
+hc(3,4):-not otherroute(3,4).
+hc(3,0):-not otherroute(3,0).
+hc(3,12):-not otherroute(3,12).
+hc(3,13):-not otherroute(3,13).
+hc(3,16):-not otherroute(3,16).
+hc(3,17):-not otherroute(3,17).
+hc(2,1):-not otherroute(2,1).
+hc(2,14):-not otherroute(2,14).
+hc(2,5):-not otherroute(2,5).
+hc(2,6):-not otherroute(2,6).
+hc(2,7):-not otherroute(2,7).
+hc(2,9):-not otherroute(2,9).
+hc(1,12):-not otherroute(1,12).
+hc(1,2):-not otherroute(1,2).
+hc(1,6):-not otherroute(1,6).
+hc(1,14):-not otherroute(1,14).
+hc(0,4):-not otherroute(0,4).
+hc(0,3):-not otherroute(0,3).
+hc(0,10):-not otherroute(0,10).
+hc(0,11):-not otherroute(0,11).
+hc(0,16):-not otherroute(0,16).
+otherroute(55,65):-hc(55,57).
+otherroute(55,65):-hc(55,48).
+otherroute(55,65):-hc(55,58).
+otherroute(55,65):-hc(55,59).
+otherroute(35,45):-hc(35,37).
+otherroute(35,45):-hc(35,28).
+otherroute(35,45):-hc(35,38).
+otherroute(35,45):-hc(35,39).
+otherroute(15,25):-hc(15,17).
+otherroute(15,25):-hc(15,8).
+otherroute(15,25):-hc(15,18).
+otherroute(15,25):-hc(15,19).
+otherroute(79,68):-hc(79,69).
+otherroute(79,68):-hc(79,75).
+otherroute(79,69):-hc(79,68).
+otherroute(79,69):-hc(79,75).
+otherroute(79,75):-hc(79,68).
+otherroute(79,75):-hc(79,69).
+otherroute(78,77):-hc(78,75).
+otherroute(78,77):-hc(78,64).
+otherroute(78,75):-hc(78,77).
+otherroute(78,75):-hc(78,64).
+otherroute(78,64):-hc(78,77).
+otherroute(78,64):-hc(78,75).
+otherroute(77,72):-hc(77,74).
+otherroute(77,72):-hc(77,75).
+otherroute(77,72):-hc(77,65).
+otherroute(77,72):-hc(77,78).
+otherroute(77,72):-hc(77,63).
+otherroute(77,72):-hc(77,64).
+otherroute(77,72):-hc(77,68).
+otherroute(77,74):-hc(77,72).
+otherroute(77,74):-hc(77,75).
+otherroute(77,74):-hc(77,65).
+otherroute(77,74):-hc(77,78).
+otherroute(77,74):-hc(77,63).
+otherroute(77,74):-hc(77,64).
+otherroute(77,74):-hc(77,68).
+otherroute(77,75):-hc(77,72).
+otherroute(77,75):-hc(77,74).
+otherroute(77,75):-hc(77,65).
+otherroute(77,75):-hc(77,78).
+otherroute(77,75):-hc(77,63).
+otherroute(77,75):-hc(77,64).
+otherroute(77,75):-hc(77,68).
+otherroute(77,65):-hc(77,72).
+otherroute(77,65):-hc(77,74).
+otherroute(77,65):-hc(77,75).
+otherroute(77,65):-hc(77,78).
+otherroute(77,65):-hc(77,63).
+otherroute(77,65):-hc(77,64).
+otherroute(77,65):-hc(77,68).
+otherroute(77,78):-hc(77,72).
+otherroute(77,78):-hc(77,74).
+otherroute(77,78):-hc(77,75).
+otherroute(77,78):-hc(77,65).
+otherroute(77,78):-hc(77,63).
+otherroute(77,78):-hc(77,64).
+otherroute(77,78):-hc(77,68).
+otherroute(77,63):-hc(77,72).
+otherroute(77,63):-hc(77,74).
+otherroute(77,63):-hc(77,75).
+otherroute(77,63):-hc(77,65).
+otherroute(77,63):-hc(77,78).
+otherroute(77,63):-hc(77,64).
+otherroute(77,63):-hc(77,68).
+otherroute(77,64):-hc(77,72).
+otherroute(77,64):-hc(77,74).
+otherroute(77,64):-hc(77,75).
+otherroute(77,64):-hc(77,65).
+otherroute(77,64):-hc(77,78).
+otherroute(77,64):-hc(77,63).
+otherroute(77,64):-hc(77,68).
+otherroute(77,68):-hc(77,72).
+otherroute(77,68):-hc(77,74).
+otherroute(77,68):-hc(77,75).
+otherroute(77,68):-hc(77,65).
+otherroute(77,68):-hc(77,78).
+otherroute(77,68):-hc(77,63).
+otherroute(77,68):-hc(77,64).
+otherroute(76,63):-hc(76,60).
+otherroute(76,63):-hc(76,73).
+otherroute(76,63):-hc(76,71).
+otherroute(76,60):-hc(76,63).
+otherroute(76,60):-hc(76,73).
+otherroute(76,60):-hc(76,71).
+otherroute(76,73):-hc(76,63).
+otherroute(76,73):-hc(76,60).
+otherroute(76,73):-hc(76,71).
+otherroute(76,71):-hc(76,63).
+otherroute(76,71):-hc(76,60).
+otherroute(76,71):-hc(76,73).
+otherroute(75,77):-hc(75,68).
+otherroute(75,77):-hc(75,78).
+otherroute(75,77):-hc(75,79).
+otherroute(75,68):-hc(75,77).
+otherroute(75,68):-hc(75,78).
+otherroute(75,68):-hc(75,79).
+otherroute(75,78):-hc(75,77).
+otherroute(75,78):-hc(75,68).
+otherroute(75,78):-hc(75,79).
+otherroute(75,79):-hc(75,77).
+otherroute(75,79):-hc(75,68).
+otherroute(75,79):-hc(75,78).
+otherroute(74,62):-hc(74,77).
+otherroute(74,62):-hc(74,65).
+otherroute(74,62):-hc(74,61).
+otherroute(74,62):-hc(74,72).
+otherroute(74,77):-hc(74,62).
+otherroute(74,77):-hc(74,65).
+otherroute(74,77):-hc(74,61).
+otherroute(74,77):-hc(74,72).
+otherroute(74,65):-hc(74,62).
+otherroute(74,65):-hc(74,77).
+otherroute(74,65):-hc(74,61).
+otherroute(74,65):-hc(74,72).
+otherroute(74,61):-hc(74,62).
+otherroute(74,61):-hc(74,77).
+otherroute(74,61):-hc(74,65).
+otherroute(74,61):-hc(74,72).
+otherroute(74,72):-hc(74,62).
+otherroute(74,72):-hc(74,77).
+otherroute(74,72):-hc(74,65).
+otherroute(74,72):-hc(74,61).
+otherroute(73,72):-hc(73,63).
+otherroute(73,72):-hc(73,71).
+otherroute(73,72):-hc(73,76).
+otherroute(73,63):-hc(73,72).
+otherroute(73,63):-hc(73,71).
+otherroute(73,63):-hc(73,76).
+otherroute(73,71):-hc(73,72).
+otherroute(73,71):-hc(73,63).
+otherroute(73,71):-hc(73,76).
+otherroute(73,76):-hc(73,72).
+otherroute(73,76):-hc(73,63).
+otherroute(73,76):-hc(73,71).
+otherroute(72,61):-hc(72,77).
+otherroute(72,61):-hc(72,71).
+otherroute(72,61):-hc(72,73).
+otherroute(72,61):-hc(72,63).
+otherroute(72,61):-hc(72,66).
+otherroute(72,61):-hc(72,70).
+otherroute(72,61):-hc(72,74).
+otherroute(72,77):-hc(72,61).
+otherroute(72,77):-hc(72,71).
+otherroute(72,77):-hc(72,73).
+otherroute(72,77):-hc(72,63).
+otherroute(72,77):-hc(72,66).
+otherroute(72,77):-hc(72,70).
+otherroute(72,77):-hc(72,74).
+otherroute(72,71):-hc(72,61).
+otherroute(72,71):-hc(72,77).
+otherroute(72,71):-hc(72,73).
+otherroute(72,71):-hc(72,63).
+otherroute(72,71):-hc(72,66).
+otherroute(72,71):-hc(72,70).
+otherroute(72,71):-hc(72,74).
+otherroute(72,73):-hc(72,61).
+otherroute(72,73):-hc(72,77).
+otherroute(72,73):-hc(72,71).
+otherroute(72,73):-hc(72,63).
+otherroute(72,73):-hc(72,66).
+otherroute(72,73):-hc(72,70).
+otherroute(72,73):-hc(72,74).
+otherroute(72,63):-hc(72,61).
+otherroute(72,63):-hc(72,77).
+otherroute(72,63):-hc(72,71).
+otherroute(72,63):-hc(72,73).
+otherroute(72,63):-hc(72,66).
+otherroute(72,63):-hc(72,70).
+otherroute(72,63):-hc(72,74).
+otherroute(72,66):-hc(72,61).
+otherroute(72,66):-hc(72,77).
+otherroute(72,66):-hc(72,71).
+otherroute(72,66):-hc(72,73).
+otherroute(72,66):-hc(72,63).
+otherroute(72,66):-hc(72,70).
+otherroute(72,66):-hc(72,74).
+otherroute(72,70):-hc(72,61).
+otherroute(72,70):-hc(72,77).
+otherroute(72,70):-hc(72,71).
+otherroute(72,70):-hc(72,73).
+otherroute(72,70):-hc(72,63).
+otherroute(72,70):-hc(72,66).
+otherroute(72,70):-hc(72,74).
+otherroute(72,74):-hc(72,61).
+otherroute(72,74):-hc(72,77).
+otherroute(72,74):-hc(72,71).
+otherroute(72,74):-hc(72,73).
+otherroute(72,74):-hc(72,63).
+otherroute(72,74):-hc(72,66).
+otherroute(72,74):-hc(72,70).
+otherroute(71,72):-hc(71,70).
+otherroute(71,72):-hc(71,60).
+otherroute(71,72):-hc(71,73).
+otherroute(71,72):-hc(71,76).
+otherroute(71,70):-hc(71,72).
+otherroute(71,70):-hc(71,60).
+otherroute(71,70):-hc(71,73).
+otherroute(71,70):-hc(71,76).
+otherroute(71,60):-hc(71,72).
+otherroute(71,60):-hc(71,70).
+otherroute(71,60):-hc(71,73).
+otherroute(71,60):-hc(71,76).
+otherroute(71,73):-hc(71,72).
+otherroute(71,73):-hc(71,70).
+otherroute(71,73):-hc(71,60).
+otherroute(71,73):-hc(71,76).
+otherroute(71,76):-hc(71,72).
+otherroute(71,76):-hc(71,70).
+otherroute(71,76):-hc(71,60).
+otherroute(71,76):-hc(71,73).
+otherroute(70,67):-hc(70,60).
+otherroute(70,67):-hc(70,66).
+otherroute(70,67):-hc(70,71).
+otherroute(70,67):-hc(70,72).
+otherroute(70,60):-hc(70,67).
+otherroute(70,60):-hc(70,66).
+otherroute(70,60):-hc(70,71).
+otherroute(70,60):-hc(70,72).
+otherroute(70,66):-hc(70,67).
+otherroute(70,66):-hc(70,60).
+otherroute(70,66):-hc(70,71).
+otherroute(70,66):-hc(70,72).
+otherroute(70,71):-hc(70,67).
+otherroute(70,71):-hc(70,60).
+otherroute(70,71):-hc(70,66).
+otherroute(70,71):-hc(70,72).
+otherroute(70,72):-hc(70,67).
+otherroute(70,72):-hc(70,60).
+otherroute(70,72):-hc(70,66).
+otherroute(70,72):-hc(70,71).
+otherroute(69,65):-hc(69,62).
+otherroute(69,65):-hc(69,67).
+otherroute(69,65):-hc(69,68).
+otherroute(69,65):-hc(69,79).
+otherroute(69,62):-hc(69,65).
+otherroute(69,62):-hc(69,67).
+otherroute(69,62):-hc(69,68).
+otherroute(69,62):-hc(69,79).
+otherroute(69,67):-hc(69,65).
+otherroute(69,67):-hc(69,62).
+otherroute(69,67):-hc(69,68).
+otherroute(69,67):-hc(69,79).
+otherroute(69,68):-hc(69,65).
+otherroute(69,68):-hc(69,62).
+otherroute(69,68):-hc(69,67).
+otherroute(69,68):-hc(69,79).
+otherroute(69,79):-hc(69,65).
+otherroute(69,79):-hc(69,62).
+otherroute(69,79):-hc(69,67).
+otherroute(69,79):-hc(69,68).
+otherroute(68,65):-hc(68,69).
+otherroute(68,65):-hc(68,79).
+otherroute(68,65):-hc(68,75).
+otherroute(68,65):-hc(68,77).
+otherroute(68,69):-hc(68,65).
+otherroute(68,69):-hc(68,79).
+otherroute(68,69):-hc(68,75).
+otherroute(68,69):-hc(68,77).
+otherroute(68,79):-hc(68,65).
+otherroute(68,79):-hc(68,69).
+otherroute(68,79):-hc(68,75).
+otherroute(68,79):-hc(68,77).
+otherroute(68,75):-hc(68,65).
+otherroute(68,75):-hc(68,69).
+otherroute(68,75):-hc(68,79).
+otherroute(68,75):-hc(68,77).
+otherroute(68,77):-hc(68,65).
+otherroute(68,77):-hc(68,69).
+otherroute(68,77):-hc(68,79).
+otherroute(68,77):-hc(68,75).
+otherroute(67,70):-hc(67,66).
+otherroute(67,70):-hc(67,62).
+otherroute(67,70):-hc(67,69).
+otherroute(67,66):-hc(67,70).
+otherroute(67,66):-hc(67,62).
+otherroute(67,66):-hc(67,69).
+otherroute(67,62):-hc(67,70).
+otherroute(67,62):-hc(67,66).
+otherroute(67,62):-hc(67,69).
+otherroute(67,69):-hc(67,70).
+otherroute(67,69):-hc(67,66).
+otherroute(67,69):-hc(67,62).
+otherroute(66,61):-hc(66,62).
+otherroute(66,61):-hc(66,67).
+otherroute(66,61):-hc(66,70).
+otherroute(66,61):-hc(66,72).
+otherroute(66,62):-hc(66,61).
+otherroute(66,62):-hc(66,67).
+otherroute(66,62):-hc(66,70).
+otherroute(66,62):-hc(66,72).
+otherroute(66,67):-hc(66,61).
+otherroute(66,67):-hc(66,62).
+otherroute(66,67):-hc(66,70).
+otherroute(66,67):-hc(66,72).
+otherroute(66,70):-hc(66,61).
+otherroute(66,70):-hc(66,62).
+otherroute(66,70):-hc(66,67).
+otherroute(66,70):-hc(66,72).
+otherroute(66,72):-hc(66,61).
+otherroute(66,72):-hc(66,62).
+otherroute(66,72):-hc(66,67).
+otherroute(66,72):-hc(66,70).
+otherroute(65,69):-hc(65,62).
+otherroute(65,69):-hc(65,77).
+otherroute(65,69):-hc(65,68).
+otherroute(65,69):-hc(65,74).
+otherroute(65,62):-hc(65,69).
+otherroute(65,62):-hc(65,77).
+otherroute(65,62):-hc(65,68).
+otherroute(65,62):-hc(65,74).
+otherroute(65,77):-hc(65,69).
+otherroute(65,77):-hc(65,62).
+otherroute(65,77):-hc(65,68).
+otherroute(65,77):-hc(65,74).
+otherroute(65,68):-hc(65,69).
+otherroute(65,68):-hc(65,62).
+otherroute(65,68):-hc(65,77).
+otherroute(65,68):-hc(65,74).
+otherroute(65,74):-hc(65,69).
+otherroute(65,74):-hc(65,62).
+otherroute(65,74):-hc(65,77).
+otherroute(65,74):-hc(65,68).
+otherroute(64,63):-hc(64,60).
+otherroute(64,63):-hc(64,77).
+otherroute(64,63):-hc(64,78).
+otherroute(64,60):-hc(64,63).
+otherroute(64,60):-hc(64,77).
+otherroute(64,60):-hc(64,78).
+otherroute(64,77):-hc(64,63).
+otherroute(64,77):-hc(64,60).
+otherroute(64,77):-hc(64,78).
+otherroute(64,78):-hc(64,63).
+otherroute(64,78):-hc(64,60).
+otherroute(64,78):-hc(64,77).
+otherroute(63,64):-hc(63,60).
+otherroute(63,64):-hc(63,72).
+otherroute(63,64):-hc(63,73).
+otherroute(63,64):-hc(63,76).
+otherroute(63,64):-hc(63,77).
+otherroute(63,60):-hc(63,64).
+otherroute(63,60):-hc(63,72).
+otherroute(63,60):-hc(63,73).
+otherroute(63,60):-hc(63,76).
+otherroute(63,60):-hc(63,77).
+otherroute(63,72):-hc(63,64).
+otherroute(63,72):-hc(63,60).
+otherroute(63,72):-hc(63,73).
+otherroute(63,72):-hc(63,76).
+otherroute(63,72):-hc(63,77).
+otherroute(63,73):-hc(63,64).
+otherroute(63,73):-hc(63,60).
+otherroute(63,73):-hc(63,72).
+otherroute(63,73):-hc(63,76).
+otherroute(63,73):-hc(63,77).
+otherroute(63,76):-hc(63,64).
+otherroute(63,76):-hc(63,60).
+otherroute(63,76):-hc(63,72).
+otherroute(63,76):-hc(63,73).
+otherroute(63,76):-hc(63,77).
+otherroute(63,77):-hc(63,64).
+otherroute(63,77):-hc(63,60).
+otherroute(63,77):-hc(63,72).
+otherroute(63,77):-hc(63,73).
+otherroute(63,77):-hc(63,76).
+otherroute(62,61):-hc(62,74).
+otherroute(62,61):-hc(62,65).
+otherroute(62,61):-hc(62,66).
+otherroute(62,61):-hc(62,67).
+otherroute(62,61):-hc(62,69).
+otherroute(62,74):-hc(62,61).
+otherroute(62,74):-hc(62,65).
+otherroute(62,74):-hc(62,66).
+otherroute(62,74):-hc(62,67).
+otherroute(62,74):-hc(62,69).
+otherroute(62,65):-hc(62,61).
+otherroute(62,65):-hc(62,74).
+otherroute(62,65):-hc(62,66).
+otherroute(62,65):-hc(62,67).
+otherroute(62,65):-hc(62,69).
+otherroute(62,66):-hc(62,61).
+otherroute(62,66):-hc(62,74).
+otherroute(62,66):-hc(62,65).
+otherroute(62,66):-hc(62,67).
+otherroute(62,66):-hc(62,69).
+otherroute(62,67):-hc(62,61).
+otherroute(62,67):-hc(62,74).
+otherroute(62,67):-hc(62,65).
+otherroute(62,67):-hc(62,66).
+otherroute(62,67):-hc(62,69).
+otherroute(62,69):-hc(62,61).
+otherroute(62,69):-hc(62,74).
+otherroute(62,69):-hc(62,65).
+otherroute(62,69):-hc(62,66).
+otherroute(62,69):-hc(62,67).
+otherroute(61,72):-hc(61,62).
+otherroute(61,72):-hc(61,66).
+otherroute(61,72):-hc(61,74).
+otherroute(61,62):-hc(61,72).
+otherroute(61,62):-hc(61,66).
+otherroute(61,62):-hc(61,74).
+otherroute(61,66):-hc(61,72).
+otherroute(61,66):-hc(61,62).
+otherroute(61,66):-hc(61,74).
+otherroute(61,74):-hc(61,72).
+otherroute(61,74):-hc(61,62).
+otherroute(61,74):-hc(61,66).
+otherroute(60,64):-hc(60,63).
+otherroute(60,64):-hc(60,70).
+otherroute(60,64):-hc(60,71).
+otherroute(60,64):-hc(60,76).
+otherroute(60,63):-hc(60,64).
+otherroute(60,63):-hc(60,70).
+otherroute(60,63):-hc(60,71).
+otherroute(60,63):-hc(60,76).
+otherroute(60,70):-hc(60,64).
+otherroute(60,70):-hc(60,63).
+otherroute(60,70):-hc(60,71).
+otherroute(60,70):-hc(60,76).
+otherroute(60,71):-hc(60,64).
+otherroute(60,71):-hc(60,63).
+otherroute(60,71):-hc(60,70).
+otherroute(60,71):-hc(60,76).
+otherroute(60,76):-hc(60,64).
+otherroute(60,76):-hc(60,63).
+otherroute(60,76):-hc(60,70).
+otherroute(60,76):-hc(60,71).
+otherroute(59,48):-hc(59,49).
+otherroute(59,48):-hc(59,55).
+otherroute(59,49):-hc(59,48).
+otherroute(59,49):-hc(59,55).
+otherroute(59,55):-hc(59,48).
+otherroute(59,55):-hc(59,49).
+otherroute(58,57):-hc(58,55).
+otherroute(58,57):-hc(58,44).
+otherroute(58,55):-hc(58,57).
+otherroute(58,55):-hc(58,44).
+otherroute(58,44):-hc(58,57).
+otherroute(58,44):-hc(58,55).
+otherroute(57,52):-hc(57,54).
+otherroute(57,52):-hc(57,55).
+otherroute(57,52):-hc(57,45).
+otherroute(57,52):-hc(57,58).
+otherroute(57,52):-hc(57,43).
+otherroute(57,52):-hc(57,44).
+otherroute(57,52):-hc(57,48).
+otherroute(57,54):-hc(57,52).
+otherroute(57,54):-hc(57,55).
+otherroute(57,54):-hc(57,45).
+otherroute(57,54):-hc(57,58).
+otherroute(57,54):-hc(57,43).
+otherroute(57,54):-hc(57,44).
+otherroute(57,54):-hc(57,48).
+otherroute(57,55):-hc(57,52).
+otherroute(57,55):-hc(57,54).
+otherroute(57,55):-hc(57,45).
+otherroute(57,55):-hc(57,58).
+otherroute(57,55):-hc(57,43).
+otherroute(57,55):-hc(57,44).
+otherroute(57,55):-hc(57,48).
+otherroute(57,45):-hc(57,52).
+otherroute(57,45):-hc(57,54).
+otherroute(57,45):-hc(57,55).
+otherroute(57,45):-hc(57,58).
+otherroute(57,45):-hc(57,43).
+otherroute(57,45):-hc(57,44).
+otherroute(57,45):-hc(57,48).
+otherroute(57,58):-hc(57,52).
+otherroute(57,58):-hc(57,54).
+otherroute(57,58):-hc(57,55).
+otherroute(57,58):-hc(57,45).
+otherroute(57,58):-hc(57,43).
+otherroute(57,58):-hc(57,44).
+otherroute(57,58):-hc(57,48).
+otherroute(57,43):-hc(57,52).
+otherroute(57,43):-hc(57,54).
+otherroute(57,43):-hc(57,55).
+otherroute(57,43):-hc(57,45).
+otherroute(57,43):-hc(57,58).
+otherroute(57,43):-hc(57,44).
+otherroute(57,43):-hc(57,48).
+otherroute(57,44):-hc(57,52).
+otherroute(57,44):-hc(57,54).
+otherroute(57,44):-hc(57,55).
+otherroute(57,44):-hc(57,45).
+otherroute(57,44):-hc(57,58).
+otherroute(57,44):-hc(57,43).
+otherroute(57,44):-hc(57,48).
+otherroute(57,48):-hc(57,52).
+otherroute(57,48):-hc(57,54).
+otherroute(57,48):-hc(57,55).
+otherroute(57,48):-hc(57,45).
+otherroute(57,48):-hc(57,58).
+otherroute(57,48):-hc(57,43).
+otherroute(57,48):-hc(57,44).
+otherroute(56,43):-hc(56,40).
+otherroute(56,43):-hc(56,53).
+otherroute(56,43):-hc(56,51).
+otherroute(56,40):-hc(56,43).
+otherroute(56,40):-hc(56,53).
+otherroute(56,40):-hc(56,51).
+otherroute(56,53):-hc(56,43).
+otherroute(56,53):-hc(56,40).
+otherroute(56,53):-hc(56,51).
+otherroute(56,51):-hc(56,43).
+otherroute(56,51):-hc(56,40).
+otherroute(56,51):-hc(56,53).
+otherroute(55,57):-hc(55,65).
+otherroute(55,57):-hc(55,48).
+otherroute(55,57):-hc(55,58).
+otherroute(55,57):-hc(55,59).
+otherroute(55,48):-hc(55,65).
+otherroute(55,48):-hc(55,57).
+otherroute(55,48):-hc(55,58).
+otherroute(55,48):-hc(55,59).
+otherroute(55,58):-hc(55,65).
+otherroute(55,58):-hc(55,57).
+otherroute(55,58):-hc(55,48).
+otherroute(55,58):-hc(55,59).
+otherroute(55,59):-hc(55,65).
+otherroute(55,59):-hc(55,57).
+otherroute(55,59):-hc(55,48).
+otherroute(55,59):-hc(55,58).
+otherroute(54,42):-hc(54,57).
+otherroute(54,42):-hc(54,45).
+otherroute(54,42):-hc(54,41).
+otherroute(54,42):-hc(54,52).
+otherroute(54,57):-hc(54,42).
+otherroute(54,57):-hc(54,45).
+otherroute(54,57):-hc(54,41).
+otherroute(54,57):-hc(54,52).
+otherroute(54,45):-hc(54,42).
+otherroute(54,45):-hc(54,57).
+otherroute(54,45):-hc(54,41).
+otherroute(54,45):-hc(54,52).
+otherroute(54,41):-hc(54,42).
+otherroute(54,41):-hc(54,57).
+otherroute(54,41):-hc(54,45).
+otherroute(54,41):-hc(54,52).
+otherroute(54,52):-hc(54,42).
+otherroute(54,52):-hc(54,57).
+otherroute(54,52):-hc(54,45).
+otherroute(54,52):-hc(54,41).
+otherroute(53,52):-hc(53,43).
+otherroute(53,52):-hc(53,51).
+otherroute(53,52):-hc(53,56).
+otherroute(53,43):-hc(53,52).
+otherroute(53,43):-hc(53,51).
+otherroute(53,43):-hc(53,56).
+otherroute(53,51):-hc(53,52).
+otherroute(53,51):-hc(53,43).
+otherroute(53,51):-hc(53,56).
+otherroute(53,56):-hc(53,52).
+otherroute(53,56):-hc(53,43).
+otherroute(53,56):-hc(53,51).
+otherroute(52,41):-hc(52,57).
+otherroute(52,41):-hc(52,51).
+otherroute(52,41):-hc(52,53).
+otherroute(52,41):-hc(52,43).
+otherroute(52,41):-hc(52,46).
+otherroute(52,41):-hc(52,50).
+otherroute(52,41):-hc(52,54).
+otherroute(52,57):-hc(52,41).
+otherroute(52,57):-hc(52,51).
+otherroute(52,57):-hc(52,53).
+otherroute(52,57):-hc(52,43).
+otherroute(52,57):-hc(52,46).
+otherroute(52,57):-hc(52,50).
+otherroute(52,57):-hc(52,54).
+otherroute(52,51):-hc(52,41).
+otherroute(52,51):-hc(52,57).
+otherroute(52,51):-hc(52,53).
+otherroute(52,51):-hc(52,43).
+otherroute(52,51):-hc(52,46).
+otherroute(52,51):-hc(52,50).
+otherroute(52,51):-hc(52,54).
+otherroute(52,53):-hc(52,41).
+otherroute(52,53):-hc(52,57).
+otherroute(52,53):-hc(52,51).
+otherroute(52,53):-hc(52,43).
+otherroute(52,53):-hc(52,46).
+otherroute(52,53):-hc(52,50).
+otherroute(52,53):-hc(52,54).
+otherroute(52,43):-hc(52,41).
+otherroute(52,43):-hc(52,57).
+otherroute(52,43):-hc(52,51).
+otherroute(52,43):-hc(52,53).
+otherroute(52,43):-hc(52,46).
+otherroute(52,43):-hc(52,50).
+otherroute(52,43):-hc(52,54).
+otherroute(52,46):-hc(52,41).
+otherroute(52,46):-hc(52,57).
+otherroute(52,46):-hc(52,51).
+otherroute(52,46):-hc(52,53).
+otherroute(52,46):-hc(52,43).
+otherroute(52,46):-hc(52,50).
+otherroute(52,46):-hc(52,54).
+otherroute(52,50):-hc(52,41).
+otherroute(52,50):-hc(52,57).
+otherroute(52,50):-hc(52,51).
+otherroute(52,50):-hc(52,53).
+otherroute(52,50):-hc(52,43).
+otherroute(52,50):-hc(52,46).
+otherroute(52,50):-hc(52,54).
+otherroute(52,54):-hc(52,41).
+otherroute(52,54):-hc(52,57).
+otherroute(52,54):-hc(52,51).
+otherroute(52,54):-hc(52,53).
+otherroute(52,54):-hc(52,43).
+otherroute(52,54):-hc(52,46).
+otherroute(52,54):-hc(52,50).
+otherroute(51,52):-hc(51,50).
+otherroute(51,52):-hc(51,40).
+otherroute(51,52):-hc(51,53).
+otherroute(51,52):-hc(51,56).
+otherroute(51,50):-hc(51,52).
+otherroute(51,50):-hc(51,40).
+otherroute(51,50):-hc(51,53).
+otherroute(51,50):-hc(51,56).
+otherroute(51,40):-hc(51,52).
+otherroute(51,40):-hc(51,50).
+otherroute(51,40):-hc(51,53).
+otherroute(51,40):-hc(51,56).
+otherroute(51,53):-hc(51,52).
+otherroute(51,53):-hc(51,50).
+otherroute(51,53):-hc(51,40).
+otherroute(51,53):-hc(51,56).
+otherroute(51,56):-hc(51,52).
+otherroute(51,56):-hc(51,50).
+otherroute(51,56):-hc(51,40).
+otherroute(51,56):-hc(51,53).
+otherroute(50,47):-hc(50,40).
+otherroute(50,47):-hc(50,46).
+otherroute(50,47):-hc(50,51).
+otherroute(50,47):-hc(50,52).
+otherroute(50,40):-hc(50,47).
+otherroute(50,40):-hc(50,46).
+otherroute(50,40):-hc(50,51).
+otherroute(50,40):-hc(50,52).
+otherroute(50,46):-hc(50,47).
+otherroute(50,46):-hc(50,40).
+otherroute(50,46):-hc(50,51).
+otherroute(50,46):-hc(50,52).
+otherroute(50,51):-hc(50,47).
+otherroute(50,51):-hc(50,40).
+otherroute(50,51):-hc(50,46).
+otherroute(50,51):-hc(50,52).
+otherroute(50,52):-hc(50,47).
+otherroute(50,52):-hc(50,40).
+otherroute(50,52):-hc(50,46).
+otherroute(50,52):-hc(50,51).
+otherroute(49,45):-hc(49,42).
+otherroute(49,45):-hc(49,47).
+otherroute(49,45):-hc(49,48).
+otherroute(49,45):-hc(49,59).
+otherroute(49,42):-hc(49,45).
+otherroute(49,42):-hc(49,47).
+otherroute(49,42):-hc(49,48).
+otherroute(49,42):-hc(49,59).
+otherroute(49,47):-hc(49,45).
+otherroute(49,47):-hc(49,42).
+otherroute(49,47):-hc(49,48).
+otherroute(49,47):-hc(49,59).
+otherroute(49,48):-hc(49,45).
+otherroute(49,48):-hc(49,42).
+otherroute(49,48):-hc(49,47).
+otherroute(49,48):-hc(49,59).
+otherroute(49,59):-hc(49,45).
+otherroute(49,59):-hc(49,42).
+otherroute(49,59):-hc(49,47).
+otherroute(49,59):-hc(49,48).
+otherroute(48,45):-hc(48,49).
+otherroute(48,45):-hc(48,59).
+otherroute(48,45):-hc(48,55).
+otherroute(48,45):-hc(48,57).
+otherroute(48,49):-hc(48,45).
+otherroute(48,49):-hc(48,59).
+otherroute(48,49):-hc(48,55).
+otherroute(48,49):-hc(48,57).
+otherroute(48,59):-hc(48,45).
+otherroute(48,59):-hc(48,49).
+otherroute(48,59):-hc(48,55).
+otherroute(48,59):-hc(48,57).
+otherroute(48,55):-hc(48,45).
+otherroute(48,55):-hc(48,49).
+otherroute(48,55):-hc(48,59).
+otherroute(48,55):-hc(48,57).
+otherroute(48,57):-hc(48,45).
+otherroute(48,57):-hc(48,49).
+otherroute(48,57):-hc(48,59).
+otherroute(48,57):-hc(48,55).
+otherroute(47,50):-hc(47,46).
+otherroute(47,50):-hc(47,42).
+otherroute(47,50):-hc(47,49).
+otherroute(47,46):-hc(47,50).
+otherroute(47,46):-hc(47,42).
+otherroute(47,46):-hc(47,49).
+otherroute(47,42):-hc(47,50).
+otherroute(47,42):-hc(47,46).
+otherroute(47,42):-hc(47,49).
+otherroute(47,49):-hc(47,50).
+otherroute(47,49):-hc(47,46).
+otherroute(47,49):-hc(47,42).
+otherroute(46,41):-hc(46,42).
+otherroute(46,41):-hc(46,47).
+otherroute(46,41):-hc(46,50).
+otherroute(46,41):-hc(46,52).
+otherroute(46,42):-hc(46,41).
+otherroute(46,42):-hc(46,47).
+otherroute(46,42):-hc(46,50).
+otherroute(46,42):-hc(46,52).
+otherroute(46,47):-hc(46,41).
+otherroute(46,47):-hc(46,42).
+otherroute(46,47):-hc(46,50).
+otherroute(46,47):-hc(46,52).
+otherroute(46,50):-hc(46,41).
+otherroute(46,50):-hc(46,42).
+otherroute(46,50):-hc(46,47).
+otherroute(46,50):-hc(46,52).
+otherroute(46,52):-hc(46,41).
+otherroute(46,52):-hc(46,42).
+otherroute(46,52):-hc(46,47).
+otherroute(46,52):-hc(46,50).
+otherroute(45,49):-hc(45,42).
+otherroute(45,49):-hc(45,57).
+otherroute(45,49):-hc(45,48).
+otherroute(45,49):-hc(45,54).
+otherroute(45,42):-hc(45,49).
+otherroute(45,42):-hc(45,57).
+otherroute(45,42):-hc(45,48).
+otherroute(45,42):-hc(45,54).
+otherroute(45,57):-hc(45,49).
+otherroute(45,57):-hc(45,42).
+otherroute(45,57):-hc(45,48).
+otherroute(45,57):-hc(45,54).
+otherroute(45,48):-hc(45,49).
+otherroute(45,48):-hc(45,42).
+otherroute(45,48):-hc(45,57).
+otherroute(45,48):-hc(45,54).
+otherroute(45,54):-hc(45,49).
+otherroute(45,54):-hc(45,42).
+otherroute(45,54):-hc(45,57).
+otherroute(45,54):-hc(45,48).
+otherroute(44,43):-hc(44,40).
+otherroute(44,43):-hc(44,57).
+otherroute(44,43):-hc(44,58).
+otherroute(44,40):-hc(44,43).
+otherroute(44,40):-hc(44,57).
+otherroute(44,40):-hc(44,58).
+otherroute(44,57):-hc(44,43).
+otherroute(44,57):-hc(44,40).
+otherroute(44,57):-hc(44,58).
+otherroute(44,58):-hc(44,43).
+otherroute(44,58):-hc(44,40).
+otherroute(44,58):-hc(44,57).
+otherroute(43,44):-hc(43,40).
+otherroute(43,44):-hc(43,52).
+otherroute(43,44):-hc(43,53).
+otherroute(43,44):-hc(43,56).
+otherroute(43,44):-hc(43,57).
+otherroute(43,40):-hc(43,44).
+otherroute(43,40):-hc(43,52).
+otherroute(43,40):-hc(43,53).
+otherroute(43,40):-hc(43,56).
+otherroute(43,40):-hc(43,57).
+otherroute(43,52):-hc(43,44).
+otherroute(43,52):-hc(43,40).
+otherroute(43,52):-hc(43,53).
+otherroute(43,52):-hc(43,56).
+otherroute(43,52):-hc(43,57).
+otherroute(43,53):-hc(43,44).
+otherroute(43,53):-hc(43,40).
+otherroute(43,53):-hc(43,52).
+otherroute(43,53):-hc(43,56).
+otherroute(43,53):-hc(43,57).
+otherroute(43,56):-hc(43,44).
+otherroute(43,56):-hc(43,40).
+otherroute(43,56):-hc(43,52).
+otherroute(43,56):-hc(43,53).
+otherroute(43,56):-hc(43,57).
+otherroute(43,57):-hc(43,44).
+otherroute(43,57):-hc(43,40).
+otherroute(43,57):-hc(43,52).
+otherroute(43,57):-hc(43,53).
+otherroute(43,57):-hc(43,56).
+otherroute(42,41):-hc(42,54).
+otherroute(42,41):-hc(42,45).
+otherroute(42,41):-hc(42,46).
+otherroute(42,41):-hc(42,47).
+otherroute(42,41):-hc(42,49).
+otherroute(42,54):-hc(42,41).
+otherroute(42,54):-hc(42,45).
+otherroute(42,54):-hc(42,46).
+otherroute(42,54):-hc(42,47).
+otherroute(42,54):-hc(42,49).
+otherroute(42,45):-hc(42,41).
+otherroute(42,45):-hc(42,54).
+otherroute(42,45):-hc(42,46).
+otherroute(42,45):-hc(42,47).
+otherroute(42,45):-hc(42,49).
+otherroute(42,46):-hc(42,41).
+otherroute(42,46):-hc(42,54).
+otherroute(42,46):-hc(42,45).
+otherroute(42,46):-hc(42,47).
+otherroute(42,46):-hc(42,49).
+otherroute(42,47):-hc(42,41).
+otherroute(42,47):-hc(42,54).
+otherroute(42,47):-hc(42,45).
+otherroute(42,47):-hc(42,46).
+otherroute(42,47):-hc(42,49).
+otherroute(42,49):-hc(42,41).
+otherroute(42,49):-hc(42,54).
+otherroute(42,49):-hc(42,45).
+otherroute(42,49):-hc(42,46).
+otherroute(42,49):-hc(42,47).
+otherroute(41,52):-hc(41,42).
+otherroute(41,52):-hc(41,46).
+otherroute(41,52):-hc(41,54).
+otherroute(41,42):-hc(41,52).
+otherroute(41,42):-hc(41,46).
+otherroute(41,42):-hc(41,54).
+otherroute(41,46):-hc(41,52).
+otherroute(41,46):-hc(41,42).
+otherroute(41,46):-hc(41,54).
+otherroute(41,54):-hc(41,52).
+otherroute(41,54):-hc(41,42).
+otherroute(41,54):-hc(41,46).
+otherroute(40,44):-hc(40,43).
+otherroute(40,44):-hc(40,50).
+otherroute(40,44):-hc(40,51).
+otherroute(40,44):-hc(40,56).
+otherroute(40,43):-hc(40,44).
+otherroute(40,43):-hc(40,50).
+otherroute(40,43):-hc(40,51).
+otherroute(40,43):-hc(40,56).
+otherroute(40,50):-hc(40,44).
+otherroute(40,50):-hc(40,43).
+otherroute(40,50):-hc(40,51).
+otherroute(40,50):-hc(40,56).
+otherroute(40,51):-hc(40,44).
+otherroute(40,51):-hc(40,43).
+otherroute(40,51):-hc(40,50).
+otherroute(40,51):-hc(40,56).
+otherroute(40,56):-hc(40,44).
+otherroute(40,56):-hc(40,43).
+otherroute(40,56):-hc(40,50).
+otherroute(40,56):-hc(40,51).
+otherroute(39,28):-hc(39,29).
+otherroute(39,28):-hc(39,35).
+otherroute(39,29):-hc(39,28).
+otherroute(39,29):-hc(39,35).
+otherroute(39,35):-hc(39,28).
+otherroute(39,35):-hc(39,29).
+otherroute(38,37):-hc(38,35).
+otherroute(38,37):-hc(38,24).
+otherroute(38,35):-hc(38,37).
+otherroute(38,35):-hc(38,24).
+otherroute(38,24):-hc(38,37).
+otherroute(38,24):-hc(38,35).
+otherroute(37,32):-hc(37,34).
+otherroute(37,32):-hc(37,35).
+otherroute(37,32):-hc(37,25).
+otherroute(37,32):-hc(37,38).
+otherroute(37,32):-hc(37,23).
+otherroute(37,32):-hc(37,24).
+otherroute(37,32):-hc(37,28).
+otherroute(37,34):-hc(37,32).
+otherroute(37,34):-hc(37,35).
+otherroute(37,34):-hc(37,25).
+otherroute(37,34):-hc(37,38).
+otherroute(37,34):-hc(37,23).
+otherroute(37,34):-hc(37,24).
+otherroute(37,34):-hc(37,28).
+otherroute(37,35):-hc(37,32).
+otherroute(37,35):-hc(37,34).
+otherroute(37,35):-hc(37,25).
+otherroute(37,35):-hc(37,38).
+otherroute(37,35):-hc(37,23).
+otherroute(37,35):-hc(37,24).
+otherroute(37,35):-hc(37,28).
+otherroute(37,25):-hc(37,32).
+otherroute(37,25):-hc(37,34).
+otherroute(37,25):-hc(37,35).
+otherroute(37,25):-hc(37,38).
+otherroute(37,25):-hc(37,23).
+otherroute(37,25):-hc(37,24).
+otherroute(37,25):-hc(37,28).
+otherroute(37,38):-hc(37,32).
+otherroute(37,38):-hc(37,34).
+otherroute(37,38):-hc(37,35).
+otherroute(37,38):-hc(37,25).
+otherroute(37,38):-hc(37,23).
+otherroute(37,38):-hc(37,24).
+otherroute(37,38):-hc(37,28).
+otherroute(37,23):-hc(37,32).
+otherroute(37,23):-hc(37,34).
+otherroute(37,23):-hc(37,35).
+otherroute(37,23):-hc(37,25).
+otherroute(37,23):-hc(37,38).
+otherroute(37,23):-hc(37,24).
+otherroute(37,23):-hc(37,28).
+otherroute(37,24):-hc(37,32).
+otherroute(37,24):-hc(37,34).
+otherroute(37,24):-hc(37,35).
+otherroute(37,24):-hc(37,25).
+otherroute(37,24):-hc(37,38).
+otherroute(37,24):-hc(37,23).
+otherroute(37,24):-hc(37,28).
+otherroute(37,28):-hc(37,32).
+otherroute(37,28):-hc(37,34).
+otherroute(37,28):-hc(37,35).
+otherroute(37,28):-hc(37,25).
+otherroute(37,28):-hc(37,38).
+otherroute(37,28):-hc(37,23).
+otherroute(37,28):-hc(37,24).
+otherroute(36,23):-hc(36,20).
+otherroute(36,23):-hc(36,33).
+otherroute(36,23):-hc(36,31).
+otherroute(36,20):-hc(36,23).
+otherroute(36,20):-hc(36,33).
+otherroute(36,20):-hc(36,31).
+otherroute(36,33):-hc(36,23).
+otherroute(36,33):-hc(36,20).
+otherroute(36,33):-hc(36,31).
+otherroute(36,31):-hc(36,23).
+otherroute(36,31):-hc(36,20).
+otherroute(36,31):-hc(36,33).
+otherroute(35,37):-hc(35,45).
+otherroute(35,37):-hc(35,28).
+otherroute(35,37):-hc(35,38).
+otherroute(35,37):-hc(35,39).
+otherroute(35,28):-hc(35,45).
+otherroute(35,28):-hc(35,37).
+otherroute(35,28):-hc(35,38).
+otherroute(35,28):-hc(35,39).
+otherroute(35,38):-hc(35,45).
+otherroute(35,38):-hc(35,37).
+otherroute(35,38):-hc(35,28).
+otherroute(35,38):-hc(35,39).
+otherroute(35,39):-hc(35,45).
+otherroute(35,39):-hc(35,37).
+otherroute(35,39):-hc(35,28).
+otherroute(35,39):-hc(35,38).
+otherroute(34,22):-hc(34,37).
+otherroute(34,22):-hc(34,25).
+otherroute(34,22):-hc(34,21).
+otherroute(34,22):-hc(34,32).
+otherroute(34,37):-hc(34,22).
+otherroute(34,37):-hc(34,25).
+otherroute(34,37):-hc(34,21).
+otherroute(34,37):-hc(34,32).
+otherroute(34,25):-hc(34,22).
+otherroute(34,25):-hc(34,37).
+otherroute(34,25):-hc(34,21).
+otherroute(34,25):-hc(34,32).
+otherroute(34,21):-hc(34,22).
+otherroute(34,21):-hc(34,37).
+otherroute(34,21):-hc(34,25).
+otherroute(34,21):-hc(34,32).
+otherroute(34,32):-hc(34,22).
+otherroute(34,32):-hc(34,37).
+otherroute(34,32):-hc(34,25).
+otherroute(34,32):-hc(34,21).
+otherroute(33,32):-hc(33,23).
+otherroute(33,32):-hc(33,31).
+otherroute(33,32):-hc(33,36).
+otherroute(33,23):-hc(33,32).
+otherroute(33,23):-hc(33,31).
+otherroute(33,23):-hc(33,36).
+otherroute(33,31):-hc(33,32).
+otherroute(33,31):-hc(33,23).
+otherroute(33,31):-hc(33,36).
+otherroute(33,36):-hc(33,32).
+otherroute(33,36):-hc(33,23).
+otherroute(33,36):-hc(33,31).
+otherroute(32,21):-hc(32,37).
+otherroute(32,21):-hc(32,31).
+otherroute(32,21):-hc(32,33).
+otherroute(32,21):-hc(32,23).
+otherroute(32,21):-hc(32,26).
+otherroute(32,21):-hc(32,30).
+otherroute(32,21):-hc(32,34).
+otherroute(32,37):-hc(32,21).
+otherroute(32,37):-hc(32,31).
+otherroute(32,37):-hc(32,33).
+otherroute(32,37):-hc(32,23).
+otherroute(32,37):-hc(32,26).
+otherroute(32,37):-hc(32,30).
+otherroute(32,37):-hc(32,34).
+otherroute(32,31):-hc(32,21).
+otherroute(32,31):-hc(32,37).
+otherroute(32,31):-hc(32,33).
+otherroute(32,31):-hc(32,23).
+otherroute(32,31):-hc(32,26).
+otherroute(32,31):-hc(32,30).
+otherroute(32,31):-hc(32,34).
+otherroute(32,33):-hc(32,21).
+otherroute(32,33):-hc(32,37).
+otherroute(32,33):-hc(32,31).
+otherroute(32,33):-hc(32,23).
+otherroute(32,33):-hc(32,26).
+otherroute(32,33):-hc(32,30).
+otherroute(32,33):-hc(32,34).
+otherroute(32,23):-hc(32,21).
+otherroute(32,23):-hc(32,37).
+otherroute(32,23):-hc(32,31).
+otherroute(32,23):-hc(32,33).
+otherroute(32,23):-hc(32,26).
+otherroute(32,23):-hc(32,30).
+otherroute(32,23):-hc(32,34).
+otherroute(32,26):-hc(32,21).
+otherroute(32,26):-hc(32,37).
+otherroute(32,26):-hc(32,31).
+otherroute(32,26):-hc(32,33).
+otherroute(32,26):-hc(32,23).
+otherroute(32,26):-hc(32,30).
+otherroute(32,26):-hc(32,34).
+otherroute(32,30):-hc(32,21).
+otherroute(32,30):-hc(32,37).
+otherroute(32,30):-hc(32,31).
+otherroute(32,30):-hc(32,33).
+otherroute(32,30):-hc(32,23).
+otherroute(32,30):-hc(32,26).
+otherroute(32,30):-hc(32,34).
+otherroute(32,34):-hc(32,21).
+otherroute(32,34):-hc(32,37).
+otherroute(32,34):-hc(32,31).
+otherroute(32,34):-hc(32,33).
+otherroute(32,34):-hc(32,23).
+otherroute(32,34):-hc(32,26).
+otherroute(32,34):-hc(32,30).
+otherroute(31,32):-hc(31,30).
+otherroute(31,32):-hc(31,20).
+otherroute(31,32):-hc(31,33).
+otherroute(31,32):-hc(31,36).
+otherroute(31,30):-hc(31,32).
+otherroute(31,30):-hc(31,20).
+otherroute(31,30):-hc(31,33).
+otherroute(31,30):-hc(31,36).
+otherroute(31,20):-hc(31,32).
+otherroute(31,20):-hc(31,30).
+otherroute(31,20):-hc(31,33).
+otherroute(31,20):-hc(31,36).
+otherroute(31,33):-hc(31,32).
+otherroute(31,33):-hc(31,30).
+otherroute(31,33):-hc(31,20).
+otherroute(31,33):-hc(31,36).
+otherroute(31,36):-hc(31,32).
+otherroute(31,36):-hc(31,30).
+otherroute(31,36):-hc(31,20).
+otherroute(31,36):-hc(31,33).
+otherroute(30,27):-hc(30,20).
+otherroute(30,27):-hc(30,26).
+otherroute(30,27):-hc(30,31).
+otherroute(30,27):-hc(30,32).
+otherroute(30,20):-hc(30,27).
+otherroute(30,20):-hc(30,26).
+otherroute(30,20):-hc(30,31).
+otherroute(30,20):-hc(30,32).
+otherroute(30,26):-hc(30,27).
+otherroute(30,26):-hc(30,20).
+otherroute(30,26):-hc(30,31).
+otherroute(30,26):-hc(30,32).
+otherroute(30,31):-hc(30,27).
+otherroute(30,31):-hc(30,20).
+otherroute(30,31):-hc(30,26).
+otherroute(30,31):-hc(30,32).
+otherroute(30,32):-hc(30,27).
+otherroute(30,32):-hc(30,20).
+otherroute(30,32):-hc(30,26).
+otherroute(30,32):-hc(30,31).
+otherroute(29,25):-hc(29,22).
+otherroute(29,25):-hc(29,27).
+otherroute(29,25):-hc(29,28).
+otherroute(29,25):-hc(29,39).
+otherroute(29,22):-hc(29,25).
+otherroute(29,22):-hc(29,27).
+otherroute(29,22):-hc(29,28).
+otherroute(29,22):-hc(29,39).
+otherroute(29,27):-hc(29,25).
+otherroute(29,27):-hc(29,22).
+otherroute(29,27):-hc(29,28).
+otherroute(29,27):-hc(29,39).
+otherroute(29,28):-hc(29,25).
+otherroute(29,28):-hc(29,22).
+otherroute(29,28):-hc(29,27).
+otherroute(29,28):-hc(29,39).
+otherroute(29,39):-hc(29,25).
+otherroute(29,39):-hc(29,22).
+otherroute(29,39):-hc(29,27).
+otherroute(29,39):-hc(29,28).
+otherroute(28,25):-hc(28,29).
+otherroute(28,25):-hc(28,39).
+otherroute(28,25):-hc(28,35).
+otherroute(28,25):-hc(28,37).
+otherroute(28,29):-hc(28,25).
+otherroute(28,29):-hc(28,39).
+otherroute(28,29):-hc(28,35).
+otherroute(28,29):-hc(28,37).
+otherroute(28,39):-hc(28,25).
+otherroute(28,39):-hc(28,29).
+otherroute(28,39):-hc(28,35).
+otherroute(28,39):-hc(28,37).
+otherroute(28,35):-hc(28,25).
+otherroute(28,35):-hc(28,29).
+otherroute(28,35):-hc(28,39).
+otherroute(28,35):-hc(28,37).
+otherroute(28,37):-hc(28,25).
+otherroute(28,37):-hc(28,29).
+otherroute(28,37):-hc(28,39).
+otherroute(28,37):-hc(28,35).
+otherroute(27,30):-hc(27,26).
+otherroute(27,30):-hc(27,22).
+otherroute(27,30):-hc(27,29).
+otherroute(27,26):-hc(27,30).
+otherroute(27,26):-hc(27,22).
+otherroute(27,26):-hc(27,29).
+otherroute(27,22):-hc(27,30).
+otherroute(27,22):-hc(27,26).
+otherroute(27,22):-hc(27,29).
+otherroute(27,29):-hc(27,30).
+otherroute(27,29):-hc(27,26).
+otherroute(27,29):-hc(27,22).
+otherroute(26,21):-hc(26,22).
+otherroute(26,21):-hc(26,27).
+otherroute(26,21):-hc(26,30).
+otherroute(26,21):-hc(26,32).
+otherroute(26,22):-hc(26,21).
+otherroute(26,22):-hc(26,27).
+otherroute(26,22):-hc(26,30).
+otherroute(26,22):-hc(26,32).
+otherroute(26,27):-hc(26,21).
+otherroute(26,27):-hc(26,22).
+otherroute(26,27):-hc(26,30).
+otherroute(26,27):-hc(26,32).
+otherroute(26,30):-hc(26,21).
+otherroute(26,30):-hc(26,22).
+otherroute(26,30):-hc(26,27).
+otherroute(26,30):-hc(26,32).
+otherroute(26,32):-hc(26,21).
+otherroute(26,32):-hc(26,22).
+otherroute(26,32):-hc(26,27).
+otherroute(26,32):-hc(26,30).
+otherroute(25,29):-hc(25,22).
+otherroute(25,29):-hc(25,37).
+otherroute(25,29):-hc(25,28).
+otherroute(25,29):-hc(25,34).
+otherroute(25,22):-hc(25,29).
+otherroute(25,22):-hc(25,37).
+otherroute(25,22):-hc(25,28).
+otherroute(25,22):-hc(25,34).
+otherroute(25,37):-hc(25,29).
+otherroute(25,37):-hc(25,22).
+otherroute(25,37):-hc(25,28).
+otherroute(25,37):-hc(25,34).
+otherroute(25,28):-hc(25,29).
+otherroute(25,28):-hc(25,22).
+otherroute(25,28):-hc(25,37).
+otherroute(25,28):-hc(25,34).
+otherroute(25,34):-hc(25,29).
+otherroute(25,34):-hc(25,22).
+otherroute(25,34):-hc(25,37).
+otherroute(25,34):-hc(25,28).
+otherroute(24,23):-hc(24,20).
+otherroute(24,23):-hc(24,37).
+otherroute(24,23):-hc(24,38).
+otherroute(24,20):-hc(24,23).
+otherroute(24,20):-hc(24,37).
+otherroute(24,20):-hc(24,38).
+otherroute(24,37):-hc(24,23).
+otherroute(24,37):-hc(24,20).
+otherroute(24,37):-hc(24,38).
+otherroute(24,38):-hc(24,23).
+otherroute(24,38):-hc(24,20).
+otherroute(24,38):-hc(24,37).
+otherroute(23,24):-hc(23,20).
+otherroute(23,24):-hc(23,32).
+otherroute(23,24):-hc(23,33).
+otherroute(23,24):-hc(23,36).
+otherroute(23,24):-hc(23,37).
+otherroute(23,20):-hc(23,24).
+otherroute(23,20):-hc(23,32).
+otherroute(23,20):-hc(23,33).
+otherroute(23,20):-hc(23,36).
+otherroute(23,20):-hc(23,37).
+otherroute(23,32):-hc(23,24).
+otherroute(23,32):-hc(23,20).
+otherroute(23,32):-hc(23,33).
+otherroute(23,32):-hc(23,36).
+otherroute(23,32):-hc(23,37).
+otherroute(23,33):-hc(23,24).
+otherroute(23,33):-hc(23,20).
+otherroute(23,33):-hc(23,32).
+otherroute(23,33):-hc(23,36).
+otherroute(23,33):-hc(23,37).
+otherroute(23,36):-hc(23,24).
+otherroute(23,36):-hc(23,20).
+otherroute(23,36):-hc(23,32).
+otherroute(23,36):-hc(23,33).
+otherroute(23,36):-hc(23,37).
+otherroute(23,37):-hc(23,24).
+otherroute(23,37):-hc(23,20).
+otherroute(23,37):-hc(23,32).
+otherroute(23,37):-hc(23,33).
+otherroute(23,37):-hc(23,36).
+otherroute(22,21):-hc(22,34).
+otherroute(22,21):-hc(22,25).
+otherroute(22,21):-hc(22,26).
+otherroute(22,21):-hc(22,27).
+otherroute(22,21):-hc(22,29).
+otherroute(22,34):-hc(22,21).
+otherroute(22,34):-hc(22,25).
+otherroute(22,34):-hc(22,26).
+otherroute(22,34):-hc(22,27).
+otherroute(22,34):-hc(22,29).
+otherroute(22,25):-hc(22,21).
+otherroute(22,25):-hc(22,34).
+otherroute(22,25):-hc(22,26).
+otherroute(22,25):-hc(22,27).
+otherroute(22,25):-hc(22,29).
+otherroute(22,26):-hc(22,21).
+otherroute(22,26):-hc(22,34).
+otherroute(22,26):-hc(22,25).
+otherroute(22,26):-hc(22,27).
+otherroute(22,26):-hc(22,29).
+otherroute(22,27):-hc(22,21).
+otherroute(22,27):-hc(22,34).
+otherroute(22,27):-hc(22,25).
+otherroute(22,27):-hc(22,26).
+otherroute(22,27):-hc(22,29).
+otherroute(22,29):-hc(22,21).
+otherroute(22,29):-hc(22,34).
+otherroute(22,29):-hc(22,25).
+otherroute(22,29):-hc(22,26).
+otherroute(22,29):-hc(22,27).
+otherroute(21,32):-hc(21,22).
+otherroute(21,32):-hc(21,26).
+otherroute(21,32):-hc(21,34).
+otherroute(21,22):-hc(21,32).
+otherroute(21,22):-hc(21,26).
+otherroute(21,22):-hc(21,34).
+otherroute(21,26):-hc(21,32).
+otherroute(21,26):-hc(21,22).
+otherroute(21,26):-hc(21,34).
+otherroute(21,34):-hc(21,32).
+otherroute(21,34):-hc(21,22).
+otherroute(21,34):-hc(21,26).
+otherroute(20,24):-hc(20,23).
+otherroute(20,24):-hc(20,30).
+otherroute(20,24):-hc(20,31).
+otherroute(20,24):-hc(20,36).
+otherroute(20,23):-hc(20,24).
+otherroute(20,23):-hc(20,30).
+otherroute(20,23):-hc(20,31).
+otherroute(20,23):-hc(20,36).
+otherroute(20,30):-hc(20,24).
+otherroute(20,30):-hc(20,23).
+otherroute(20,30):-hc(20,31).
+otherroute(20,30):-hc(20,36).
+otherroute(20,31):-hc(20,24).
+otherroute(20,31):-hc(20,23).
+otherroute(20,31):-hc(20,30).
+otherroute(20,31):-hc(20,36).
+otherroute(20,36):-hc(20,24).
+otherroute(20,36):-hc(20,23).
+otherroute(20,36):-hc(20,30).
+otherroute(20,36):-hc(20,31).
+otherroute(19,8):-hc(19,9).
+otherroute(19,8):-hc(19,15).
+otherroute(19,9):-hc(19,8).
+otherroute(19,9):-hc(19,15).
+otherroute(19,15):-hc(19,8).
+otherroute(19,15):-hc(19,9).
+otherroute(18,17):-hc(18,15).
+otherroute(18,17):-hc(18,4).
+otherroute(18,15):-hc(18,17).
+otherroute(18,15):-hc(18,4).
+otherroute(18,4):-hc(18,17).
+otherroute(18,4):-hc(18,15).
+otherroute(17,12):-hc(17,14).
+otherroute(17,12):-hc(17,15).
+otherroute(17,12):-hc(17,5).
+otherroute(17,12):-hc(17,18).
+otherroute(17,12):-hc(17,3).
+otherroute(17,12):-hc(17,4).
+otherroute(17,12):-hc(17,8).
+otherroute(17,14):-hc(17,12).
+otherroute(17,14):-hc(17,15).
+otherroute(17,14):-hc(17,5).
+otherroute(17,14):-hc(17,18).
+otherroute(17,14):-hc(17,3).
+otherroute(17,14):-hc(17,4).
+otherroute(17,14):-hc(17,8).
+otherroute(17,15):-hc(17,12).
+otherroute(17,15):-hc(17,14).
+otherroute(17,15):-hc(17,5).
+otherroute(17,15):-hc(17,18).
+otherroute(17,15):-hc(17,3).
+otherroute(17,15):-hc(17,4).
+otherroute(17,15):-hc(17,8).
+otherroute(17,5):-hc(17,12).
+otherroute(17,5):-hc(17,14).
+otherroute(17,5):-hc(17,15).
+otherroute(17,5):-hc(17,18).
+otherroute(17,5):-hc(17,3).
+otherroute(17,5):-hc(17,4).
+otherroute(17,5):-hc(17,8).
+otherroute(17,18):-hc(17,12).
+otherroute(17,18):-hc(17,14).
+otherroute(17,18):-hc(17,15).
+otherroute(17,18):-hc(17,5).
+otherroute(17,18):-hc(17,3).
+otherroute(17,18):-hc(17,4).
+otherroute(17,18):-hc(17,8).
+otherroute(17,3):-hc(17,12).
+otherroute(17,3):-hc(17,14).
+otherroute(17,3):-hc(17,15).
+otherroute(17,3):-hc(17,5).
+otherroute(17,3):-hc(17,18).
+otherroute(17,3):-hc(17,4).
+otherroute(17,3):-hc(17,8).
+otherroute(17,4):-hc(17,12).
+otherroute(17,4):-hc(17,14).
+otherroute(17,4):-hc(17,15).
+otherroute(17,4):-hc(17,5).
+otherroute(17,4):-hc(17,18).
+otherroute(17,4):-hc(17,3).
+otherroute(17,4):-hc(17,8).
+otherroute(17,8):-hc(17,12).
+otherroute(17,8):-hc(17,14).
+otherroute(17,8):-hc(17,15).
+otherroute(17,8):-hc(17,5).
+otherroute(17,8):-hc(17,18).
+otherroute(17,8):-hc(17,3).
+otherroute(17,8):-hc(17,4).
+otherroute(16,3):-hc(16,0).
+otherroute(16,3):-hc(16,13).
+otherroute(16,3):-hc(16,11).
+otherroute(16,0):-hc(16,3).
+otherroute(16,0):-hc(16,13).
+otherroute(16,0):-hc(16,11).
+otherroute(16,13):-hc(16,3).
+otherroute(16,13):-hc(16,0).
+otherroute(16,13):-hc(16,11).
+otherroute(16,11):-hc(16,3).
+otherroute(16,11):-hc(16,0).
+otherroute(16,11):-hc(16,13).
+otherroute(15,17):-hc(15,25).
+otherroute(15,17):-hc(15,8).
+otherroute(15,17):-hc(15,18).
+otherroute(15,17):-hc(15,19).
+otherroute(15,8):-hc(15,25).
+otherroute(15,8):-hc(15,17).
+otherroute(15,8):-hc(15,18).
+otherroute(15,8):-hc(15,19).
+otherroute(15,18):-hc(15,25).
+otherroute(15,18):-hc(15,17).
+otherroute(15,18):-hc(15,8).
+otherroute(15,18):-hc(15,19).
+otherroute(15,19):-hc(15,25).
+otherroute(15,19):-hc(15,17).
+otherroute(15,19):-hc(15,8).
+otherroute(15,19):-hc(15,18).
+otherroute(14,2):-hc(14,17).
+otherroute(14,2):-hc(14,5).
+otherroute(14,2):-hc(14,1).
+otherroute(14,2):-hc(14,12).
+otherroute(14,17):-hc(14,2).
+otherroute(14,17):-hc(14,5).
+otherroute(14,17):-hc(14,1).
+otherroute(14,17):-hc(14,12).
+otherroute(14,5):-hc(14,2).
+otherroute(14,5):-hc(14,17).
+otherroute(14,5):-hc(14,1).
+otherroute(14,5):-hc(14,12).
+otherroute(14,1):-hc(14,2).
+otherroute(14,1):-hc(14,17).
+otherroute(14,1):-hc(14,5).
+otherroute(14,1):-hc(14,12).
+otherroute(14,12):-hc(14,2).
+otherroute(14,12):-hc(14,17).
+otherroute(14,12):-hc(14,5).
+otherroute(14,12):-hc(14,1).
+otherroute(13,12):-hc(13,3).
+otherroute(13,12):-hc(13,11).
+otherroute(13,12):-hc(13,16).
+otherroute(13,3):-hc(13,12).
+otherroute(13,3):-hc(13,11).
+otherroute(13,3):-hc(13,16).
+otherroute(13,11):-hc(13,12).
+otherroute(13,11):-hc(13,3).
+otherroute(13,11):-hc(13,16).
+otherroute(13,16):-hc(13,12).
+otherroute(13,16):-hc(13,3).
+otherroute(13,16):-hc(13,11).
+otherroute(12,1):-hc(12,17).
+otherroute(12,1):-hc(12,11).
+otherroute(12,1):-hc(12,13).
+otherroute(12,1):-hc(12,3).
+otherroute(12,1):-hc(12,6).
+otherroute(12,1):-hc(12,10).
+otherroute(12,1):-hc(12,14).
+otherroute(12,17):-hc(12,1).
+otherroute(12,17):-hc(12,11).
+otherroute(12,17):-hc(12,13).
+otherroute(12,17):-hc(12,3).
+otherroute(12,17):-hc(12,6).
+otherroute(12,17):-hc(12,10).
+otherroute(12,17):-hc(12,14).
+otherroute(12,11):-hc(12,1).
+otherroute(12,11):-hc(12,17).
+otherroute(12,11):-hc(12,13).
+otherroute(12,11):-hc(12,3).
+otherroute(12,11):-hc(12,6).
+otherroute(12,11):-hc(12,10).
+otherroute(12,11):-hc(12,14).
+otherroute(12,13):-hc(12,1).
+otherroute(12,13):-hc(12,17).
+otherroute(12,13):-hc(12,11).
+otherroute(12,13):-hc(12,3).
+otherroute(12,13):-hc(12,6).
+otherroute(12,13):-hc(12,10).
+otherroute(12,13):-hc(12,14).
+otherroute(12,3):-hc(12,1).
+otherroute(12,3):-hc(12,17).
+otherroute(12,3):-hc(12,11).
+otherroute(12,3):-hc(12,13).
+otherroute(12,3):-hc(12,6).
+otherroute(12,3):-hc(12,10).
+otherroute(12,3):-hc(12,14).
+otherroute(12,6):-hc(12,1).
+otherroute(12,6):-hc(12,17).
+otherroute(12,6):-hc(12,11).
+otherroute(12,6):-hc(12,13).
+otherroute(12,6):-hc(12,3).
+otherroute(12,6):-hc(12,10).
+otherroute(12,6):-hc(12,14).
+otherroute(12,10):-hc(12,1).
+otherroute(12,10):-hc(12,17).
+otherroute(12,10):-hc(12,11).
+otherroute(12,10):-hc(12,13).
+otherroute(12,10):-hc(12,3).
+otherroute(12,10):-hc(12,6).
+otherroute(12,10):-hc(12,14).
+otherroute(12,14):-hc(12,1).
+otherroute(12,14):-hc(12,17).
+otherroute(12,14):-hc(12,11).
+otherroute(12,14):-hc(12,13).
+otherroute(12,14):-hc(12,3).
+otherroute(12,14):-hc(12,6).
+otherroute(12,14):-hc(12,10).
+otherroute(11,12):-hc(11,10).
+otherroute(11,12):-hc(11,0).
+otherroute(11,12):-hc(11,13).
+otherroute(11,12):-hc(11,16).
+otherroute(11,10):-hc(11,12).
+otherroute(11,10):-hc(11,0).
+otherroute(11,10):-hc(11,13).
+otherroute(11,10):-hc(11,16).
+otherroute(11,0):-hc(11,12).
+otherroute(11,0):-hc(11,10).
+otherroute(11,0):-hc(11,13).
+otherroute(11,0):-hc(11,16).
+otherroute(11,13):-hc(11,12).
+otherroute(11,13):-hc(11,10).
+otherroute(11,13):-hc(11,0).
+otherroute(11,13):-hc(11,16).
+otherroute(11,16):-hc(11,12).
+otherroute(11,16):-hc(11,10).
+otherroute(11,16):-hc(11,0).
+otherroute(11,16):-hc(11,13).
+otherroute(10,7):-hc(10,0).
+otherroute(10,7):-hc(10,6).
+otherroute(10,7):-hc(10,11).
+otherroute(10,7):-hc(10,12).
+otherroute(10,0):-hc(10,7).
+otherroute(10,0):-hc(10,6).
+otherroute(10,0):-hc(10,11).
+otherroute(10,0):-hc(10,12).
+otherroute(10,6):-hc(10,7).
+otherroute(10,6):-hc(10,0).
+otherroute(10,6):-hc(10,11).
+otherroute(10,6):-hc(10,12).
+otherroute(10,11):-hc(10,7).
+otherroute(10,11):-hc(10,0).
+otherroute(10,11):-hc(10,6).
+otherroute(10,11):-hc(10,12).
+otherroute(10,12):-hc(10,7).
+otherroute(10,12):-hc(10,0).
+otherroute(10,12):-hc(10,6).
+otherroute(10,12):-hc(10,11).
+otherroute(9,5):-hc(9,2).
+otherroute(9,5):-hc(9,7).
+otherroute(9,5):-hc(9,8).
+otherroute(9,5):-hc(9,19).
+otherroute(9,2):-hc(9,5).
+otherroute(9,2):-hc(9,7).
+otherroute(9,2):-hc(9,8).
+otherroute(9,2):-hc(9,19).
+otherroute(9,7):-hc(9,5).
+otherroute(9,7):-hc(9,2).
+otherroute(9,7):-hc(9,8).
+otherroute(9,7):-hc(9,19).
+otherroute(9,8):-hc(9,5).
+otherroute(9,8):-hc(9,2).
+otherroute(9,8):-hc(9,7).
+otherroute(9,8):-hc(9,19).
+otherroute(9,19):-hc(9,5).
+otherroute(9,19):-hc(9,2).
+otherroute(9,19):-hc(9,7).
+otherroute(9,19):-hc(9,8).
+otherroute(8,5):-hc(8,9).
+otherroute(8,5):-hc(8,19).
+otherroute(8,5):-hc(8,15).
+otherroute(8,5):-hc(8,17).
+otherroute(8,9):-hc(8,5).
+otherroute(8,9):-hc(8,19).
+otherroute(8,9):-hc(8,15).
+otherroute(8,9):-hc(8,17).
+otherroute(8,19):-hc(8,5).
+otherroute(8,19):-hc(8,9).
+otherroute(8,19):-hc(8,15).
+otherroute(8,19):-hc(8,17).
+otherroute(8,15):-hc(8,5).
+otherroute(8,15):-hc(8,9).
+otherroute(8,15):-hc(8,19).
+otherroute(8,15):-hc(8,17).
+otherroute(8,17):-hc(8,5).
+otherroute(8,17):-hc(8,9).
+otherroute(8,17):-hc(8,19).
+otherroute(8,17):-hc(8,15).
+otherroute(7,10):-hc(7,6).
+otherroute(7,10):-hc(7,2).
+otherroute(7,10):-hc(7,9).
+otherroute(7,6):-hc(7,10).
+otherroute(7,6):-hc(7,2).
+otherroute(7,6):-hc(7,9).
+otherroute(7,2):-hc(7,10).
+otherroute(7,2):-hc(7,6).
+otherroute(7,2):-hc(7,9).
+otherroute(7,9):-hc(7,10).
+otherroute(7,9):-hc(7,6).
+otherroute(7,9):-hc(7,2).
+otherroute(6,1):-hc(6,2).
+otherroute(6,1):-hc(6,7).
+otherroute(6,1):-hc(6,10).
+otherroute(6,1):-hc(6,12).
+otherroute(6,2):-hc(6,1).
+otherroute(6,2):-hc(6,7).
+otherroute(6,2):-hc(6,10).
+otherroute(6,2):-hc(6,12).
+otherroute(6,7):-hc(6,1).
+otherroute(6,7):-hc(6,2).
+otherroute(6,7):-hc(6,10).
+otherroute(6,7):-hc(6,12).
+otherroute(6,10):-hc(6,1).
+otherroute(6,10):-hc(6,2).
+otherroute(6,10):-hc(6,7).
+otherroute(6,10):-hc(6,12).
+otherroute(6,12):-hc(6,1).
+otherroute(6,12):-hc(6,2).
+otherroute(6,12):-hc(6,7).
+otherroute(6,12):-hc(6,10).
+otherroute(5,9):-hc(5,2).
+otherroute(5,9):-hc(5,17).
+otherroute(5,9):-hc(5,8).
+otherroute(5,9):-hc(5,14).
+otherroute(5,2):-hc(5,9).
+otherroute(5,2):-hc(5,17).
+otherroute(5,2):-hc(5,8).
+otherroute(5,2):-hc(5,14).
+otherroute(5,17):-hc(5,9).
+otherroute(5,17):-hc(5,2).
+otherroute(5,17):-hc(5,8).
+otherroute(5,17):-hc(5,14).
+otherroute(5,8):-hc(5,9).
+otherroute(5,8):-hc(5,2).
+otherroute(5,8):-hc(5,17).
+otherroute(5,8):-hc(5,14).
+otherroute(5,14):-hc(5,9).
+otherroute(5,14):-hc(5,2).
+otherroute(5,14):-hc(5,17).
+otherroute(5,14):-hc(5,8).
+otherroute(4,3):-hc(4,0).
+otherroute(4,3):-hc(4,17).
+otherroute(4,3):-hc(4,18).
+otherroute(4,0):-hc(4,3).
+otherroute(4,0):-hc(4,17).
+otherroute(4,0):-hc(4,18).
+otherroute(4,17):-hc(4,3).
+otherroute(4,17):-hc(4,0).
+otherroute(4,17):-hc(4,18).
+otherroute(4,18):-hc(4,3).
+otherroute(4,18):-hc(4,0).
+otherroute(4,18):-hc(4,17).
+otherroute(3,4):-hc(3,0).
+otherroute(3,4):-hc(3,12).
+otherroute(3,4):-hc(3,13).
+otherroute(3,4):-hc(3,16).
+otherroute(3,4):-hc(3,17).
+otherroute(3,0):-hc(3,4).
+otherroute(3,0):-hc(3,12).
+otherroute(3,0):-hc(3,13).
+otherroute(3,0):-hc(3,16).
+otherroute(3,0):-hc(3,17).
+otherroute(3,12):-hc(3,4).
+otherroute(3,12):-hc(3,0).
+otherroute(3,12):-hc(3,13).
+otherroute(3,12):-hc(3,16).
+otherroute(3,12):-hc(3,17).
+otherroute(3,13):-hc(3,4).
+otherroute(3,13):-hc(3,0).
+otherroute(3,13):-hc(3,12).
+otherroute(3,13):-hc(3,16).
+otherroute(3,13):-hc(3,17).
+otherroute(3,16):-hc(3,4).
+otherroute(3,16):-hc(3,0).
+otherroute(3,16):-hc(3,12).
+otherroute(3,16):-hc(3,13).
+otherroute(3,16):-hc(3,17).
+otherroute(3,17):-hc(3,4).
+otherroute(3,17):-hc(3,0).
+otherroute(3,17):-hc(3,12).
+otherroute(3,17):-hc(3,13).
+otherroute(3,17):-hc(3,16).
+otherroute(2,1):-hc(2,14).
+otherroute(2,1):-hc(2,5).
+otherroute(2,1):-hc(2,6).
+otherroute(2,1):-hc(2,7).
+otherroute(2,1):-hc(2,9).
+otherroute(2,14):-hc(2,1).
+otherroute(2,14):-hc(2,5).
+otherroute(2,14):-hc(2,6).
+otherroute(2,14):-hc(2,7).
+otherroute(2,14):-hc(2,9).
+otherroute(2,5):-hc(2,1).
+otherroute(2,5):-hc(2,14).
+otherroute(2,5):-hc(2,6).
+otherroute(2,5):-hc(2,7).
+otherroute(2,5):-hc(2,9).
+otherroute(2,6):-hc(2,1).
+otherroute(2,6):-hc(2,14).
+otherroute(2,6):-hc(2,5).
+otherroute(2,6):-hc(2,7).
+otherroute(2,6):-hc(2,9).
+otherroute(2,7):-hc(2,1).
+otherroute(2,7):-hc(2,14).
+otherroute(2,7):-hc(2,5).
+otherroute(2,7):-hc(2,6).
+otherroute(2,7):-hc(2,9).
+otherroute(2,9):-hc(2,1).
+otherroute(2,9):-hc(2,14).
+otherroute(2,9):-hc(2,5).
+otherroute(2,9):-hc(2,6).
+otherroute(2,9):-hc(2,7).
+otherroute(1,12):-hc(1,2).
+otherroute(1,12):-hc(1,6).
+otherroute(1,12):-hc(1,14).
+otherroute(1,2):-hc(1,12).
+otherroute(1,2):-hc(1,6).
+otherroute(1,2):-hc(1,14).
+otherroute(1,6):-hc(1,12).
+otherroute(1,6):-hc(1,2).
+otherroute(1,6):-hc(1,14).
+otherroute(1,14):-hc(1,12).
+otherroute(1,14):-hc(1,2).
+otherroute(1,14):-hc(1,6).
+otherroute(0,4):-hc(0,3).
+otherroute(0,4):-hc(0,10).
+otherroute(0,4):-hc(0,11).
+otherroute(0,4):-hc(0,16).
+otherroute(0,3):-hc(0,4).
+otherroute(0,3):-hc(0,10).
+otherroute(0,3):-hc(0,11).
+otherroute(0,3):-hc(0,16).
+otherroute(0,10):-hc(0,4).
+otherroute(0,10):-hc(0,3).
+otherroute(0,10):-hc(0,11).
+otherroute(0,10):-hc(0,16).
+otherroute(0,11):-hc(0,4).
+otherroute(0,11):-hc(0,3).
+otherroute(0,11):-hc(0,10).
+otherroute(0,11):-hc(0,16).
+otherroute(0,16):-hc(0,4).
+otherroute(0,16):-hc(0,3).
+otherroute(0,16):-hc(0,10).
+otherroute(0,16):-hc(0,11).
+otherroute(55,65):-hc(77,65).
+otherroute(55,65):-hc(74,65).
+otherroute(55,65):-hc(69,65).
+otherroute(55,65):-hc(68,65).
+otherroute(55,65):-hc(62,65).
+otherroute(35,45):-hc(57,45).
+otherroute(35,45):-hc(54,45).
+otherroute(35,45):-hc(49,45).
+otherroute(35,45):-hc(48,45).
+otherroute(35,45):-hc(42,45).
+otherroute(15,25):-hc(37,25).
+otherroute(15,25):-hc(34,25).
+otherroute(15,25):-hc(29,25).
+otherroute(15,25):-hc(28,25).
+otherroute(15,25):-hc(22,25).
+otherroute(79,68):-hc(77,68).
+otherroute(79,68):-hc(75,68).
+otherroute(79,68):-hc(69,68).
+otherroute(79,68):-hc(65,68).
+otherroute(79,69):-hc(68,69).
+otherroute(79,69):-hc(67,69).
+otherroute(79,69):-hc(65,69).
+otherroute(79,69):-hc(62,69).
+otherroute(79,75):-hc(78,75).
+otherroute(79,75):-hc(77,75).
+otherroute(79,75):-hc(68,75).
+otherroute(78,77):-hc(75,77).
+otherroute(78,77):-hc(74,77).
+otherroute(78,77):-hc(72,77).
+otherroute(78,77):-hc(68,77).
+otherroute(78,77):-hc(65,77).
+otherroute(78,77):-hc(64,77).
+otherroute(78,77):-hc(63,77).
+otherroute(78,75):-hc(79,75).
+otherroute(78,75):-hc(77,75).
+otherroute(78,75):-hc(68,75).
+otherroute(78,64):-hc(77,64).
+otherroute(78,64):-hc(63,64).
+otherroute(78,64):-hc(60,64).
+otherroute(77,72):-hc(74,72).
+otherroute(77,72):-hc(73,72).
+otherroute(77,72):-hc(71,72).
+otherroute(77,72):-hc(70,72).
+otherroute(77,72):-hc(66,72).
+otherroute(77,72):-hc(63,72).
+otherroute(77,72):-hc(61,72).
+otherroute(77,74):-hc(72,74).
+otherroute(77,74):-hc(65,74).
+otherroute(77,74):-hc(62,74).
+otherroute(77,74):-hc(61,74).
+otherroute(77,75):-hc(79,75).
+otherroute(77,75):-hc(78,75).
+otherroute(77,75):-hc(68,75).
+otherroute(77,65):-hc(55,65).
+otherroute(77,65):-hc(74,65).
+otherroute(77,65):-hc(69,65).
+otherroute(77,65):-hc(68,65).
+otherroute(77,65):-hc(62,65).
+otherroute(77,78):-hc(75,78).
+otherroute(77,78):-hc(64,78).
+otherroute(77,63):-hc(76,63).
+otherroute(77,63):-hc(73,63).
+otherroute(77,63):-hc(72,63).
+otherroute(77,63):-hc(64,63).
+otherroute(77,63):-hc(60,63).
+otherroute(77,64):-hc(78,64).
+otherroute(77,64):-hc(63,64).
+otherroute(77,64):-hc(60,64).
+otherroute(77,68):-hc(79,68).
+otherroute(77,68):-hc(75,68).
+otherroute(77,68):-hc(69,68).
+otherroute(77,68):-hc(65,68).
+otherroute(76,63):-hc(77,63).
+otherroute(76,63):-hc(73,63).
+otherroute(76,63):-hc(72,63).
+otherroute(76,63):-hc(64,63).
+otherroute(76,63):-hc(60,63).
+otherroute(76,60):-hc(71,60).
+otherroute(76,60):-hc(70,60).
+otherroute(76,60):-hc(64,60).
+otherroute(76,60):-hc(63,60).
+otherroute(76,73):-hc(72,73).
+otherroute(76,73):-hc(71,73).
+otherroute(76,73):-hc(63,73).
+otherroute(76,71):-hc(73,71).
+otherroute(76,71):-hc(72,71).
+otherroute(76,71):-hc(70,71).
+otherroute(76,71):-hc(60,71).
+otherroute(75,77):-hc(78,77).
+otherroute(75,77):-hc(74,77).
+otherroute(75,77):-hc(72,77).
+otherroute(75,77):-hc(68,77).
+otherroute(75,77):-hc(65,77).
+otherroute(75,77):-hc(64,77).
+otherroute(75,77):-hc(63,77).
+otherroute(75,68):-hc(79,68).
+otherroute(75,68):-hc(77,68).
+otherroute(75,68):-hc(69,68).
+otherroute(75,68):-hc(65,68).
+otherroute(75,78):-hc(77,78).
+otherroute(75,78):-hc(64,78).
+otherroute(75,79):-hc(69,79).
+otherroute(75,79):-hc(68,79).
+otherroute(74,62):-hc(69,62).
+otherroute(74,62):-hc(67,62).
+otherroute(74,62):-hc(66,62).
+otherroute(74,62):-hc(65,62).
+otherroute(74,62):-hc(61,62).
+otherroute(74,77):-hc(78,77).
+otherroute(74,77):-hc(75,77).
+otherroute(74,77):-hc(72,77).
+otherroute(74,77):-hc(68,77).
+otherroute(74,77):-hc(65,77).
+otherroute(74,77):-hc(64,77).
+otherroute(74,77):-hc(63,77).
+otherroute(74,65):-hc(55,65).
+otherroute(74,65):-hc(77,65).
+otherroute(74,65):-hc(69,65).
+otherroute(74,65):-hc(68,65).
+otherroute(74,65):-hc(62,65).
+otherroute(74,61):-hc(72,61).
+otherroute(74,61):-hc(66,61).
+otherroute(74,61):-hc(62,61).
+otherroute(74,72):-hc(77,72).
+otherroute(74,72):-hc(73,72).
+otherroute(74,72):-hc(71,72).
+otherroute(74,72):-hc(70,72).
+otherroute(74,72):-hc(66,72).
+otherroute(74,72):-hc(63,72).
+otherroute(74,72):-hc(61,72).
+otherroute(73,72):-hc(77,72).
+otherroute(73,72):-hc(74,72).
+otherroute(73,72):-hc(71,72).
+otherroute(73,72):-hc(70,72).
+otherroute(73,72):-hc(66,72).
+otherroute(73,72):-hc(63,72).
+otherroute(73,72):-hc(61,72).
+otherroute(73,63):-hc(77,63).
+otherroute(73,63):-hc(76,63).
+otherroute(73,63):-hc(72,63).
+otherroute(73,63):-hc(64,63).
+otherroute(73,63):-hc(60,63).
+otherroute(73,71):-hc(76,71).
+otherroute(73,71):-hc(72,71).
+otherroute(73,71):-hc(70,71).
+otherroute(73,71):-hc(60,71).
+otherroute(73,76):-hc(71,76).
+otherroute(73,76):-hc(63,76).
+otherroute(73,76):-hc(60,76).
+otherroute(72,61):-hc(74,61).
+otherroute(72,61):-hc(66,61).
+otherroute(72,61):-hc(62,61).
+otherroute(72,77):-hc(78,77).
+otherroute(72,77):-hc(75,77).
+otherroute(72,77):-hc(74,77).
+otherroute(72,77):-hc(68,77).
+otherroute(72,77):-hc(65,77).
+otherroute(72,77):-hc(64,77).
+otherroute(72,77):-hc(63,77).
+otherroute(72,71):-hc(76,71).
+otherroute(72,71):-hc(73,71).
+otherroute(72,71):-hc(70,71).
+otherroute(72,71):-hc(60,71).
+otherroute(72,73):-hc(76,73).
+otherroute(72,73):-hc(71,73).
+otherroute(72,73):-hc(63,73).
+otherroute(72,63):-hc(77,63).
+otherroute(72,63):-hc(76,63).
+otherroute(72,63):-hc(73,63).
+otherroute(72,63):-hc(64,63).
+otherroute(72,63):-hc(60,63).
+otherroute(72,66):-hc(70,66).
+otherroute(72,66):-hc(67,66).
+otherroute(72,66):-hc(62,66).
+otherroute(72,66):-hc(61,66).
+otherroute(72,70):-hc(71,70).
+otherroute(72,70):-hc(67,70).
+otherroute(72,70):-hc(66,70).
+otherroute(72,70):-hc(60,70).
+otherroute(72,74):-hc(77,74).
+otherroute(72,74):-hc(65,74).
+otherroute(72,74):-hc(62,74).
+otherroute(72,74):-hc(61,74).
+otherroute(71,72):-hc(77,72).
+otherroute(71,72):-hc(74,72).
+otherroute(71,72):-hc(73,72).
+otherroute(71,72):-hc(70,72).
+otherroute(71,72):-hc(66,72).
+otherroute(71,72):-hc(63,72).
+otherroute(71,72):-hc(61,72).
+otherroute(71,70):-hc(72,70).
+otherroute(71,70):-hc(67,70).
+otherroute(71,70):-hc(66,70).
+otherroute(71,70):-hc(60,70).
+otherroute(71,60):-hc(76,60).
+otherroute(71,60):-hc(70,60).
+otherroute(71,60):-hc(64,60).
+otherroute(71,60):-hc(63,60).
+otherroute(71,73):-hc(76,73).
+otherroute(71,73):-hc(72,73).
+otherroute(71,73):-hc(63,73).
+otherroute(71,76):-hc(73,76).
+otherroute(71,76):-hc(63,76).
+otherroute(71,76):-hc(60,76).
+otherroute(70,67):-hc(69,67).
+otherroute(70,67):-hc(66,67).
+otherroute(70,67):-hc(62,67).
+otherroute(70,60):-hc(76,60).
+otherroute(70,60):-hc(71,60).
+otherroute(70,60):-hc(64,60).
+otherroute(70,60):-hc(63,60).
+otherroute(70,66):-hc(72,66).
+otherroute(70,66):-hc(67,66).
+otherroute(70,66):-hc(62,66).
+otherroute(70,66):-hc(61,66).
+otherroute(70,71):-hc(76,71).
+otherroute(70,71):-hc(73,71).
+otherroute(70,71):-hc(72,71).
+otherroute(70,71):-hc(60,71).
+otherroute(70,72):-hc(77,72).
+otherroute(70,72):-hc(74,72).
+otherroute(70,72):-hc(73,72).
+otherroute(70,72):-hc(71,72).
+otherroute(70,72):-hc(66,72).
+otherroute(70,72):-hc(63,72).
+otherroute(70,72):-hc(61,72).
+otherroute(69,65):-hc(55,65).
+otherroute(69,65):-hc(77,65).
+otherroute(69,65):-hc(74,65).
+otherroute(69,65):-hc(68,65).
+otherroute(69,65):-hc(62,65).
+otherroute(69,62):-hc(74,62).
+otherroute(69,62):-hc(67,62).
+otherroute(69,62):-hc(66,62).
+otherroute(69,62):-hc(65,62).
+otherroute(69,62):-hc(61,62).
+otherroute(69,67):-hc(70,67).
+otherroute(69,67):-hc(66,67).
+otherroute(69,67):-hc(62,67).
+otherroute(69,68):-hc(79,68).
+otherroute(69,68):-hc(77,68).
+otherroute(69,68):-hc(75,68).
+otherroute(69,68):-hc(65,68).
+otherroute(69,79):-hc(75,79).
+otherroute(69,79):-hc(68,79).
+otherroute(68,65):-hc(55,65).
+otherroute(68,65):-hc(77,65).
+otherroute(68,65):-hc(74,65).
+otherroute(68,65):-hc(69,65).
+otherroute(68,65):-hc(62,65).
+otherroute(68,69):-hc(79,69).
+otherroute(68,69):-hc(67,69).
+otherroute(68,69):-hc(65,69).
+otherroute(68,69):-hc(62,69).
+otherroute(68,79):-hc(75,79).
+otherroute(68,79):-hc(69,79).
+otherroute(68,75):-hc(79,75).
+otherroute(68,75):-hc(78,75).
+otherroute(68,75):-hc(77,75).
+otherroute(68,77):-hc(78,77).
+otherroute(68,77):-hc(75,77).
+otherroute(68,77):-hc(74,77).
+otherroute(68,77):-hc(72,77).
+otherroute(68,77):-hc(65,77).
+otherroute(68,77):-hc(64,77).
+otherroute(68,77):-hc(63,77).
+otherroute(67,70):-hc(72,70).
+otherroute(67,70):-hc(71,70).
+otherroute(67,70):-hc(66,70).
+otherroute(67,70):-hc(60,70).
+otherroute(67,66):-hc(72,66).
+otherroute(67,66):-hc(70,66).
+otherroute(67,66):-hc(62,66).
+otherroute(67,66):-hc(61,66).
+otherroute(67,62):-hc(74,62).
+otherroute(67,62):-hc(69,62).
+otherroute(67,62):-hc(66,62).
+otherroute(67,62):-hc(65,62).
+otherroute(67,62):-hc(61,62).
+otherroute(67,69):-hc(79,69).
+otherroute(67,69):-hc(68,69).
+otherroute(67,69):-hc(65,69).
+otherroute(67,69):-hc(62,69).
+otherroute(66,61):-hc(74,61).
+otherroute(66,61):-hc(72,61).
+otherroute(66,61):-hc(62,61).
+otherroute(66,62):-hc(74,62).
+otherroute(66,62):-hc(69,62).
+otherroute(66,62):-hc(67,62).
+otherroute(66,62):-hc(65,62).
+otherroute(66,62):-hc(61,62).
+otherroute(66,67):-hc(70,67).
+otherroute(66,67):-hc(69,67).
+otherroute(66,67):-hc(62,67).
+otherroute(66,70):-hc(72,70).
+otherroute(66,70):-hc(71,70).
+otherroute(66,70):-hc(67,70).
+otherroute(66,70):-hc(60,70).
+otherroute(66,72):-hc(77,72).
+otherroute(66,72):-hc(74,72).
+otherroute(66,72):-hc(73,72).
+otherroute(66,72):-hc(71,72).
+otherroute(66,72):-hc(70,72).
+otherroute(66,72):-hc(63,72).
+otherroute(66,72):-hc(61,72).
+otherroute(65,69):-hc(79,69).
+otherroute(65,69):-hc(68,69).
+otherroute(65,69):-hc(67,69).
+otherroute(65,69):-hc(62,69).
+otherroute(65,62):-hc(74,62).
+otherroute(65,62):-hc(69,62).
+otherroute(65,62):-hc(67,62).
+otherroute(65,62):-hc(66,62).
+otherroute(65,62):-hc(61,62).
+otherroute(65,77):-hc(78,77).
+otherroute(65,77):-hc(75,77).
+otherroute(65,77):-hc(74,77).
+otherroute(65,77):-hc(72,77).
+otherroute(65,77):-hc(68,77).
+otherroute(65,77):-hc(64,77).
+otherroute(65,77):-hc(63,77).
+otherroute(65,68):-hc(79,68).
+otherroute(65,68):-hc(77,68).
+otherroute(65,68):-hc(75,68).
+otherroute(65,68):-hc(69,68).
+otherroute(65,74):-hc(77,74).
+otherroute(65,74):-hc(72,74).
+otherroute(65,74):-hc(62,74).
+otherroute(65,74):-hc(61,74).
+otherroute(64,63):-hc(77,63).
+otherroute(64,63):-hc(76,63).
+otherroute(64,63):-hc(73,63).
+otherroute(64,63):-hc(72,63).
+otherroute(64,63):-hc(60,63).
+otherroute(64,60):-hc(76,60).
+otherroute(64,60):-hc(71,60).
+otherroute(64,60):-hc(70,60).
+otherroute(64,60):-hc(63,60).
+otherroute(64,77):-hc(78,77).
+otherroute(64,77):-hc(75,77).
+otherroute(64,77):-hc(74,77).
+otherroute(64,77):-hc(72,77).
+otherroute(64,77):-hc(68,77).
+otherroute(64,77):-hc(65,77).
+otherroute(64,77):-hc(63,77).
+otherroute(64,78):-hc(77,78).
+otherroute(64,78):-hc(75,78).
+otherroute(63,64):-hc(78,64).
+otherroute(63,64):-hc(77,64).
+otherroute(63,64):-hc(60,64).
+otherroute(63,60):-hc(76,60).
+otherroute(63,60):-hc(71,60).
+otherroute(63,60):-hc(70,60).
+otherroute(63,60):-hc(64,60).
+otherroute(63,72):-hc(77,72).
+otherroute(63,72):-hc(74,72).
+otherroute(63,72):-hc(73,72).
+otherroute(63,72):-hc(71,72).
+otherroute(63,72):-hc(70,72).
+otherroute(63,72):-hc(66,72).
+otherroute(63,72):-hc(61,72).
+otherroute(63,73):-hc(76,73).
+otherroute(63,73):-hc(72,73).
+otherroute(63,73):-hc(71,73).
+otherroute(63,76):-hc(73,76).
+otherroute(63,76):-hc(71,76).
+otherroute(63,76):-hc(60,76).
+otherroute(63,77):-hc(78,77).
+otherroute(63,77):-hc(75,77).
+otherroute(63,77):-hc(74,77).
+otherroute(63,77):-hc(72,77).
+otherroute(63,77):-hc(68,77).
+otherroute(63,77):-hc(65,77).
+otherroute(63,77):-hc(64,77).
+otherroute(62,61):-hc(74,61).
+otherroute(62,61):-hc(72,61).
+otherroute(62,61):-hc(66,61).
+otherroute(62,74):-hc(77,74).
+otherroute(62,74):-hc(72,74).
+otherroute(62,74):-hc(65,74).
+otherroute(62,74):-hc(61,74).
+otherroute(62,65):-hc(55,65).
+otherroute(62,65):-hc(77,65).
+otherroute(62,65):-hc(74,65).
+otherroute(62,65):-hc(69,65).
+otherroute(62,65):-hc(68,65).
+otherroute(62,66):-hc(72,66).
+otherroute(62,66):-hc(70,66).
+otherroute(62,66):-hc(67,66).
+otherroute(62,66):-hc(61,66).
+otherroute(62,67):-hc(70,67).
+otherroute(62,67):-hc(69,67).
+otherroute(62,67):-hc(66,67).
+otherroute(62,69):-hc(79,69).
+otherroute(62,69):-hc(68,69).
+otherroute(62,69):-hc(67,69).
+otherroute(62,69):-hc(65,69).
+otherroute(61,72):-hc(77,72).
+otherroute(61,72):-hc(74,72).
+otherroute(61,72):-hc(73,72).
+otherroute(61,72):-hc(71,72).
+otherroute(61,72):-hc(70,72).
+otherroute(61,72):-hc(66,72).
+otherroute(61,72):-hc(63,72).
+otherroute(61,62):-hc(74,62).
+otherroute(61,62):-hc(69,62).
+otherroute(61,62):-hc(67,62).
+otherroute(61,62):-hc(66,62).
+otherroute(61,62):-hc(65,62).
+otherroute(61,66):-hc(72,66).
+otherroute(61,66):-hc(70,66).
+otherroute(61,66):-hc(67,66).
+otherroute(61,66):-hc(62,66).
+otherroute(61,74):-hc(77,74).
+otherroute(61,74):-hc(72,74).
+otherroute(61,74):-hc(65,74).
+otherroute(61,74):-hc(62,74).
+otherroute(60,64):-hc(78,64).
+otherroute(60,64):-hc(77,64).
+otherroute(60,64):-hc(63,64).
+otherroute(60,63):-hc(77,63).
+otherroute(60,63):-hc(76,63).
+otherroute(60,63):-hc(73,63).
+otherroute(60,63):-hc(72,63).
+otherroute(60,63):-hc(64,63).
+otherroute(60,70):-hc(72,70).
+otherroute(60,70):-hc(71,70).
+otherroute(60,70):-hc(67,70).
+otherroute(60,70):-hc(66,70).
+otherroute(60,71):-hc(76,71).
+otherroute(60,71):-hc(73,71).
+otherroute(60,71):-hc(72,71).
+otherroute(60,71):-hc(70,71).
+otherroute(60,76):-hc(73,76).
+otherroute(60,76):-hc(71,76).
+otherroute(60,76):-hc(63,76).
+otherroute(59,48):-hc(57,48).
+otherroute(59,48):-hc(55,48).
+otherroute(59,48):-hc(49,48).
+otherroute(59,48):-hc(45,48).
+otherroute(59,49):-hc(48,49).
+otherroute(59,49):-hc(47,49).
+otherroute(59,49):-hc(45,49).
+otherroute(59,49):-hc(42,49).
+otherroute(59,55):-hc(58,55).
+otherroute(59,55):-hc(57,55).
+otherroute(59,55):-hc(48,55).
+otherroute(58,57):-hc(55,57).
+otherroute(58,57):-hc(54,57).
+otherroute(58,57):-hc(52,57).
+otherroute(58,57):-hc(48,57).
+otherroute(58,57):-hc(45,57).
+otherroute(58,57):-hc(44,57).
+otherroute(58,57):-hc(43,57).
+otherroute(58,55):-hc(59,55).
+otherroute(58,55):-hc(57,55).
+otherroute(58,55):-hc(48,55).
+otherroute(58,44):-hc(57,44).
+otherroute(58,44):-hc(43,44).
+otherroute(58,44):-hc(40,44).
+otherroute(57,52):-hc(54,52).
+otherroute(57,52):-hc(53,52).
+otherroute(57,52):-hc(51,52).
+otherroute(57,52):-hc(50,52).
+otherroute(57,52):-hc(46,52).
+otherroute(57,52):-hc(43,52).
+otherroute(57,52):-hc(41,52).
+otherroute(57,54):-hc(52,54).
+otherroute(57,54):-hc(45,54).
+otherroute(57,54):-hc(42,54).
+otherroute(57,54):-hc(41,54).
+otherroute(57,55):-hc(59,55).
+otherroute(57,55):-hc(58,55).
+otherroute(57,55):-hc(48,55).
+otherroute(57,45):-hc(35,45).
+otherroute(57,45):-hc(54,45).
+otherroute(57,45):-hc(49,45).
+otherroute(57,45):-hc(48,45).
+otherroute(57,45):-hc(42,45).
+otherroute(57,58):-hc(55,58).
+otherroute(57,58):-hc(44,58).
+otherroute(57,43):-hc(56,43).
+otherroute(57,43):-hc(53,43).
+otherroute(57,43):-hc(52,43).
+otherroute(57,43):-hc(44,43).
+otherroute(57,43):-hc(40,43).
+otherroute(57,44):-hc(58,44).
+otherroute(57,44):-hc(43,44).
+otherroute(57,44):-hc(40,44).
+otherroute(57,48):-hc(59,48).
+otherroute(57,48):-hc(55,48).
+otherroute(57,48):-hc(49,48).
+otherroute(57,48):-hc(45,48).
+otherroute(56,43):-hc(57,43).
+otherroute(56,43):-hc(53,43).
+otherroute(56,43):-hc(52,43).
+otherroute(56,43):-hc(44,43).
+otherroute(56,43):-hc(40,43).
+otherroute(56,40):-hc(51,40).
+otherroute(56,40):-hc(50,40).
+otherroute(56,40):-hc(44,40).
+otherroute(56,40):-hc(43,40).
+otherroute(56,53):-hc(52,53).
+otherroute(56,53):-hc(51,53).
+otherroute(56,53):-hc(43,53).
+otherroute(56,51):-hc(53,51).
+otherroute(56,51):-hc(52,51).
+otherroute(56,51):-hc(50,51).
+otherroute(56,51):-hc(40,51).
+otherroute(55,57):-hc(58,57).
+otherroute(55,57):-hc(54,57).
+otherroute(55,57):-hc(52,57).
+otherroute(55,57):-hc(48,57).
+otherroute(55,57):-hc(45,57).
+otherroute(55,57):-hc(44,57).
+otherroute(55,57):-hc(43,57).
+otherroute(55,48):-hc(59,48).
+otherroute(55,48):-hc(57,48).
+otherroute(55,48):-hc(49,48).
+otherroute(55,48):-hc(45,48).
+otherroute(55,58):-hc(57,58).
+otherroute(55,58):-hc(44,58).
+otherroute(55,59):-hc(49,59).
+otherroute(55,59):-hc(48,59).
+otherroute(54,42):-hc(49,42).
+otherroute(54,42):-hc(47,42).
+otherroute(54,42):-hc(46,42).
+otherroute(54,42):-hc(45,42).
+otherroute(54,42):-hc(41,42).
+otherroute(54,57):-hc(58,57).
+otherroute(54,57):-hc(55,57).
+otherroute(54,57):-hc(52,57).
+otherroute(54,57):-hc(48,57).
+otherroute(54,57):-hc(45,57).
+otherroute(54,57):-hc(44,57).
+otherroute(54,57):-hc(43,57).
+otherroute(54,45):-hc(35,45).
+otherroute(54,45):-hc(57,45).
+otherroute(54,45):-hc(49,45).
+otherroute(54,45):-hc(48,45).
+otherroute(54,45):-hc(42,45).
+otherroute(54,41):-hc(52,41).
+otherroute(54,41):-hc(46,41).
+otherroute(54,41):-hc(42,41).
+otherroute(54,52):-hc(57,52).
+otherroute(54,52):-hc(53,52).
+otherroute(54,52):-hc(51,52).
+otherroute(54,52):-hc(50,52).
+otherroute(54,52):-hc(46,52).
+otherroute(54,52):-hc(43,52).
+otherroute(54,52):-hc(41,52).
+otherroute(53,52):-hc(57,52).
+otherroute(53,52):-hc(54,52).
+otherroute(53,52):-hc(51,52).
+otherroute(53,52):-hc(50,52).
+otherroute(53,52):-hc(46,52).
+otherroute(53,52):-hc(43,52).
+otherroute(53,52):-hc(41,52).
+otherroute(53,43):-hc(57,43).
+otherroute(53,43):-hc(56,43).
+otherroute(53,43):-hc(52,43).
+otherroute(53,43):-hc(44,43).
+otherroute(53,43):-hc(40,43).
+otherroute(53,51):-hc(56,51).
+otherroute(53,51):-hc(52,51).
+otherroute(53,51):-hc(50,51).
+otherroute(53,51):-hc(40,51).
+otherroute(53,56):-hc(51,56).
+otherroute(53,56):-hc(43,56).
+otherroute(53,56):-hc(40,56).
+otherroute(52,41):-hc(54,41).
+otherroute(52,41):-hc(46,41).
+otherroute(52,41):-hc(42,41).
+otherroute(52,57):-hc(58,57).
+otherroute(52,57):-hc(55,57).
+otherroute(52,57):-hc(54,57).
+otherroute(52,57):-hc(48,57).
+otherroute(52,57):-hc(45,57).
+otherroute(52,57):-hc(44,57).
+otherroute(52,57):-hc(43,57).
+otherroute(52,51):-hc(56,51).
+otherroute(52,51):-hc(53,51).
+otherroute(52,51):-hc(50,51).
+otherroute(52,51):-hc(40,51).
+otherroute(52,53):-hc(56,53).
+otherroute(52,53):-hc(51,53).
+otherroute(52,53):-hc(43,53).
+otherroute(52,43):-hc(57,43).
+otherroute(52,43):-hc(56,43).
+otherroute(52,43):-hc(53,43).
+otherroute(52,43):-hc(44,43).
+otherroute(52,43):-hc(40,43).
+otherroute(52,46):-hc(50,46).
+otherroute(52,46):-hc(47,46).
+otherroute(52,46):-hc(42,46).
+otherroute(52,46):-hc(41,46).
+otherroute(52,50):-hc(51,50).
+otherroute(52,50):-hc(47,50).
+otherroute(52,50):-hc(46,50).
+otherroute(52,50):-hc(40,50).
+otherroute(52,54):-hc(57,54).
+otherroute(52,54):-hc(45,54).
+otherroute(52,54):-hc(42,54).
+otherroute(52,54):-hc(41,54).
+otherroute(51,52):-hc(57,52).
+otherroute(51,52):-hc(54,52).
+otherroute(51,52):-hc(53,52).
+otherroute(51,52):-hc(50,52).
+otherroute(51,52):-hc(46,52).
+otherroute(51,52):-hc(43,52).
+otherroute(51,52):-hc(41,52).
+otherroute(51,50):-hc(52,50).
+otherroute(51,50):-hc(47,50).
+otherroute(51,50):-hc(46,50).
+otherroute(51,50):-hc(40,50).
+otherroute(51,40):-hc(56,40).
+otherroute(51,40):-hc(50,40).
+otherroute(51,40):-hc(44,40).
+otherroute(51,40):-hc(43,40).
+otherroute(51,53):-hc(56,53).
+otherroute(51,53):-hc(52,53).
+otherroute(51,53):-hc(43,53).
+otherroute(51,56):-hc(53,56).
+otherroute(51,56):-hc(43,56).
+otherroute(51,56):-hc(40,56).
+otherroute(50,47):-hc(49,47).
+otherroute(50,47):-hc(46,47).
+otherroute(50,47):-hc(42,47).
+otherroute(50,40):-hc(56,40).
+otherroute(50,40):-hc(51,40).
+otherroute(50,40):-hc(44,40).
+otherroute(50,40):-hc(43,40).
+otherroute(50,46):-hc(52,46).
+otherroute(50,46):-hc(47,46).
+otherroute(50,46):-hc(42,46).
+otherroute(50,46):-hc(41,46).
+otherroute(50,51):-hc(56,51).
+otherroute(50,51):-hc(53,51).
+otherroute(50,51):-hc(52,51).
+otherroute(50,51):-hc(40,51).
+otherroute(50,52):-hc(57,52).
+otherroute(50,52):-hc(54,52).
+otherroute(50,52):-hc(53,52).
+otherroute(50,52):-hc(51,52).
+otherroute(50,52):-hc(46,52).
+otherroute(50,52):-hc(43,52).
+otherroute(50,52):-hc(41,52).
+otherroute(49,45):-hc(35,45).
+otherroute(49,45):-hc(57,45).
+otherroute(49,45):-hc(54,45).
+otherroute(49,45):-hc(48,45).
+otherroute(49,45):-hc(42,45).
+otherroute(49,42):-hc(54,42).
+otherroute(49,42):-hc(47,42).
+otherroute(49,42):-hc(46,42).
+otherroute(49,42):-hc(45,42).
+otherroute(49,42):-hc(41,42).
+otherroute(49,47):-hc(50,47).
+otherroute(49,47):-hc(46,47).
+otherroute(49,47):-hc(42,47).
+otherroute(49,48):-hc(59,48).
+otherroute(49,48):-hc(57,48).
+otherroute(49,48):-hc(55,48).
+otherroute(49,48):-hc(45,48).
+otherroute(49,59):-hc(55,59).
+otherroute(49,59):-hc(48,59).
+otherroute(48,45):-hc(35,45).
+otherroute(48,45):-hc(57,45).
+otherroute(48,45):-hc(54,45).
+otherroute(48,45):-hc(49,45).
+otherroute(48,45):-hc(42,45).
+otherroute(48,49):-hc(59,49).
+otherroute(48,49):-hc(47,49).
+otherroute(48,49):-hc(45,49).
+otherroute(48,49):-hc(42,49).
+otherroute(48,59):-hc(55,59).
+otherroute(48,59):-hc(49,59).
+otherroute(48,55):-hc(59,55).
+otherroute(48,55):-hc(58,55).
+otherroute(48,55):-hc(57,55).
+otherroute(48,57):-hc(58,57).
+otherroute(48,57):-hc(55,57).
+otherroute(48,57):-hc(54,57).
+otherroute(48,57):-hc(52,57).
+otherroute(48,57):-hc(45,57).
+otherroute(48,57):-hc(44,57).
+otherroute(48,57):-hc(43,57).
+otherroute(47,50):-hc(52,50).
+otherroute(47,50):-hc(51,50).
+otherroute(47,50):-hc(46,50).
+otherroute(47,50):-hc(40,50).
+otherroute(47,46):-hc(52,46).
+otherroute(47,46):-hc(50,46).
+otherroute(47,46):-hc(42,46).
+otherroute(47,46):-hc(41,46).
+otherroute(47,42):-hc(54,42).
+otherroute(47,42):-hc(49,42).
+otherroute(47,42):-hc(46,42).
+otherroute(47,42):-hc(45,42).
+otherroute(47,42):-hc(41,42).
+otherroute(47,49):-hc(59,49).
+otherroute(47,49):-hc(48,49).
+otherroute(47,49):-hc(45,49).
+otherroute(47,49):-hc(42,49).
+otherroute(46,41):-hc(54,41).
+otherroute(46,41):-hc(52,41).
+otherroute(46,41):-hc(42,41).
+otherroute(46,42):-hc(54,42).
+otherroute(46,42):-hc(49,42).
+otherroute(46,42):-hc(47,42).
+otherroute(46,42):-hc(45,42).
+otherroute(46,42):-hc(41,42).
+otherroute(46,47):-hc(50,47).
+otherroute(46,47):-hc(49,47).
+otherroute(46,47):-hc(42,47).
+otherroute(46,50):-hc(52,50).
+otherroute(46,50):-hc(51,50).
+otherroute(46,50):-hc(47,50).
+otherroute(46,50):-hc(40,50).
+otherroute(46,52):-hc(57,52).
+otherroute(46,52):-hc(54,52).
+otherroute(46,52):-hc(53,52).
+otherroute(46,52):-hc(51,52).
+otherroute(46,52):-hc(50,52).
+otherroute(46,52):-hc(43,52).
+otherroute(46,52):-hc(41,52).
+otherroute(45,49):-hc(59,49).
+otherroute(45,49):-hc(48,49).
+otherroute(45,49):-hc(47,49).
+otherroute(45,49):-hc(42,49).
+otherroute(45,42):-hc(54,42).
+otherroute(45,42):-hc(49,42).
+otherroute(45,42):-hc(47,42).
+otherroute(45,42):-hc(46,42).
+otherroute(45,42):-hc(41,42).
+otherroute(45,57):-hc(58,57).
+otherroute(45,57):-hc(55,57).
+otherroute(45,57):-hc(54,57).
+otherroute(45,57):-hc(52,57).
+otherroute(45,57):-hc(48,57).
+otherroute(45,57):-hc(44,57).
+otherroute(45,57):-hc(43,57).
+otherroute(45,48):-hc(59,48).
+otherroute(45,48):-hc(57,48).
+otherroute(45,48):-hc(55,48).
+otherroute(45,48):-hc(49,48).
+otherroute(45,54):-hc(57,54).
+otherroute(45,54):-hc(52,54).
+otherroute(45,54):-hc(42,54).
+otherroute(45,54):-hc(41,54).
+otherroute(44,43):-hc(57,43).
+otherroute(44,43):-hc(56,43).
+otherroute(44,43):-hc(53,43).
+otherroute(44,43):-hc(52,43).
+otherroute(44,43):-hc(40,43).
+otherroute(44,40):-hc(56,40).
+otherroute(44,40):-hc(51,40).
+otherroute(44,40):-hc(50,40).
+otherroute(44,40):-hc(43,40).
+otherroute(44,57):-hc(58,57).
+otherroute(44,57):-hc(55,57).
+otherroute(44,57):-hc(54,57).
+otherroute(44,57):-hc(52,57).
+otherroute(44,57):-hc(48,57).
+otherroute(44,57):-hc(45,57).
+otherroute(44,57):-hc(43,57).
+otherroute(44,58):-hc(57,58).
+otherroute(44,58):-hc(55,58).
+otherroute(43,44):-hc(58,44).
+otherroute(43,44):-hc(57,44).
+otherroute(43,44):-hc(40,44).
+otherroute(43,40):-hc(56,40).
+otherroute(43,40):-hc(51,40).
+otherroute(43,40):-hc(50,40).
+otherroute(43,40):-hc(44,40).
+otherroute(43,52):-hc(57,52).
+otherroute(43,52):-hc(54,52).
+otherroute(43,52):-hc(53,52).
+otherroute(43,52):-hc(51,52).
+otherroute(43,52):-hc(50,52).
+otherroute(43,52):-hc(46,52).
+otherroute(43,52):-hc(41,52).
+otherroute(43,53):-hc(56,53).
+otherroute(43,53):-hc(52,53).
+otherroute(43,53):-hc(51,53).
+otherroute(43,56):-hc(53,56).
+otherroute(43,56):-hc(51,56).
+otherroute(43,56):-hc(40,56).
+otherroute(43,57):-hc(58,57).
+otherroute(43,57):-hc(55,57).
+otherroute(43,57):-hc(54,57).
+otherroute(43,57):-hc(52,57).
+otherroute(43,57):-hc(48,57).
+otherroute(43,57):-hc(45,57).
+otherroute(43,57):-hc(44,57).
+otherroute(42,41):-hc(54,41).
+otherroute(42,41):-hc(52,41).
+otherroute(42,41):-hc(46,41).
+otherroute(42,54):-hc(57,54).
+otherroute(42,54):-hc(52,54).
+otherroute(42,54):-hc(45,54).
+otherroute(42,54):-hc(41,54).
+otherroute(42,45):-hc(35,45).
+otherroute(42,45):-hc(57,45).
+otherroute(42,45):-hc(54,45).
+otherroute(42,45):-hc(49,45).
+otherroute(42,45):-hc(48,45).
+otherroute(42,46):-hc(52,46).
+otherroute(42,46):-hc(50,46).
+otherroute(42,46):-hc(47,46).
+otherroute(42,46):-hc(41,46).
+otherroute(42,47):-hc(50,47).
+otherroute(42,47):-hc(49,47).
+otherroute(42,47):-hc(46,47).
+otherroute(42,49):-hc(59,49).
+otherroute(42,49):-hc(48,49).
+otherroute(42,49):-hc(47,49).
+otherroute(42,49):-hc(45,49).
+otherroute(41,52):-hc(57,52).
+otherroute(41,52):-hc(54,52).
+otherroute(41,52):-hc(53,52).
+otherroute(41,52):-hc(51,52).
+otherroute(41,52):-hc(50,52).
+otherroute(41,52):-hc(46,52).
+otherroute(41,52):-hc(43,52).
+otherroute(41,42):-hc(54,42).
+otherroute(41,42):-hc(49,42).
+otherroute(41,42):-hc(47,42).
+otherroute(41,42):-hc(46,42).
+otherroute(41,42):-hc(45,42).
+otherroute(41,46):-hc(52,46).
+otherroute(41,46):-hc(50,46).
+otherroute(41,46):-hc(47,46).
+otherroute(41,46):-hc(42,46).
+otherroute(41,54):-hc(57,54).
+otherroute(41,54):-hc(52,54).
+otherroute(41,54):-hc(45,54).
+otherroute(41,54):-hc(42,54).
+otherroute(40,44):-hc(58,44).
+otherroute(40,44):-hc(57,44).
+otherroute(40,44):-hc(43,44).
+otherroute(40,43):-hc(57,43).
+otherroute(40,43):-hc(56,43).
+otherroute(40,43):-hc(53,43).
+otherroute(40,43):-hc(52,43).
+otherroute(40,43):-hc(44,43).
+otherroute(40,50):-hc(52,50).
+otherroute(40,50):-hc(51,50).
+otherroute(40,50):-hc(47,50).
+otherroute(40,50):-hc(46,50).
+otherroute(40,51):-hc(56,51).
+otherroute(40,51):-hc(53,51).
+otherroute(40,51):-hc(52,51).
+otherroute(40,51):-hc(50,51).
+otherroute(40,56):-hc(53,56).
+otherroute(40,56):-hc(51,56).
+otherroute(40,56):-hc(43,56).
+otherroute(39,28):-hc(37,28).
+otherroute(39,28):-hc(35,28).
+otherroute(39,28):-hc(29,28).
+otherroute(39,28):-hc(25,28).
+otherroute(39,29):-hc(28,29).
+otherroute(39,29):-hc(27,29).
+otherroute(39,29):-hc(25,29).
+otherroute(39,29):-hc(22,29).
+otherroute(39,35):-hc(38,35).
+otherroute(39,35):-hc(37,35).
+otherroute(39,35):-hc(28,35).
+otherroute(38,37):-hc(35,37).
+otherroute(38,37):-hc(34,37).
+otherroute(38,37):-hc(32,37).
+otherroute(38,37):-hc(28,37).
+otherroute(38,37):-hc(25,37).
+otherroute(38,37):-hc(24,37).
+otherroute(38,37):-hc(23,37).
+otherroute(38,35):-hc(39,35).
+otherroute(38,35):-hc(37,35).
+otherroute(38,35):-hc(28,35).
+otherroute(38,24):-hc(37,24).
+otherroute(38,24):-hc(23,24).
+otherroute(38,24):-hc(20,24).
+otherroute(37,32):-hc(34,32).
+otherroute(37,32):-hc(33,32).
+otherroute(37,32):-hc(31,32).
+otherroute(37,32):-hc(30,32).
+otherroute(37,32):-hc(26,32).
+otherroute(37,32):-hc(23,32).
+otherroute(37,32):-hc(21,32).
+otherroute(37,34):-hc(32,34).
+otherroute(37,34):-hc(25,34).
+otherroute(37,34):-hc(22,34).
+otherroute(37,34):-hc(21,34).
+otherroute(37,35):-hc(39,35).
+otherroute(37,35):-hc(38,35).
+otherroute(37,35):-hc(28,35).
+otherroute(37,25):-hc(15,25).
+otherroute(37,25):-hc(34,25).
+otherroute(37,25):-hc(29,25).
+otherroute(37,25):-hc(28,25).
+otherroute(37,25):-hc(22,25).
+otherroute(37,38):-hc(35,38).
+otherroute(37,38):-hc(24,38).
+otherroute(37,23):-hc(36,23).
+otherroute(37,23):-hc(33,23).
+otherroute(37,23):-hc(32,23).
+otherroute(37,23):-hc(24,23).
+otherroute(37,23):-hc(20,23).
+otherroute(37,24):-hc(38,24).
+otherroute(37,24):-hc(23,24).
+otherroute(37,24):-hc(20,24).
+otherroute(37,28):-hc(39,28).
+otherroute(37,28):-hc(35,28).
+otherroute(37,28):-hc(29,28).
+otherroute(37,28):-hc(25,28).
+otherroute(36,23):-hc(37,23).
+otherroute(36,23):-hc(33,23).
+otherroute(36,23):-hc(32,23).
+otherroute(36,23):-hc(24,23).
+otherroute(36,23):-hc(20,23).
+otherroute(36,20):-hc(31,20).
+otherroute(36,20):-hc(30,20).
+otherroute(36,20):-hc(24,20).
+otherroute(36,20):-hc(23,20).
+otherroute(36,33):-hc(32,33).
+otherroute(36,33):-hc(31,33).
+otherroute(36,33):-hc(23,33).
+otherroute(36,31):-hc(33,31).
+otherroute(36,31):-hc(32,31).
+otherroute(36,31):-hc(30,31).
+otherroute(36,31):-hc(20,31).
+otherroute(35,37):-hc(38,37).
+otherroute(35,37):-hc(34,37).
+otherroute(35,37):-hc(32,37).
+otherroute(35,37):-hc(28,37).
+otherroute(35,37):-hc(25,37).
+otherroute(35,37):-hc(24,37).
+otherroute(35,37):-hc(23,37).
+otherroute(35,28):-hc(39,28).
+otherroute(35,28):-hc(37,28).
+otherroute(35,28):-hc(29,28).
+otherroute(35,28):-hc(25,28).
+otherroute(35,38):-hc(37,38).
+otherroute(35,38):-hc(24,38).
+otherroute(35,39):-hc(29,39).
+otherroute(35,39):-hc(28,39).
+otherroute(34,22):-hc(29,22).
+otherroute(34,22):-hc(27,22).
+otherroute(34,22):-hc(26,22).
+otherroute(34,22):-hc(25,22).
+otherroute(34,22):-hc(21,22).
+otherroute(34,37):-hc(38,37).
+otherroute(34,37):-hc(35,37).
+otherroute(34,37):-hc(32,37).
+otherroute(34,37):-hc(28,37).
+otherroute(34,37):-hc(25,37).
+otherroute(34,37):-hc(24,37).
+otherroute(34,37):-hc(23,37).
+otherroute(34,25):-hc(15,25).
+otherroute(34,25):-hc(37,25).
+otherroute(34,25):-hc(29,25).
+otherroute(34,25):-hc(28,25).
+otherroute(34,25):-hc(22,25).
+otherroute(34,21):-hc(32,21).
+otherroute(34,21):-hc(26,21).
+otherroute(34,21):-hc(22,21).
+otherroute(34,32):-hc(37,32).
+otherroute(34,32):-hc(33,32).
+otherroute(34,32):-hc(31,32).
+otherroute(34,32):-hc(30,32).
+otherroute(34,32):-hc(26,32).
+otherroute(34,32):-hc(23,32).
+otherroute(34,32):-hc(21,32).
+otherroute(33,32):-hc(37,32).
+otherroute(33,32):-hc(34,32).
+otherroute(33,32):-hc(31,32).
+otherroute(33,32):-hc(30,32).
+otherroute(33,32):-hc(26,32).
+otherroute(33,32):-hc(23,32).
+otherroute(33,32):-hc(21,32).
+otherroute(33,23):-hc(37,23).
+otherroute(33,23):-hc(36,23).
+otherroute(33,23):-hc(32,23).
+otherroute(33,23):-hc(24,23).
+otherroute(33,23):-hc(20,23).
+otherroute(33,31):-hc(36,31).
+otherroute(33,31):-hc(32,31).
+otherroute(33,31):-hc(30,31).
+otherroute(33,31):-hc(20,31).
+otherroute(33,36):-hc(31,36).
+otherroute(33,36):-hc(23,36).
+otherroute(33,36):-hc(20,36).
+otherroute(32,21):-hc(34,21).
+otherroute(32,21):-hc(26,21).
+otherroute(32,21):-hc(22,21).
+otherroute(32,37):-hc(38,37).
+otherroute(32,37):-hc(35,37).
+otherroute(32,37):-hc(34,37).
+otherroute(32,37):-hc(28,37).
+otherroute(32,37):-hc(25,37).
+otherroute(32,37):-hc(24,37).
+otherroute(32,37):-hc(23,37).
+otherroute(32,31):-hc(36,31).
+otherroute(32,31):-hc(33,31).
+otherroute(32,31):-hc(30,31).
+otherroute(32,31):-hc(20,31).
+otherroute(32,33):-hc(36,33).
+otherroute(32,33):-hc(31,33).
+otherroute(32,33):-hc(23,33).
+otherroute(32,23):-hc(37,23).
+otherroute(32,23):-hc(36,23).
+otherroute(32,23):-hc(33,23).
+otherroute(32,23):-hc(24,23).
+otherroute(32,23):-hc(20,23).
+otherroute(32,26):-hc(30,26).
+otherroute(32,26):-hc(27,26).
+otherroute(32,26):-hc(22,26).
+otherroute(32,26):-hc(21,26).
+otherroute(32,30):-hc(31,30).
+otherroute(32,30):-hc(27,30).
+otherroute(32,30):-hc(26,30).
+otherroute(32,30):-hc(20,30).
+otherroute(32,34):-hc(37,34).
+otherroute(32,34):-hc(25,34).
+otherroute(32,34):-hc(22,34).
+otherroute(32,34):-hc(21,34).
+otherroute(31,32):-hc(37,32).
+otherroute(31,32):-hc(34,32).
+otherroute(31,32):-hc(33,32).
+otherroute(31,32):-hc(30,32).
+otherroute(31,32):-hc(26,32).
+otherroute(31,32):-hc(23,32).
+otherroute(31,32):-hc(21,32).
+otherroute(31,30):-hc(32,30).
+otherroute(31,30):-hc(27,30).
+otherroute(31,30):-hc(26,30).
+otherroute(31,30):-hc(20,30).
+otherroute(31,20):-hc(36,20).
+otherroute(31,20):-hc(30,20).
+otherroute(31,20):-hc(24,20).
+otherroute(31,20):-hc(23,20).
+otherroute(31,33):-hc(36,33).
+otherroute(31,33):-hc(32,33).
+otherroute(31,33):-hc(23,33).
+otherroute(31,36):-hc(33,36).
+otherroute(31,36):-hc(23,36).
+otherroute(31,36):-hc(20,36).
+otherroute(30,27):-hc(29,27).
+otherroute(30,27):-hc(26,27).
+otherroute(30,27):-hc(22,27).
+otherroute(30,20):-hc(36,20).
+otherroute(30,20):-hc(31,20).
+otherroute(30,20):-hc(24,20).
+otherroute(30,20):-hc(23,20).
+otherroute(30,26):-hc(32,26).
+otherroute(30,26):-hc(27,26).
+otherroute(30,26):-hc(22,26).
+otherroute(30,26):-hc(21,26).
+otherroute(30,31):-hc(36,31).
+otherroute(30,31):-hc(33,31).
+otherroute(30,31):-hc(32,31).
+otherroute(30,31):-hc(20,31).
+otherroute(30,32):-hc(37,32).
+otherroute(30,32):-hc(34,32).
+otherroute(30,32):-hc(33,32).
+otherroute(30,32):-hc(31,32).
+otherroute(30,32):-hc(26,32).
+otherroute(30,32):-hc(23,32).
+otherroute(30,32):-hc(21,32).
+otherroute(29,25):-hc(15,25).
+otherroute(29,25):-hc(37,25).
+otherroute(29,25):-hc(34,25).
+otherroute(29,25):-hc(28,25).
+otherroute(29,25):-hc(22,25).
+otherroute(29,22):-hc(34,22).
+otherroute(29,22):-hc(27,22).
+otherroute(29,22):-hc(26,22).
+otherroute(29,22):-hc(25,22).
+otherroute(29,22):-hc(21,22).
+otherroute(29,27):-hc(30,27).
+otherroute(29,27):-hc(26,27).
+otherroute(29,27):-hc(22,27).
+otherroute(29,28):-hc(39,28).
+otherroute(29,28):-hc(37,28).
+otherroute(29,28):-hc(35,28).
+otherroute(29,28):-hc(25,28).
+otherroute(29,39):-hc(35,39).
+otherroute(29,39):-hc(28,39).
+otherroute(28,25):-hc(15,25).
+otherroute(28,25):-hc(37,25).
+otherroute(28,25):-hc(34,25).
+otherroute(28,25):-hc(29,25).
+otherroute(28,25):-hc(22,25).
+otherroute(28,29):-hc(39,29).
+otherroute(28,29):-hc(27,29).
+otherroute(28,29):-hc(25,29).
+otherroute(28,29):-hc(22,29).
+otherroute(28,39):-hc(35,39).
+otherroute(28,39):-hc(29,39).
+otherroute(28,35):-hc(39,35).
+otherroute(28,35):-hc(38,35).
+otherroute(28,35):-hc(37,35).
+otherroute(28,37):-hc(38,37).
+otherroute(28,37):-hc(35,37).
+otherroute(28,37):-hc(34,37).
+otherroute(28,37):-hc(32,37).
+otherroute(28,37):-hc(25,37).
+otherroute(28,37):-hc(24,37).
+otherroute(28,37):-hc(23,37).
+otherroute(27,30):-hc(32,30).
+otherroute(27,30):-hc(31,30).
+otherroute(27,30):-hc(26,30).
+otherroute(27,30):-hc(20,30).
+otherroute(27,26):-hc(32,26).
+otherroute(27,26):-hc(30,26).
+otherroute(27,26):-hc(22,26).
+otherroute(27,26):-hc(21,26).
+otherroute(27,22):-hc(34,22).
+otherroute(27,22):-hc(29,22).
+otherroute(27,22):-hc(26,22).
+otherroute(27,22):-hc(25,22).
+otherroute(27,22):-hc(21,22).
+otherroute(27,29):-hc(39,29).
+otherroute(27,29):-hc(28,29).
+otherroute(27,29):-hc(25,29).
+otherroute(27,29):-hc(22,29).
+otherroute(26,21):-hc(34,21).
+otherroute(26,21):-hc(32,21).
+otherroute(26,21):-hc(22,21).
+otherroute(26,22):-hc(34,22).
+otherroute(26,22):-hc(29,22).
+otherroute(26,22):-hc(27,22).
+otherroute(26,22):-hc(25,22).
+otherroute(26,22):-hc(21,22).
+otherroute(26,27):-hc(30,27).
+otherroute(26,27):-hc(29,27).
+otherroute(26,27):-hc(22,27).
+otherroute(26,30):-hc(32,30).
+otherroute(26,30):-hc(31,30).
+otherroute(26,30):-hc(27,30).
+otherroute(26,30):-hc(20,30).
+otherroute(26,32):-hc(37,32).
+otherroute(26,32):-hc(34,32).
+otherroute(26,32):-hc(33,32).
+otherroute(26,32):-hc(31,32).
+otherroute(26,32):-hc(30,32).
+otherroute(26,32):-hc(23,32).
+otherroute(26,32):-hc(21,32).
+otherroute(25,29):-hc(39,29).
+otherroute(25,29):-hc(28,29).
+otherroute(25,29):-hc(27,29).
+otherroute(25,29):-hc(22,29).
+otherroute(25,22):-hc(34,22).
+otherroute(25,22):-hc(29,22).
+otherroute(25,22):-hc(27,22).
+otherroute(25,22):-hc(26,22).
+otherroute(25,22):-hc(21,22).
+otherroute(25,37):-hc(38,37).
+otherroute(25,37):-hc(35,37).
+otherroute(25,37):-hc(34,37).
+otherroute(25,37):-hc(32,37).
+otherroute(25,37):-hc(28,37).
+otherroute(25,37):-hc(24,37).
+otherroute(25,37):-hc(23,37).
+otherroute(25,28):-hc(39,28).
+otherroute(25,28):-hc(37,28).
+otherroute(25,28):-hc(35,28).
+otherroute(25,28):-hc(29,28).
+otherroute(25,34):-hc(37,34).
+otherroute(25,34):-hc(32,34).
+otherroute(25,34):-hc(22,34).
+otherroute(25,34):-hc(21,34).
+otherroute(24,23):-hc(37,23).
+otherroute(24,23):-hc(36,23).
+otherroute(24,23):-hc(33,23).
+otherroute(24,23):-hc(32,23).
+otherroute(24,23):-hc(20,23).
+otherroute(24,20):-hc(36,20).
+otherroute(24,20):-hc(31,20).
+otherroute(24,20):-hc(30,20).
+otherroute(24,20):-hc(23,20).
+otherroute(24,37):-hc(38,37).
+otherroute(24,37):-hc(35,37).
+otherroute(24,37):-hc(34,37).
+otherroute(24,37):-hc(32,37).
+otherroute(24,37):-hc(28,37).
+otherroute(24,37):-hc(25,37).
+otherroute(24,37):-hc(23,37).
+otherroute(24,38):-hc(37,38).
+otherroute(24,38):-hc(35,38).
+otherroute(23,24):-hc(38,24).
+otherroute(23,24):-hc(37,24).
+otherroute(23,24):-hc(20,24).
+otherroute(23,20):-hc(36,20).
+otherroute(23,20):-hc(31,20).
+otherroute(23,20):-hc(30,20).
+otherroute(23,20):-hc(24,20).
+otherroute(23,32):-hc(37,32).
+otherroute(23,32):-hc(34,32).
+otherroute(23,32):-hc(33,32).
+otherroute(23,32):-hc(31,32).
+otherroute(23,32):-hc(30,32).
+otherroute(23,32):-hc(26,32).
+otherroute(23,32):-hc(21,32).
+otherroute(23,33):-hc(36,33).
+otherroute(23,33):-hc(32,33).
+otherroute(23,33):-hc(31,33).
+otherroute(23,36):-hc(33,36).
+otherroute(23,36):-hc(31,36).
+otherroute(23,36):-hc(20,36).
+otherroute(23,37):-hc(38,37).
+otherroute(23,37):-hc(35,37).
+otherroute(23,37):-hc(34,37).
+otherroute(23,37):-hc(32,37).
+otherroute(23,37):-hc(28,37).
+otherroute(23,37):-hc(25,37).
+otherroute(23,37):-hc(24,37).
+otherroute(22,21):-hc(34,21).
+otherroute(22,21):-hc(32,21).
+otherroute(22,21):-hc(26,21).
+otherroute(22,34):-hc(37,34).
+otherroute(22,34):-hc(32,34).
+otherroute(22,34):-hc(25,34).
+otherroute(22,34):-hc(21,34).
+otherroute(22,25):-hc(15,25).
+otherroute(22,25):-hc(37,25).
+otherroute(22,25):-hc(34,25).
+otherroute(22,25):-hc(29,25).
+otherroute(22,25):-hc(28,25).
+otherroute(22,26):-hc(32,26).
+otherroute(22,26):-hc(30,26).
+otherroute(22,26):-hc(27,26).
+otherroute(22,26):-hc(21,26).
+otherroute(22,27):-hc(30,27).
+otherroute(22,27):-hc(29,27).
+otherroute(22,27):-hc(26,27).
+otherroute(22,29):-hc(39,29).
+otherroute(22,29):-hc(28,29).
+otherroute(22,29):-hc(27,29).
+otherroute(22,29):-hc(25,29).
+otherroute(21,32):-hc(37,32).
+otherroute(21,32):-hc(34,32).
+otherroute(21,32):-hc(33,32).
+otherroute(21,32):-hc(31,32).
+otherroute(21,32):-hc(30,32).
+otherroute(21,32):-hc(26,32).
+otherroute(21,32):-hc(23,32).
+otherroute(21,22):-hc(34,22).
+otherroute(21,22):-hc(29,22).
+otherroute(21,22):-hc(27,22).
+otherroute(21,22):-hc(26,22).
+otherroute(21,22):-hc(25,22).
+otherroute(21,26):-hc(32,26).
+otherroute(21,26):-hc(30,26).
+otherroute(21,26):-hc(27,26).
+otherroute(21,26):-hc(22,26).
+otherroute(21,34):-hc(37,34).
+otherroute(21,34):-hc(32,34).
+otherroute(21,34):-hc(25,34).
+otherroute(21,34):-hc(22,34).
+otherroute(20,24):-hc(38,24).
+otherroute(20,24):-hc(37,24).
+otherroute(20,24):-hc(23,24).
+otherroute(20,23):-hc(37,23).
+otherroute(20,23):-hc(36,23).
+otherroute(20,23):-hc(33,23).
+otherroute(20,23):-hc(32,23).
+otherroute(20,23):-hc(24,23).
+otherroute(20,30):-hc(32,30).
+otherroute(20,30):-hc(31,30).
+otherroute(20,30):-hc(27,30).
+otherroute(20,30):-hc(26,30).
+otherroute(20,31):-hc(36,31).
+otherroute(20,31):-hc(33,31).
+otherroute(20,31):-hc(32,31).
+otherroute(20,31):-hc(30,31).
+otherroute(20,36):-hc(33,36).
+otherroute(20,36):-hc(31,36).
+otherroute(20,36):-hc(23,36).
+otherroute(19,8):-hc(17,8).
+otherroute(19,8):-hc(15,8).
+otherroute(19,8):-hc(9,8).
+otherroute(19,8):-hc(5,8).
+otherroute(19,9):-hc(8,9).
+otherroute(19,9):-hc(7,9).
+otherroute(19,9):-hc(5,9).
+otherroute(19,9):-hc(2,9).
+otherroute(19,15):-hc(18,15).
+otherroute(19,15):-hc(17,15).
+otherroute(19,15):-hc(8,15).
+otherroute(18,17):-hc(15,17).
+otherroute(18,17):-hc(14,17).
+otherroute(18,17):-hc(12,17).
+otherroute(18,17):-hc(8,17).
+otherroute(18,17):-hc(5,17).
+otherroute(18,17):-hc(4,17).
+otherroute(18,17):-hc(3,17).
+otherroute(18,15):-hc(19,15).
+otherroute(18,15):-hc(17,15).
+otherroute(18,15):-hc(8,15).
+otherroute(18,4):-hc(17,4).
+otherroute(18,4):-hc(3,4).
+otherroute(18,4):-hc(0,4).
+otherroute(17,12):-hc(14,12).
+otherroute(17,12):-hc(13,12).
+otherroute(17,12):-hc(11,12).
+otherroute(17,12):-hc(10,12).
+otherroute(17,12):-hc(6,12).
+otherroute(17,12):-hc(3,12).
+otherroute(17,12):-hc(1,12).
+otherroute(17,14):-hc(12,14).
+otherroute(17,14):-hc(5,14).
+otherroute(17,14):-hc(2,14).
+otherroute(17,14):-hc(1,14).
+otherroute(17,15):-hc(19,15).
+otherroute(17,15):-hc(18,15).
+otherroute(17,15):-hc(8,15).
+otherroute(17,5):-hc(14,5).
+otherroute(17,5):-hc(9,5).
+otherroute(17,5):-hc(8,5).
+otherroute(17,5):-hc(2,5).
+otherroute(17,18):-hc(15,18).
+otherroute(17,18):-hc(4,18).
+otherroute(17,3):-hc(16,3).
+otherroute(17,3):-hc(13,3).
+otherroute(17,3):-hc(12,3).
+otherroute(17,3):-hc(4,3).
+otherroute(17,3):-hc(0,3).
+otherroute(17,4):-hc(18,4).
+otherroute(17,4):-hc(3,4).
+otherroute(17,4):-hc(0,4).
+otherroute(17,8):-hc(19,8).
+otherroute(17,8):-hc(15,8).
+otherroute(17,8):-hc(9,8).
+otherroute(17,8):-hc(5,8).
+otherroute(16,3):-hc(17,3).
+otherroute(16,3):-hc(13,3).
+otherroute(16,3):-hc(12,3).
+otherroute(16,3):-hc(4,3).
+otherroute(16,3):-hc(0,3).
+otherroute(16,0):-hc(11,0).
+otherroute(16,0):-hc(10,0).
+otherroute(16,0):-hc(4,0).
+otherroute(16,0):-hc(3,0).
+otherroute(16,13):-hc(12,13).
+otherroute(16,13):-hc(11,13).
+otherroute(16,13):-hc(3,13).
+otherroute(16,11):-hc(13,11).
+otherroute(16,11):-hc(12,11).
+otherroute(16,11):-hc(10,11).
+otherroute(16,11):-hc(0,11).
+otherroute(15,17):-hc(18,17).
+otherroute(15,17):-hc(14,17).
+otherroute(15,17):-hc(12,17).
+otherroute(15,17):-hc(8,17).
+otherroute(15,17):-hc(5,17).
+otherroute(15,17):-hc(4,17).
+otherroute(15,17):-hc(3,17).
+otherroute(15,8):-hc(19,8).
+otherroute(15,8):-hc(17,8).
+otherroute(15,8):-hc(9,8).
+otherroute(15,8):-hc(5,8).
+otherroute(15,18):-hc(17,18).
+otherroute(15,18):-hc(4,18).
+otherroute(15,19):-hc(9,19).
+otherroute(15,19):-hc(8,19).
+otherroute(14,2):-hc(9,2).
+otherroute(14,2):-hc(7,2).
+otherroute(14,2):-hc(6,2).
+otherroute(14,2):-hc(5,2).
+otherroute(14,2):-hc(1,2).
+otherroute(14,17):-hc(18,17).
+otherroute(14,17):-hc(15,17).
+otherroute(14,17):-hc(12,17).
+otherroute(14,17):-hc(8,17).
+otherroute(14,17):-hc(5,17).
+otherroute(14,17):-hc(4,17).
+otherroute(14,17):-hc(3,17).
+otherroute(14,5):-hc(17,5).
+otherroute(14,5):-hc(9,5).
+otherroute(14,5):-hc(8,5).
+otherroute(14,5):-hc(2,5).
+otherroute(14,1):-hc(12,1).
+otherroute(14,1):-hc(6,1).
+otherroute(14,1):-hc(2,1).
+otherroute(14,12):-hc(17,12).
+otherroute(14,12):-hc(13,12).
+otherroute(14,12):-hc(11,12).
+otherroute(14,12):-hc(10,12).
+otherroute(14,12):-hc(6,12).
+otherroute(14,12):-hc(3,12).
+otherroute(14,12):-hc(1,12).
+otherroute(13,12):-hc(17,12).
+otherroute(13,12):-hc(14,12).
+otherroute(13,12):-hc(11,12).
+otherroute(13,12):-hc(10,12).
+otherroute(13,12):-hc(6,12).
+otherroute(13,12):-hc(3,12).
+otherroute(13,12):-hc(1,12).
+otherroute(13,3):-hc(17,3).
+otherroute(13,3):-hc(16,3).
+otherroute(13,3):-hc(12,3).
+otherroute(13,3):-hc(4,3).
+otherroute(13,3):-hc(0,3).
+otherroute(13,11):-hc(16,11).
+otherroute(13,11):-hc(12,11).
+otherroute(13,11):-hc(10,11).
+otherroute(13,11):-hc(0,11).
+otherroute(13,16):-hc(11,16).
+otherroute(13,16):-hc(3,16).
+otherroute(13,16):-hc(0,16).
+otherroute(12,1):-hc(14,1).
+otherroute(12,1):-hc(6,1).
+otherroute(12,1):-hc(2,1).
+otherroute(12,17):-hc(18,17).
+otherroute(12,17):-hc(15,17).
+otherroute(12,17):-hc(14,17).
+otherroute(12,17):-hc(8,17).
+otherroute(12,17):-hc(5,17).
+otherroute(12,17):-hc(4,17).
+otherroute(12,17):-hc(3,17).
+otherroute(12,11):-hc(16,11).
+otherroute(12,11):-hc(13,11).
+otherroute(12,11):-hc(10,11).
+otherroute(12,11):-hc(0,11).
+otherroute(12,13):-hc(16,13).
+otherroute(12,13):-hc(11,13).
+otherroute(12,13):-hc(3,13).
+otherroute(12,3):-hc(17,3).
+otherroute(12,3):-hc(16,3).
+otherroute(12,3):-hc(13,3).
+otherroute(12,3):-hc(4,3).
+otherroute(12,3):-hc(0,3).
+otherroute(12,6):-hc(10,6).
+otherroute(12,6):-hc(7,6).
+otherroute(12,6):-hc(2,6).
+otherroute(12,6):-hc(1,6).
+otherroute(12,10):-hc(11,10).
+otherroute(12,10):-hc(7,10).
+otherroute(12,10):-hc(6,10).
+otherroute(12,10):-hc(0,10).
+otherroute(12,14):-hc(17,14).
+otherroute(12,14):-hc(5,14).
+otherroute(12,14):-hc(2,14).
+otherroute(12,14):-hc(1,14).
+otherroute(11,12):-hc(17,12).
+otherroute(11,12):-hc(14,12).
+otherroute(11,12):-hc(13,12).
+otherroute(11,12):-hc(10,12).
+otherroute(11,12):-hc(6,12).
+otherroute(11,12):-hc(3,12).
+otherroute(11,12):-hc(1,12).
+otherroute(11,10):-hc(12,10).
+otherroute(11,10):-hc(7,10).
+otherroute(11,10):-hc(6,10).
+otherroute(11,10):-hc(0,10).
+otherroute(11,0):-hc(16,0).
+otherroute(11,0):-hc(10,0).
+otherroute(11,0):-hc(4,0).
+otherroute(11,0):-hc(3,0).
+otherroute(11,13):-hc(16,13).
+otherroute(11,13):-hc(12,13).
+otherroute(11,13):-hc(3,13).
+otherroute(11,16):-hc(13,16).
+otherroute(11,16):-hc(3,16).
+otherroute(11,16):-hc(0,16).
+otherroute(10,7):-hc(9,7).
+otherroute(10,7):-hc(6,7).
+otherroute(10,7):-hc(2,7).
+otherroute(10,0):-hc(16,0).
+otherroute(10,0):-hc(11,0).
+otherroute(10,0):-hc(4,0).
+otherroute(10,0):-hc(3,0).
+otherroute(10,6):-hc(12,6).
+otherroute(10,6):-hc(7,6).
+otherroute(10,6):-hc(2,6).
+otherroute(10,6):-hc(1,6).
+otherroute(10,11):-hc(16,11).
+otherroute(10,11):-hc(13,11).
+otherroute(10,11):-hc(12,11).
+otherroute(10,11):-hc(0,11).
+otherroute(10,12):-hc(17,12).
+otherroute(10,12):-hc(14,12).
+otherroute(10,12):-hc(13,12).
+otherroute(10,12):-hc(11,12).
+otherroute(10,12):-hc(6,12).
+otherroute(10,12):-hc(3,12).
+otherroute(10,12):-hc(1,12).
+otherroute(9,5):-hc(17,5).
+otherroute(9,5):-hc(14,5).
+otherroute(9,5):-hc(8,5).
+otherroute(9,5):-hc(2,5).
+otherroute(9,2):-hc(14,2).
+otherroute(9,2):-hc(7,2).
+otherroute(9,2):-hc(6,2).
+otherroute(9,2):-hc(5,2).
+otherroute(9,2):-hc(1,2).
+otherroute(9,7):-hc(10,7).
+otherroute(9,7):-hc(6,7).
+otherroute(9,7):-hc(2,7).
+otherroute(9,8):-hc(19,8).
+otherroute(9,8):-hc(17,8).
+otherroute(9,8):-hc(15,8).
+otherroute(9,8):-hc(5,8).
+otherroute(9,19):-hc(15,19).
+otherroute(9,19):-hc(8,19).
+otherroute(8,5):-hc(17,5).
+otherroute(8,5):-hc(14,5).
+otherroute(8,5):-hc(9,5).
+otherroute(8,5):-hc(2,5).
+otherroute(8,9):-hc(19,9).
+otherroute(8,9):-hc(7,9).
+otherroute(8,9):-hc(5,9).
+otherroute(8,9):-hc(2,9).
+otherroute(8,19):-hc(15,19).
+otherroute(8,19):-hc(9,19).
+otherroute(8,15):-hc(19,15).
+otherroute(8,15):-hc(18,15).
+otherroute(8,15):-hc(17,15).
+otherroute(8,17):-hc(18,17).
+otherroute(8,17):-hc(15,17).
+otherroute(8,17):-hc(14,17).
+otherroute(8,17):-hc(12,17).
+otherroute(8,17):-hc(5,17).
+otherroute(8,17):-hc(4,17).
+otherroute(8,17):-hc(3,17).
+otherroute(7,10):-hc(12,10).
+otherroute(7,10):-hc(11,10).
+otherroute(7,10):-hc(6,10).
+otherroute(7,10):-hc(0,10).
+otherroute(7,6):-hc(12,6).
+otherroute(7,6):-hc(10,6).
+otherroute(7,6):-hc(2,6).
+otherroute(7,6):-hc(1,6).
+otherroute(7,2):-hc(14,2).
+otherroute(7,2):-hc(9,2).
+otherroute(7,2):-hc(6,2).
+otherroute(7,2):-hc(5,2).
+otherroute(7,2):-hc(1,2).
+otherroute(7,9):-hc(19,9).
+otherroute(7,9):-hc(8,9).
+otherroute(7,9):-hc(5,9).
+otherroute(7,9):-hc(2,9).
+otherroute(6,1):-hc(14,1).
+otherroute(6,1):-hc(12,1).
+otherroute(6,1):-hc(2,1).
+otherroute(6,2):-hc(14,2).
+otherroute(6,2):-hc(9,2).
+otherroute(6,2):-hc(7,2).
+otherroute(6,2):-hc(5,2).
+otherroute(6,2):-hc(1,2).
+otherroute(6,7):-hc(10,7).
+otherroute(6,7):-hc(9,7).
+otherroute(6,7):-hc(2,7).
+otherroute(6,10):-hc(12,10).
+otherroute(6,10):-hc(11,10).
+otherroute(6,10):-hc(7,10).
+otherroute(6,10):-hc(0,10).
+otherroute(6,12):-hc(17,12).
+otherroute(6,12):-hc(14,12).
+otherroute(6,12):-hc(13,12).
+otherroute(6,12):-hc(11,12).
+otherroute(6,12):-hc(10,12).
+otherroute(6,12):-hc(3,12).
+otherroute(6,12):-hc(1,12).
+otherroute(5,9):-hc(19,9).
+otherroute(5,9):-hc(8,9).
+otherroute(5,9):-hc(7,9).
+otherroute(5,9):-hc(2,9).
+otherroute(5,2):-hc(14,2).
+otherroute(5,2):-hc(9,2).
+otherroute(5,2):-hc(7,2).
+otherroute(5,2):-hc(6,2).
+otherroute(5,2):-hc(1,2).
+otherroute(5,17):-hc(18,17).
+otherroute(5,17):-hc(15,17).
+otherroute(5,17):-hc(14,17).
+otherroute(5,17):-hc(12,17).
+otherroute(5,17):-hc(8,17).
+otherroute(5,17):-hc(4,17).
+otherroute(5,17):-hc(3,17).
+otherroute(5,8):-hc(19,8).
+otherroute(5,8):-hc(17,8).
+otherroute(5,8):-hc(15,8).
+otherroute(5,8):-hc(9,8).
+otherroute(5,14):-hc(17,14).
+otherroute(5,14):-hc(12,14).
+otherroute(5,14):-hc(2,14).
+otherroute(5,14):-hc(1,14).
+otherroute(4,3):-hc(17,3).
+otherroute(4,3):-hc(16,3).
+otherroute(4,3):-hc(13,3).
+otherroute(4,3):-hc(12,3).
+otherroute(4,3):-hc(0,3).
+otherroute(4,0):-hc(16,0).
+otherroute(4,0):-hc(11,0).
+otherroute(4,0):-hc(10,0).
+otherroute(4,0):-hc(3,0).
+otherroute(4,17):-hc(18,17).
+otherroute(4,17):-hc(15,17).
+otherroute(4,17):-hc(14,17).
+otherroute(4,17):-hc(12,17).
+otherroute(4,17):-hc(8,17).
+otherroute(4,17):-hc(5,17).
+otherroute(4,17):-hc(3,17).
+otherroute(4,18):-hc(17,18).
+otherroute(4,18):-hc(15,18).
+otherroute(3,4):-hc(18,4).
+otherroute(3,4):-hc(17,4).
+otherroute(3,4):-hc(0,4).
+otherroute(3,0):-hc(16,0).
+otherroute(3,0):-hc(11,0).
+otherroute(3,0):-hc(10,0).
+otherroute(3,0):-hc(4,0).
+otherroute(3,12):-hc(17,12).
+otherroute(3,12):-hc(14,12).
+otherroute(3,12):-hc(13,12).
+otherroute(3,12):-hc(11,12).
+otherroute(3,12):-hc(10,12).
+otherroute(3,12):-hc(6,12).
+otherroute(3,12):-hc(1,12).
+otherroute(3,13):-hc(16,13).
+otherroute(3,13):-hc(12,13).
+otherroute(3,13):-hc(11,13).
+otherroute(3,16):-hc(13,16).
+otherroute(3,16):-hc(11,16).
+otherroute(3,16):-hc(0,16).
+otherroute(3,17):-hc(18,17).
+otherroute(3,17):-hc(15,17).
+otherroute(3,17):-hc(14,17).
+otherroute(3,17):-hc(12,17).
+otherroute(3,17):-hc(8,17).
+otherroute(3,17):-hc(5,17).
+otherroute(3,17):-hc(4,17).
+otherroute(2,1):-hc(14,1).
+otherroute(2,1):-hc(12,1).
+otherroute(2,1):-hc(6,1).
+otherroute(2,14):-hc(17,14).
+otherroute(2,14):-hc(12,14).
+otherroute(2,14):-hc(5,14).
+otherroute(2,14):-hc(1,14).
+otherroute(2,5):-hc(17,5).
+otherroute(2,5):-hc(14,5).
+otherroute(2,5):-hc(9,5).
+otherroute(2,5):-hc(8,5).
+otherroute(2,6):-hc(12,6).
+otherroute(2,6):-hc(10,6).
+otherroute(2,6):-hc(7,6).
+otherroute(2,6):-hc(1,6).
+otherroute(2,7):-hc(10,7).
+otherroute(2,7):-hc(9,7).
+otherroute(2,7):-hc(6,7).
+otherroute(2,9):-hc(19,9).
+otherroute(2,9):-hc(8,9).
+otherroute(2,9):-hc(7,9).
+otherroute(2,9):-hc(5,9).
+otherroute(1,12):-hc(17,12).
+otherroute(1,12):-hc(14,12).
+otherroute(1,12):-hc(13,12).
+otherroute(1,12):-hc(11,12).
+otherroute(1,12):-hc(10,12).
+otherroute(1,12):-hc(6,12).
+otherroute(1,12):-hc(3,12).
+otherroute(1,2):-hc(14,2).
+otherroute(1,2):-hc(9,2).
+otherroute(1,2):-hc(7,2).
+otherroute(1,2):-hc(6,2).
+otherroute(1,2):-hc(5,2).
+otherroute(1,6):-hc(12,6).
+otherroute(1,6):-hc(10,6).
+otherroute(1,6):-hc(7,6).
+otherroute(1,6):-hc(2,6).
+otherroute(1,14):-hc(17,14).
+otherroute(1,14):-hc(12,14).
+otherroute(1,14):-hc(5,14).
+otherroute(1,14):-hc(2,14).
+otherroute(0,4):-hc(18,4).
+otherroute(0,4):-hc(17,4).
+otherroute(0,4):-hc(3,4).
+otherroute(0,3):-hc(17,3).
+otherroute(0,3):-hc(16,3).
+otherroute(0,3):-hc(13,3).
+otherroute(0,3):-hc(12,3).
+otherroute(0,3):-hc(4,3).
+otherroute(0,10):-hc(12,10).
+otherroute(0,10):-hc(11,10).
+otherroute(0,10):-hc(7,10).
+otherroute(0,10):-hc(6,10).
+otherroute(0,11):-hc(16,11).
+otherroute(0,11):-hc(13,11).
+otherroute(0,11):-hc(12,11).
+otherroute(0,11):-hc(10,11).
+otherroute(0,16):-hc(13,16).
+otherroute(0,16):-hc(11,16).
+otherroute(0,16):-hc(3,16).
+reached(4):-hc(0,4).
+reached(3):-hc(0,3).
+reached(10):-hc(0,10).
+reached(11):-hc(0,11).
+reached(16):-hc(0,16).
+reached(3):-hc(16,3),reached(16).
+reached(0):-hc(16,0),reached(16).
+reached(13):-hc(16,13),reached(16).
+reached(11):-hc(16,11),reached(16).
+reached(12):-hc(11,12),reached(11).
+reached(10):-hc(11,10),reached(11).
+reached(0):-hc(11,0),reached(11).
+reached(13):-hc(11,13),reached(11).
+reached(16):-hc(11,16),reached(11).
+reached(7):-hc(10,7),reached(10).
+reached(0):-hc(10,0),reached(10).
+reached(6):-hc(10,6),reached(10).
+reached(11):-hc(10,11),reached(10).
+reached(12):-hc(10,12),reached(10).
+reached(4):-hc(3,4),reached(3).
+reached(0):-hc(3,0),reached(3).
+reached(12):-hc(3,12),reached(3).
+reached(13):-hc(3,13),reached(3).
+reached(16):-hc(3,16),reached(3).
+reached(17):-hc(3,17),reached(3).
+reached(3):-hc(4,3),reached(4).
+reached(0):-hc(4,0),reached(4).
+reached(17):-hc(4,17),reached(4).
+reached(18):-hc(4,18),reached(4).
+reached(17):-hc(18,17),reached(18).
+reached(15):-hc(18,15),reached(18).
+reached(4):-hc(18,4),reached(18).
+reached(12):-hc(17,12),reached(17).
+reached(14):-hc(17,14),reached(17).
+reached(15):-hc(17,15),reached(17).
+reached(5):-hc(17,5),reached(17).
+reached(18):-hc(17,18),reached(17).
+reached(3):-hc(17,3),reached(17).
+reached(4):-hc(17,4),reached(17).
+reached(8):-hc(17,8),reached(17).
+reached(1):-hc(6,1),reached(6).
+reached(2):-hc(6,2),reached(6).
+reached(7):-hc(6,7),reached(6).
+reached(10):-hc(6,10),reached(6).
+reached(12):-hc(6,12),reached(6).
+reached(10):-hc(7,10),reached(7).
+reached(6):-hc(7,6),reached(7).
+reached(2):-hc(7,2),reached(7).
+reached(9):-hc(7,9),reached(7).
+reached(1):-hc(12,1),reached(12).
+reached(17):-hc(12,17),reached(12).
+reached(11):-hc(12,11),reached(12).
+reached(13):-hc(12,13),reached(12).
+reached(3):-hc(12,3),reached(12).
+reached(6):-hc(12,6),reached(12).
+reached(10):-hc(12,10),reached(12).
+reached(14):-hc(12,14),reached(12).
+reached(12):-hc(13,12),reached(13).
+reached(3):-hc(13,3),reached(13).
+reached(11):-hc(13,11),reached(13).
+reached(16):-hc(13,16),reached(13).
+reached(5):-hc(9,5),reached(9).
+reached(2):-hc(9,2),reached(9).
+reached(7):-hc(9,7),reached(9).
+reached(8):-hc(9,8),reached(9).
+reached(19):-hc(9,19),reached(9).
+reached(1):-hc(2,1),reached(2).
+reached(14):-hc(2,14),reached(2).
+reached(5):-hc(2,5),reached(2).
+reached(6):-hc(2,6),reached(2).
+reached(7):-hc(2,7),reached(2).
+reached(9):-hc(2,9),reached(2).
+reached(12):-hc(1,12),reached(1).
+reached(2):-hc(1,2),reached(1).
+reached(6):-hc(1,6),reached(1).
+reached(14):-hc(1,14),reached(1).
+reached(5):-hc(8,5),reached(8).
+reached(9):-hc(8,9),reached(8).
+reached(19):-hc(8,19),reached(8).
+reached(15):-hc(8,15),reached(8).
+reached(17):-hc(8,17),reached(8).
+reached(9):-hc(5,9),reached(5).
+reached(2):-hc(5,2),reached(5).
+reached(17):-hc(5,17),reached(5).
+reached(8):-hc(5,8),reached(5).
+reached(14):-hc(5,14),reached(5).
+reached(2):-hc(14,2),reached(14).
+reached(17):-hc(14,17),reached(14).
+reached(5):-hc(14,5),reached(14).
+reached(1):-hc(14,1),reached(14).
+reached(12):-hc(14,12),reached(14).
+reached(25):-hc(15,25),reached(15).
+reached(17):-hc(15,17),reached(15).
+reached(8):-hc(15,8),reached(15).
+reached(18):-hc(15,18),reached(15).
+reached(19):-hc(15,19),reached(15).
+reached(29):-hc(25,29),reached(25).
+reached(22):-hc(25,22),reached(25).
+reached(37):-hc(25,37),reached(25).
+reached(28):-hc(25,28),reached(25).
+reached(34):-hc(25,34),reached(25).
+reached(8):-hc(19,8),reached(19).
+reached(9):-hc(19,9),reached(19).
+reached(15):-hc(19,15),reached(19).
+reached(22):-hc(34,22),reached(34).
+reached(37):-hc(34,37),reached(34).
+reached(25):-hc(34,25),reached(34).
+reached(21):-hc(34,21),reached(34).
+reached(32):-hc(34,32),reached(34).
+reached(25):-hc(28,25),reached(28).
+reached(29):-hc(28,29),reached(28).
+reached(39):-hc(28,39),reached(28).
+reached(35):-hc(28,35),reached(28).
+reached(37):-hc(28,37),reached(28).
+reached(32):-hc(37,32),reached(37).
+reached(34):-hc(37,34),reached(37).
+reached(35):-hc(37,35),reached(37).
+reached(25):-hc(37,25),reached(37).
+reached(38):-hc(37,38),reached(37).
+reached(23):-hc(37,23),reached(37).
+reached(24):-hc(37,24),reached(37).
+reached(28):-hc(37,28),reached(37).
+reached(21):-hc(22,21),reached(22).
+reached(34):-hc(22,34),reached(22).
+reached(25):-hc(22,25),reached(22).
+reached(26):-hc(22,26),reached(22).
+reached(27):-hc(22,27),reached(22).
+reached(29):-hc(22,29),reached(22).
+reached(25):-hc(29,25),reached(29).
+reached(22):-hc(29,22),reached(29).
+reached(27):-hc(29,27),reached(29).
+reached(28):-hc(29,28),reached(29).
+reached(39):-hc(29,39),reached(29).
+reached(30):-hc(27,30),reached(27).
+reached(26):-hc(27,26),reached(27).
+reached(22):-hc(27,22),reached(27).
+reached(29):-hc(27,29),reached(27).
+reached(21):-hc(26,21),reached(26).
+reached(22):-hc(26,22),reached(26).
+reached(27):-hc(26,27),reached(26).
+reached(30):-hc(26,30),reached(26).
+reached(32):-hc(26,32),reached(26).
+reached(23):-hc(24,23),reached(24).
+reached(20):-hc(24,20),reached(24).
+reached(37):-hc(24,37),reached(24).
+reached(38):-hc(24,38),reached(24).
+reached(24):-hc(23,24),reached(23).
+reached(20):-hc(23,20),reached(23).
+reached(32):-hc(23,32),reached(23).
+reached(33):-hc(23,33),reached(23).
+reached(36):-hc(23,36),reached(23).
+reached(37):-hc(23,37),reached(23).
+reached(37):-hc(38,37),reached(38).
+reached(35):-hc(38,35),reached(38).
+reached(24):-hc(38,24),reached(38).
+reached(45):-hc(35,45),reached(35).
+reached(37):-hc(35,37),reached(35).
+reached(28):-hc(35,28),reached(35).
+reached(38):-hc(35,38),reached(35).
+reached(39):-hc(35,39),reached(35).
+reached(28):-hc(39,28),reached(39).
+reached(29):-hc(39,29),reached(39).
+reached(35):-hc(39,35),reached(39).
+reached(21):-hc(32,21),reached(32).
+reached(37):-hc(32,37),reached(32).
+reached(31):-hc(32,31),reached(32).
+reached(33):-hc(32,33),reached(32).
+reached(23):-hc(32,23),reached(32).
+reached(26):-hc(32,26),reached(32).
+reached(30):-hc(32,30),reached(32).
+reached(34):-hc(32,34),reached(32).
+reached(32):-hc(21,32),reached(21).
+reached(22):-hc(21,22),reached(21).
+reached(26):-hc(21,26),reached(21).
+reached(34):-hc(21,34),reached(21).
+reached(32):-hc(31,32),reached(31).
+reached(30):-hc(31,30),reached(31).
+reached(20):-hc(31,20),reached(31).
+reached(33):-hc(31,33),reached(31).
+reached(36):-hc(31,36),reached(31).
+reached(49):-hc(45,49),reached(45).
+reached(42):-hc(45,42),reached(45).
+reached(57):-hc(45,57),reached(45).
+reached(48):-hc(45,48),reached(45).
+reached(54):-hc(45,54),reached(45).
+reached(23):-hc(36,23),reached(36).
+reached(20):-hc(36,20),reached(36).
+reached(33):-hc(36,33),reached(36).
+reached(31):-hc(36,31),reached(36).
+reached(32):-hc(33,32),reached(33).
+reached(23):-hc(33,23),reached(33).
+reached(31):-hc(33,31),reached(33).
+reached(36):-hc(33,36),reached(33).
+reached(24):-hc(20,24),reached(20).
+reached(23):-hc(20,23),reached(20).
+reached(30):-hc(20,30),reached(20).
+reached(31):-hc(20,31),reached(20).
+reached(36):-hc(20,36),reached(20).
+reached(27):-hc(30,27),reached(30).
+reached(20):-hc(30,20),reached(30).
+reached(26):-hc(30,26),reached(30).
+reached(31):-hc(30,31),reached(30).
+reached(32):-hc(30,32),reached(30).
+reached(42):-hc(54,42),reached(54).
+reached(57):-hc(54,57),reached(54).
+reached(45):-hc(54,45),reached(54).
+reached(41):-hc(54,41),reached(54).
+reached(52):-hc(54,52),reached(54).
+reached(45):-hc(48,45),reached(48).
+reached(49):-hc(48,49),reached(48).
+reached(59):-hc(48,59),reached(48).
+reached(55):-hc(48,55),reached(48).
+reached(57):-hc(48,57),reached(48).
+reached(52):-hc(57,52),reached(57).
+reached(54):-hc(57,54),reached(57).
+reached(55):-hc(57,55),reached(57).
+reached(45):-hc(57,45),reached(57).
+reached(58):-hc(57,58),reached(57).
+reached(43):-hc(57,43),reached(57).
+reached(44):-hc(57,44),reached(57).
+reached(48):-hc(57,48),reached(57).
+reached(41):-hc(42,41),reached(42).
+reached(54):-hc(42,54),reached(42).
+reached(45):-hc(42,45),reached(42).
+reached(46):-hc(42,46),reached(42).
+reached(47):-hc(42,47),reached(42).
+reached(49):-hc(42,49),reached(42).
+reached(45):-hc(49,45),reached(49).
+reached(42):-hc(49,42),reached(49).
+reached(47):-hc(49,47),reached(49).
+reached(48):-hc(49,48),reached(49).
+reached(59):-hc(49,59),reached(49).
+reached(50):-hc(47,50),reached(47).
+reached(46):-hc(47,46),reached(47).
+reached(42):-hc(47,42),reached(47).
+reached(49):-hc(47,49),reached(47).
+reached(41):-hc(46,41),reached(46).
+reached(42):-hc(46,42),reached(46).
+reached(47):-hc(46,47),reached(46).
+reached(50):-hc(46,50),reached(46).
+reached(52):-hc(46,52),reached(46).
+reached(43):-hc(44,43),reached(44).
+reached(40):-hc(44,40),reached(44).
+reached(57):-hc(44,57),reached(44).
+reached(58):-hc(44,58),reached(44).
+reached(44):-hc(43,44),reached(43).
+reached(40):-hc(43,40),reached(43).
+reached(52):-hc(43,52),reached(43).
+reached(53):-hc(43,53),reached(43).
+reached(56):-hc(43,56),reached(43).
+reached(57):-hc(43,57),reached(43).
+reached(57):-hc(58,57),reached(58).
+reached(55):-hc(58,55),reached(58).
+reached(44):-hc(58,44),reached(58).
+reached(65):-hc(55,65),reached(55).
+reached(57):-hc(55,57),reached(55).
+reached(48):-hc(55,48),reached(55).
+reached(58):-hc(55,58),reached(55).
+reached(59):-hc(55,59),reached(55).
+reached(48):-hc(59,48),reached(59).
+reached(49):-hc(59,49),reached(59).
+reached(55):-hc(59,55),reached(59).
+reached(41):-hc(52,41),reached(52).
+reached(57):-hc(52,57),reached(52).
+reached(51):-hc(52,51),reached(52).
+reached(53):-hc(52,53),reached(52).
+reached(43):-hc(52,43),reached(52).
+reached(46):-hc(52,46),reached(52).
+reached(50):-hc(52,50),reached(52).
+reached(54):-hc(52,54),reached(52).
+reached(52):-hc(41,52),reached(41).
+reached(42):-hc(41,42),reached(41).
+reached(46):-hc(41,46),reached(41).
+reached(54):-hc(41,54),reached(41).
+reached(52):-hc(51,52),reached(51).
+reached(50):-hc(51,50),reached(51).
+reached(40):-hc(51,40),reached(51).
+reached(53):-hc(51,53),reached(51).
+reached(56):-hc(51,56),reached(51).
+reached(69):-hc(65,69),reached(65).
+reached(62):-hc(65,62),reached(65).
+reached(77):-hc(65,77),reached(65).
+reached(68):-hc(65,68),reached(65).
+reached(74):-hc(65,74),reached(65).
+reached(43):-hc(56,43),reached(56).
+reached(40):-hc(56,40),reached(56).
+reached(53):-hc(56,53),reached(56).
+reached(51):-hc(56,51),reached(56).
+reached(52):-hc(53,52),reached(53).
+reached(43):-hc(53,43),reached(53).
+reached(51):-hc(53,51),reached(53).
+reached(56):-hc(53,56),reached(53).
+reached(44):-hc(40,44),reached(40).
+reached(43):-hc(40,43),reached(40).
+reached(50):-hc(40,50),reached(40).
+reached(51):-hc(40,51),reached(40).
+reached(56):-hc(40,56),reached(40).
+reached(47):-hc(50,47),reached(50).
+reached(40):-hc(50,40),reached(50).
+reached(46):-hc(50,46),reached(50).
+reached(51):-hc(50,51),reached(50).
+reached(52):-hc(50,52),reached(50).
+reached(62):-hc(74,62),reached(74).
+reached(77):-hc(74,77),reached(74).
+reached(65):-hc(74,65),reached(74).
+reached(61):-hc(74,61),reached(74).
+reached(72):-hc(74,72),reached(74).
+reached(65):-hc(68,65),reached(68).
+reached(69):-hc(68,69),reached(68).
+reached(79):-hc(68,79),reached(68).
+reached(75):-hc(68,75),reached(68).
+reached(77):-hc(68,77),reached(68).
+reached(72):-hc(77,72),reached(77).
+reached(74):-hc(77,74),reached(77).
+reached(75):-hc(77,75),reached(77).
+reached(65):-hc(77,65),reached(77).
+reached(78):-hc(77,78),reached(77).
+reached(63):-hc(77,63),reached(77).
+reached(64):-hc(77,64),reached(77).
+reached(68):-hc(77,68),reached(77).
+reached(61):-hc(62,61),reached(62).
+reached(74):-hc(62,74),reached(62).
+reached(65):-hc(62,65),reached(62).
+reached(66):-hc(62,66),reached(62).
+reached(67):-hc(62,67),reached(62).
+reached(69):-hc(62,69),reached(62).
+reached(65):-hc(69,65),reached(69).
+reached(62):-hc(69,62),reached(69).
+reached(67):-hc(69,67),reached(69).
+reached(68):-hc(69,68),reached(69).
+reached(79):-hc(69,79),reached(69).
+reached(70):-hc(67,70),reached(67).
+reached(66):-hc(67,66),reached(67).
+reached(62):-hc(67,62),reached(67).
+reached(69):-hc(67,69),reached(67).
+reached(61):-hc(66,61),reached(66).
+reached(62):-hc(66,62),reached(66).
+reached(67):-hc(66,67),reached(66).
+reached(70):-hc(66,70),reached(66).
+reached(72):-hc(66,72),reached(66).
+reached(63):-hc(64,63),reached(64).
+reached(60):-hc(64,60),reached(64).
+reached(77):-hc(64,77),reached(64).
+reached(78):-hc(64,78),reached(64).
+reached(64):-hc(63,64),reached(63).
+reached(60):-hc(63,60),reached(63).
+reached(72):-hc(63,72),reached(63).
+reached(73):-hc(63,73),reached(63).
+reached(76):-hc(63,76),reached(63).
+reached(77):-hc(63,77),reached(63).
+reached(77):-hc(78,77),reached(78).
+reached(75):-hc(78,75),reached(78).
+reached(64):-hc(78,64),reached(78).
+reached(77):-hc(75,77),reached(75).
+reached(68):-hc(75,68),reached(75).
+reached(78):-hc(75,78),reached(75).
+reached(79):-hc(75,79),reached(75).
+reached(68):-hc(79,68),reached(79).
+reached(69):-hc(79,69),reached(79).
+reached(75):-hc(79,75),reached(79).
+reached(61):-hc(72,61),reached(72).
+reached(77):-hc(72,77),reached(72).
+reached(71):-hc(72,71),reached(72).
+reached(73):-hc(72,73),reached(72).
+reached(63):-hc(72,63),reached(72).
+reached(66):-hc(72,66),reached(72).
+reached(70):-hc(72,70),reached(72).
+reached(74):-hc(72,74),reached(72).
+reached(72):-hc(61,72),reached(61).
+reached(62):-hc(61,62),reached(61).
+reached(66):-hc(61,66),reached(61).
+reached(74):-hc(61,74),reached(61).
+reached(72):-hc(71,72),reached(71).
+reached(70):-hc(71,70),reached(71).
+reached(60):-hc(71,60),reached(71).
+reached(73):-hc(71,73),reached(71).
+reached(76):-hc(71,76),reached(71).
+reached(63):-hc(76,63),reached(76).
+reached(60):-hc(76,60),reached(76).
+reached(73):-hc(76,73),reached(76).
+reached(71):-hc(76,71),reached(76).
+reached(72):-hc(73,72),reached(73).
+reached(63):-hc(73,63),reached(73).
+reached(71):-hc(73,71),reached(73).
+reached(76):-hc(73,76),reached(73).
+reached(64):-hc(60,64),reached(60).
+reached(63):-hc(60,63),reached(60).
+reached(70):-hc(60,70),reached(60).
+reached(71):-hc(60,71),reached(60).
+reached(76):-hc(60,76),reached(60).
+reached(67):-hc(70,67),reached(70).
+reached(60):-hc(70,60),reached(70).
+reached(66):-hc(70,66),reached(70).
+reached(71):-hc(70,71),reached(70).
+reached(72):-hc(70,72),reached(70).
+:-not reached(79).
+:-not reached(78).
+:-not reached(77).
+:-not reached(76).
+:-not reached(75).
+:-not reached(74).
+:-not reached(73).
+:-not reached(72).
+:-not reached(71).
+:-not reached(70).
+:-not reached(69).
+:-not reached(68).
+:-not reached(67).
+:-not reached(66).
+:-not reached(65).
+:-not reached(64).
+:-not reached(63).
+:-not reached(62).
+:-not reached(61).
+:-not reached(60).
+:-not reached(59).
+:-not reached(58).
+:-not reached(57).
+:-not reached(56).
+:-not reached(55).
+:-not reached(54).
+:-not reached(53).
+:-not reached(52).
+:-not reached(51).
+:-not reached(50).
+:-not reached(49).
+:-not reached(48).
+:-not reached(47).
+:-not reached(46).
+:-not reached(45).
+:-not reached(44).
+:-not reached(43).
+:-not reached(42).
+:-not reached(41).
+:-not reached(40).
+:-not reached(39).
+:-not reached(38).
+:-not reached(37).
+:-not reached(36).
+:-not reached(35).
+:-not reached(34).
+:-not reached(33).
+:-not reached(32).
+:-not reached(31).
+:-not reached(30).
+:-not reached(29).
+:-not reached(28).
+:-not reached(27).
+:-not reached(26).
+:-not reached(25).
+:-not reached(24).
+:-not reached(23).
+:-not reached(22).
+:-not reached(21).
+:-not reached(20).
+:-not reached(19).
+:-not reached(18).
+:-not reached(17).
+:-not reached(16).
+:-not reached(15).
+:-not reached(14).
+:-not reached(13).
+:-not reached(12).
+:-not reached(11).
+:-not reached(10).
+:-not reached(9).
+:-not reached(8).
+:-not reached(7).
+:-not reached(6).
+:-not reached(5).
+:-not reached(4).
+:-not reached(3).
+:-not reached(2).
+:-not reached(1).
+:-not reached(0).

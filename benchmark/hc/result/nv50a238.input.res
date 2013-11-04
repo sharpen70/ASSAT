@@ -1,0 +1,11 @@
+Completion model 1 size 567 comp size: 30 is't Answerset
+Completion model 2 size 567 comp size: 30 is't Answerset
+Completion model 3 size 567 comp size: 36 is't Answerset
+Completion model 4 size 567 comp size: 46 is't Answerset
+Completion model 5 size 567 comp size: 5 is't Answerset
+Completion model 6 size 567 comp size: 6 is't Answerset
+Completion model 7 size 567 comp size: 22 is't Answerset
+Completion model 8 size 567 comp size: 12 is't Answerset
+Completion model 9 size 567 comp size: 30 is't Answerset
+Completion model 10 size 567 comp size: 30 is't Answerset
+Completion model 11 size 567 comp size: 0 is Answerset

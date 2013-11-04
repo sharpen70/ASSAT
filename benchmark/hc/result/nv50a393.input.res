@@ -1,0 +1,11 @@
+Completion model 1 size 831 comp size: 36 is't Answerset
+Completion model 2 size 831 comp size: 28 is't Answerset
+Completion model 3 size 831 comp size: 5 is't Answerset
+Completion model 4 size 831 comp size: 32 is't Answerset
+Completion model 5 size 831 comp size: 17 is't Answerset
+Completion model 6 size 831 comp size: 39 is't Answerset
+Completion model 7 size 831 comp size: 25 is't Answerset
+Completion model 8 size 831 comp size: 39 is't Answerset
+Completion model 9 size 831 comp size: 20 is't Answerset
+Completion model 10 size 831 comp size: 39 is't Answerset
+Completion model 11 size 831 comp size: 0 is Answerset

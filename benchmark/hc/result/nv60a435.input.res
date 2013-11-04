@@ -1,0 +1,16 @@
+Completion model 1 size 945 comp size: 5 is't Answerset
+Completion model 2 size 945 comp size: 5 is't Answerset
+Completion model 3 size 945 comp size: 41 is't Answerset
+Completion model 4 size 945 comp size: 18 is't Answerset
+Completion model 5 size 945 comp size: 33 is't Answerset
+Completion model 6 size 945 comp size: 27 is't Answerset
+Completion model 7 size 945 comp size: 46 is't Answerset
+Completion model 8 size 945 comp size: 10 is't Answerset
+Completion model 9 size 945 comp size: 29 is't Answerset
+Completion model 10 size 945 comp size: 36 is't Answerset
+Completion model 11 size 945 comp size: 2 is't Answerset
+Completion model 12 size 945 comp size: 4 is't Answerset
+Completion model 13 size 945 comp size: 39 is't Answerset
+Completion model 14 size 945 comp size: 2 is't Answerset
+Completion model 15 size 945 comp size: 37 is't Answerset
+Completion model 16 size 945 comp size: 0 is Answerset

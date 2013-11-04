@@ -210,21 +210,15 @@ vector<Loop> DependenceGraph::findCompMaximal(set<int> comp) {
 
 
 Loop DependenceGraph::findLoopMaximal(Loop scc) {      
-    if(scc.ESRules.size() == 0) return scc;
-    
-    memset(involved, false, sizeof(bool) * (maxNode + 1));
-    
-    for(set<int>::iterator it = scc.loopNodes.begin(); it != scc.loopNodes.end(); it++) {
-        involved[*it] = true;      
-    }  
-    
-    int tempR = 0;
+    if(scc.ESRules.size() == 0) return scc;   
     
     for(set<int>::iterator it = scc.ESRules.begin(); it != scc.ESRules.end(); it++) {
         int r = G_NLP[*it].head;
-        involved[tempR] = true;
+        memset(involved, false, sizeof(bool) * (maxNode + 1));    
+        for(set<int>::iterator it = scc.loopNodes.begin(); it != scc.loopNodes.end(); it++) {
+            involved[*it] = true;      
+        }  
         involved[r] = false;
-        tempR = r;
         
         vector<Loop> sccs = findSCC();
         if(sccs.size() == 0) continue;  

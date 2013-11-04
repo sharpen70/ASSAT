@@ -1,0 +1,16 @@
+Completion model 1 size 977 comp size: 34 is't Answerset
+Completion model 2 size 977 comp size: 16 is't Answerset
+Completion model 3 size 977 comp size: 10 is't Answerset
+Completion model 4 size 977 comp size: 19 is't Answerset
+Completion model 5 size 977 comp size: 2 is't Answerset
+Completion model 6 size 977 comp size: 20 is't Answerset
+Completion model 7 size 977 comp size: 17 is't Answerset
+Completion model 8 size 977 comp size: 47 is't Answerset
+Completion model 9 size 977 comp size: 30 is't Answerset
+Completion model 10 size 977 comp size: 28 is't Answerset
+Completion model 11 size 977 comp size: 12 is't Answerset
+Completion model 12 size 977 comp size: 25 is't Answerset
+Completion model 13 size 977 comp size: 18 is't Answerset
+Completion model 14 size 977 comp size: 29 is't Answerset
+Completion model 15 size 977 comp size: 34 is't Answerset
+Completion model 16 size 977 comp size: 0 is Answerset

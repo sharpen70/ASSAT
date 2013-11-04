@@ -1,0 +1,11 @@
+Completion model 1 size 729 comp size: 28 is't Answerset
+Completion model 2 size 729 comp size: 9 is't Answerset
+Completion model 3 size 729 comp size: 12 is't Answerset
+Completion model 4 size 729 comp size: 24 is't Answerset
+Completion model 5 size 729 comp size: 11 is't Answerset
+Completion model 6 size 729 comp size: 39 is't Answerset
+Completion model 7 size 729 comp size: 12 is't Answerset
+Completion model 8 size 729 comp size: 23 is't Answerset
+Completion model 9 size 729 comp size: 18 is't Answerset
+Completion model 10 size 729 comp size: 3 is't Answerset
+Completion model 11 size 729 comp size: 0 is Answerset

@@ -1,0 +1,10 @@
+Completion model 1 size 949 comp size: 9 is't Answerset
+Completion model 2 size 949 comp size: 48 is't Answerset
+Completion model 3 size 949 comp size: 41 is't Answerset
+Completion model 4 size 949 comp size: 23 is't Answerset
+Completion model 5 size 949 comp size: 53 is't Answerset
+Completion model 6 size 949 comp size: 29 is't Answerset
+Completion model 7 size 949 comp size: 32 is't Answerset
+Completion model 8 size 949 comp size: 17 is't Answerset
+Completion model 9 size 949 comp size: 21 is't Answerset
+Completion model 10 size 949 comp size: 0 is Answerset
