@@ -1,0 +1,11 @@
+Completion model 1 size 1221 comp size: 58 is't Answerset
+Completion model 2 size 1221 comp size: 41 is't Answerset
+Completion model 3 size 1221 comp size: 54 is't Answerset
+Completion model 4 size 1221 comp size: 58 is't Answerset
+Completion model 5 size 1221 comp size: 46 is't Answerset
+Completion model 6 size 1221 comp size: 61 is't Answerset
+Completion model 7 size 1221 comp size: 32 is't Answerset
+Completion model 8 size 1221 comp size: 39 is't Answerset
+Completion model 9 size 1221 comp size: 49 is't Answerset
+Completion model 10 size 1221 comp size: 39 is't Answerset
+Completion model 11 size 1221 comp size: 0 is Answerset

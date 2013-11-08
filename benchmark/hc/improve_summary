@@ -38,3 +38,4 @@ benchmark/hc/gringo_input/nv70a494.input: loading: 4 loop formula: 4 time: 15.97
 benchmark/hc/gringo_input/nv70a511.input: loading: 11 loop formula: 10 time: 36.780000
 benchmark/hc/gringo_input/nv70a535.input: loading: 8 loop formula: 7 time: 32.920000
 benchmark/hc/gringo_input/nv70a549.input: loading: 2 loop formula: 1 time: 10.500000
+benchmark/hc/gringo_input/nv70a571.input: loading: 11 loop formula: 10 time: 775.580000
